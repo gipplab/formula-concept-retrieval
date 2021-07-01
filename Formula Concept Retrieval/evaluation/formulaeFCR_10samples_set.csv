@@ -1,0 +1,11 @@
+Nr.;Formula;MMLben GoldID;Wikidata QID;# Matches
+1;v=\frac{c}{n};27;Q174102;0
+2;S_{EH}=\frac{1}{G_{3}}\int d^{3}x\sqrt{-\contract{g}{3}}(\contract{R}{3}+{\cal L}_{\rm matter});225;Q239224;0
+3;v_{p}=\frac{1}{\partial_{r}R}=1+\frac{1}{r^{2}\omega^{2}};281;?;0
+4;F=ma;291;missing;0
+5;E=mc^{2};300;Q35875;0
+6;\nabla\times\mathbf{E}=-\frac{\partial\mathbf{B}}{\partial t};301;Q51501;0
+7;\frac{1}{c^{2}}\frac{\partial^{2}}{\partial t^{2}}\psi-\nabla^{2}\psi+\frac{m^{2}c^{2}}{\hbar^{2}}\psi=0;306;Q868967;0
+8;G_{\mu\nu}+\Lambda g_{\mu\nu}={8\pi G\over c^{4}}T_{\mu\nu};307;Q273711;0
+9;i\hbar\frac{\partial}{\partial t}\Psi(\mathbf{r},t)=\hat{H}\Psi(\mathbf{r},t);308;Q165498;0
+10;\partial_{\alpha}F^{\alpha\beta}=\mu_{0}J^{\beta};309;Q51501;0

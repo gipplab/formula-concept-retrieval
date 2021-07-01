@@ -1,0 +1,11 @@
+Nr.;Formula;fuzzy top10;fuzzy total;seq top10;seq total;set top10;set total;fuzzy example;seq example;set example
+1;v=\frac{c}{n};0;0;;;1;;;;n=\frac{c}{v}
+2;S_{EH}=\frac{1}{G_{3}}\int d^{3}x\sqrt{-\contract{g}{3}}(\contract{R}{3}+{\cal L}_{\rm matter});0;0;;;;;;;
+3;v_{p}=\frac{1}{\partial_{r}R}=1+\frac{1}{r^{2}\omega^{2}};0;0;;;;;;;
+4;F=ma;0;0;;;;;;;
+5;E=mc^{2};0;1;;;;;H=mc^{2};;
+6;\nabla\times\mathbf{E}=-\frac{\partial\mathbf{B}}{\partial t};0;0;;;;;;;
+7;\frac{1}{c^{2}}\frac{\partial^{2}}{\partial t^{2}}\psi-\nabla^{2}\psi+\frac{m^{2}c^{2}}{\hbar^{2}}\psi=0;0;0;;;;;;;
+8;G_{\mu\nu}+\Lambda g_{\mu\nu}={8\pi G\over c^{4}}T_{\mu\nu};0;2;;;;;R_{\mu\nu}-\frac{1}{2}Rg_{\mu\nu}+\Lambda g_{\mu\nu}=8\pi G T_{\mu\nu};;
+9;i\hbar\frac{\partial}{\partial t}\Psi(\mathbf{r},t)=\hat{H}\Psi(\mathbf{r},t);0;0;;;;;;;
+10;\partial_{\alpha}F^{\alpha\beta}=\mu_{0}J^{\beta};0;0;;;;;;;

@@ -1,0 +1,11 @@
+Nr.;Formula;Name candidates;Contains formula name;Contains identifier names;Wikidata QID
+1;H=\dot{a}/a;hubble, parameter, time, factor, equations;hubble parameter;factor;Q179916
+2;p=\omega\rho;equation, state, quintessence, expansion, pressure;equation of state;pressure;Q214967
+3;\omega=p/\rho;universe, accelerating, indefinitely, strain, values;accelerating universe;strain;Q1049613
+4;p=-A/\rho^{\alpha};chaplygin, gas, dark, generalized, fluid;dark fluid;N/A;Q5223514
+5;p_{d}=w\rho_{d};energy, dark, equation, represent, pressure;dark energy;pressure;Q18343
+6;H={\dot{a}}/a;scale, factor, usual, equation, state;N/A;scale factor;Q179916
+7;k=|{\bf k}|;oscillatory, behavior, depend, time, wavenumber;wavenumber;wavenumber;Q192510
+8;f=e^{-\phi}R;string, lowenergy, effective, action, theory;N/A;N/A;N/A
+9;p=\kappa\rho;equation, state, ary, patch, exceeds;equation of state;N/A;Q214967
+10;w=p_{X}/\rho_{X};equation, state, dark, energy, wmap;equation of state;N/A;Q214967
