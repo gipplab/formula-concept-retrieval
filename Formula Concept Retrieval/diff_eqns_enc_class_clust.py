@@ -9,7 +9,7 @@ from sklearn.svm import LinearSVC
 from sklearn.model_selection import cross_val_score
 
 from sklearn.cluster import KMeans
-from sklearn.neighbors.nearest_centroid import NearestCentroid
+from sklearn.neighbors._nearest_centroid import NearestCentroid
 
 from sklearn.decomposition import PCA
 from sklearn.decomposition import TruncatedSVD
@@ -67,13 +67,13 @@ for line in lines:
 # get encoding
 # content
 #eqns_tfidf = arXivDocs2tfidf.docs2tfidf(eqns_cont)
-#eqns_d2vec = arXivDocs2Vec.docs2vec(eqns_cont,eqns_tex)
+eqns_d2vec = arXivDocs2Vec.docs2vec(eqns_cont,eqns_tex)
 # semantics
-eqns_tfidf = arXivDocs2tfidf.docs2tfidf(eqns_qids)
+#eqns_tfidf = arXivDocs2tfidf.docs2tfidf(eqns_qids)
 #eqns_d2vec = arXivDocs2Vec.docs2vec(eqns_qids,eqns_tex)
 
 # set encoding
-X,y = eqns_tfidf,eqns_labs
+X,y = eqns_d2vec,eqns_labs
 #X,y = eqns_d2vec[1],eqns_labs
 
 # CLASSIFICATION
@@ -91,7 +91,7 @@ prediction = list(classifier.predict(X))
 
 accuracy = numpy.mean(cross_val_score(classifier, X, y, cv=3))
 
-print(accuracy)
+print('Classification accuracy: ' + str(accuracy))
 
 # CLUSTERING
 
@@ -109,6 +109,8 @@ ranges = [(0,10),(10,20),(20,30)]
 for range in ranges:
     purities.append(max(Counter(clusters[range[0]:range[1]]).values())/10)
 purity = numpy.mean(purities)
+
+print('Cluster purity: ' + str(purity))
 
 # DIMENSIONALITY REDUCTION
 
