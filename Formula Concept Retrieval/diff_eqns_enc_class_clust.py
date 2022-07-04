@@ -63,18 +63,32 @@ for line in lines:
     eqns_labs.append(line.strip("\n"))
 
 # ENCODING
-
 # get encoding
+#
 # content
-#eqns_tfidf = arXivDocs2tfidf.docs2tfidf(eqns_cont)
-eqns_d2vec = arXivDocs2Vec.docs2vec(eqns_cont,eqns_tex)
+enc_str = 'cont_'
+#
+eqns_enc = arXivDocs2tfidf.docs2tfidf(eqns_cont)
+enc_str += 'tfidf'
+title_text = "Formula content space (TF-IDF)"
+#
+#eqns_enc = arXivDocs2Vec.docs2vec(eqns_cont,eqns_tex)
+#enc_str += 'd2v'
+#title_text = "Formula content space (Doc2Vec)"
+#
 # semantics
-#eqns_tfidf = arXivDocs2tfidf.docs2tfidf(eqns_qids)
-#eqns_d2vec = arXivDocs2Vec.docs2vec(eqns_qids,eqns_tex)
+#enc_str = 'sem_'
+#
+#eqns_enc = arXivDocs2tfidf.docs2tfidf(eqns_qids)
+#enc_str += 'tfidf'
+#title_text = "Formula semantic space (TF-IDF)"
+#
+#eqns_enc = arXivDocs2Vec.docs2vec(eqns_qids,eqns_tex)
+#enc_str += 'd2v'
+#title_text = "Formula semantic space (Doc2Vec)"
 
-# set encoding
-X,y = eqns_d2vec,eqns_labs
-#X,y = eqns_d2vec[1],eqns_labs
+# set vectors
+X,y = eqns_enc,eqns_labs
 
 # CLASSIFICATION
 
@@ -187,16 +201,28 @@ ax = plt.axes()
 # label
 for i, lab in enumerate(eqns_labs):
     ax.annotate(lab, (vectors_red[i,0],vectors_red[i,1]))
-# tex
-#for i, tex in enumerate(eqns_tex):
-#    ax.annotate(tex, (vectors_red[i,0],vectors_red[i,1]))
+# annotate
+#for i, text in enumerate(eqns_tex):
+#    ax.annotate(text, (vectors_red[i,0],vectors_red[i,1]))
+# text
+text = 'Mean cluster purity: '
+if enc_str == 'cont_tfidf':
+    text += '0.50'
+    x_pos, y_pos = 0.2, -0.3
+elif enc_str == 'cont_d2v':
+    text += '0.97'
+    x_pos, y_pos = 0.2, -0.3
+elif enc_str == 'sem_tfidf':
+    text += '0.97'
+    x_pos, y_pos = 0.2, -0.3
+elif enc_str == 'sem_d2v':
+    text += '0.97'
+    x_pos, y_pos = 0.2, -0.3
+plt.text(x_pos, y_pos, text)
 
 plt.xlabel("PCA dimension 1")
 plt.ylabel("PCA dimension 2")
-#plt.title("Formula content space (TF-IDF)")
-plt.title("Formula content space (Doc2Vec)")
-#plt.title("Formula semantic space (TF-IDF)")
-#plt.title("Formula semantic space (Doc2Vec)")
+plt.title(title_text)
 
 ax.scatter(vectors_red[:,0], vectors_red[:,1],c=labels, cmap='rainbow')
 
