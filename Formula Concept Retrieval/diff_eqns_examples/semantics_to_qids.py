@@ -1,7 +1,12 @@
 import re
 
-semantics_file = "diff_eqns_semantics.csv"
-qids_file = "diff_eqns_qids.csv"
+example_nr_prefix = ['three','ten'][0]
+file_path = example_nr_prefix + " examples/"
+
+# input
+semantics_file = file_path + "diff_eqns_semantics.txt"
+# output
+qids_file = file_path + "diff_eqns_qids.txt"
 
 # open semantics file
 
@@ -13,10 +18,13 @@ with open(semantics_file,'r') as f:
 with open(qids_file,'w') as f:
     # convert semantics to qids
 
-    for line in eqns_sem:
+    def get_qids(line):
         qids = ""
         search_results = re.finditer(r'\(.*?\)', line)
         for item in search_results:
             qids += item.group(0).lstrip("(").rstrip(")") + " "
-        qids = qids[:-1]
+        return qids[:-1]
+
+    for line in eqns_sem:
+        qids = get_qids(line)
         f.write(qids + "\n")

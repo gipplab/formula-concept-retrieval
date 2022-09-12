@@ -1,0 +1,100 @@
+﻿\frac{1}{c^2} \frac{\partial^2 \psi}{\partial t^2} - \nabla^2 \psi + \left( \frac{m_0 c}{\hbar} \right)^2 \psi = 0
+u_{tt} + A u + f(u) = 0
+\partial^2_{ct} h_n (z,t) - \partial^2_z h_n (z, t) + \nu_n^2 h_n (z,t) = 0
+\nabla^a \nabla_a \psi = \mu^2 \psi
+-\hbar^2 \frac{\partial^2 \Psi}{\partial t^2} + c^2 \hbar^2 \nabla^2 \Psi = m_0^2 c^4 \Psi
+\nabla^2 \phi - \frac{1}{c^2} \frac{\partial^2 \phi}{\partial t^2} - \frac{2\alpha + \alpha}{c^2} \frac{\partial \phi}{\partial t} - \frac{\alpha^2 + a \alpha}{c^2} \phi = 0
+u_{tt} - \Delta u + m^2 u + G'(u) = 0
+\left( \eta^{\mu \nu} \frac{\partial}{x^\mu} \frac{\partial}{x^\nu} - \left(\frac{mc}{\hbar} \right)^2 \right) \varphi = 0
+\left(-\frac{1}{c^2} \frac{\partial^2}{\partial t^2} \sum_{i=1}^p \frac{\partial}{x^i} \frac{\partial}{x^i} - \left(\frac{mc}{\hbar} \right)^2 \right) \varphi = 0
+u_{tt} - \Delta u + m u + P'(u) = 0
+G_{\mu \nu} + \Lambda g_{\mu \nu} = \kappa T_{\mu \nu}
+R_{\mu \nu} - \frac{1}{2} g_{\mu \nu} R - \Lambda g_{\mu \nu} = (8 \pi G_{N}) T_{\mu \nu}
+G_{\mu \nu} = -\Lambda g_{\mu \nu} + \kappa^{2} T^{\rm tot}_{\mu \nu}
+G_{\mu \nu} = R_{\mu \nu} - g_{\mu \nu} R/2 = \kappa T^{\mu \nu} - \Lambda g_{\mu \nu}
+R_{\mu \nu} - \frac{1}{2} R g_{\mu \nu} = \kappa_{r}(T) T_{\mu \nu} + \Lambda(T) g_{\mu \nu}
+K_{\mu \nu} - K g_{\mu \nu} = -\frac{\kappa^{2}}{2} T_{\mu \nu} + r_{c} G_{\mu \nu}
+R_{\mu \nu} - \frac{1}{2} g_{\mu \nu} R + \Lambda g_{\mu \nu} = -8 \pi G T_{\mu \nu} f_{R} G_{\mu \nu}
+R_{\mu \nu} - \frac{1}{2} g_{\mu \nu} R + \Lambda_{c} g_{\mu \nu} = 8 \pi G T_{\mu \nu}
+R_{\mu \nu} - {1\over 2} R g_{\mu \nu} + \Lambda_{eff} g_{\mu \nu} = 8 \pi G T_{\mu \nu}
+R_{\mu \nu} - \frac{1}{2} g_{\mu \nu} R = 8 \pi G_{5} T_{\mu \nu} - \Lambda_{5} g_{\mu \nu}
+\text{div} \vec{E} = 4 \pi \rho
+\oiint_{\partial \Omega} \mathbf{E} \cdot \mathrm{d} \mathbf{S} = \frac{1}{\varepsilon_0} \iiint_\Omega \rho \mathrm{d} V
+\text{div} \vec{B} = 0
+\oiint_{\partial \Omega} \mathbf{B} \cdot \mathrm{d} \mathbf{S} = 0
+\text{rot} \vec{E} = - \frac{1}{c} \frac{\partial\vec{B}}{\partial t}
+\oint_{\partial \Sigma} \mathbf{E} \cdot \mathrm{d}\boldsymbol{l} = -\operatorname{\frac{d}{dt}} \iint_{\Sigma} \mathbf{B} \cdot \mathrm{d}\mathbf{S}
+\text{rot} \vec{B} = \frac{4 \pi}{c} \vec{j} + \frac{1}{c} \frac{\partial \vec{E}}{\partial t}
+\oint_{\partial \Sigma} & \mathbf{B} \cdot \mathrm{d} \boldsymbol{l} = \mu_0 \left(\iint_{\Sigma} \mathbf{j} \cdot \mathrm{d}\mathbf{S} + \varepsilon_0 \frac{\mathrm{d}}{\mathrm{d}t} \iint_{\Sigma} \mathbf{E} \cdot \mathrm{d} \mathbf{S} \right)
+\partial_\alpha F^{\alpha \beta} = \frac{4 \pi}{c} j^\beta
+\varepsilon^{\alpha \beta \gamma \delta} \partial_\beta F_{\gamma \delta} = 0
+i \hbar \frac{\partial}{\partial t} | \psi (t) \rangle = \hat{H} | \psi (t) \rangle
+i\hbar\frac{\partial}{\partial t} \Psi(x,t) = \left [ - \frac{\hbar^2}{2m}\frac{\partial^2}{\partial x^2} + V(x,t)\right ] \Psi(x,t)
+i \hbar \frac{d}{d t}\vert\Psi(t)\rangle = \hat H\vert\Psi(t)\rangle
+\operatorname{\hat H}|\Psi\rangle = E |\Psi\rangle
+i\hbar \frac{d}{dt}|\Psi(t)\rangle = \left(\frac{1}{2m}\hat{p}^2 + \hat{V}\right)|\Psi(t)\rangle
+i\hbar\frac{\partial}{\partial t} \Psi(\mathbf{r},t) = - \frac{\hbar^2}{2m} \nabla^2 \Psi(\mathbf{r},t) + V(\mathbf{r}) \Psi(\mathbf{r},t)
+- \frac {\hbar ^2}{2m} \frac {d ^2 \psi}{dx^2} = E \psi
+E\psi = -\frac{\hbar^2}{2m}\frac{d^2}{d x^2}\psi + \frac{1}{2} m\omega^2 x^2\psi
+E \psi = -\frac{\hbar^2}{2\mu}\nabla^2\psi - \frac{q^2}{4\pi\varepsilon_0 r}\psi
+i\hbar \frac{\partial}{\partial t} \Psi\left(\mathbf{r},t\right) = \hat{H} \Psi\left(\mathbf{r},t\right)
+(\nabla^2 − k^2) A = -f
+\nabla^2 f = -k^2 f
+\frac{\mathrm{d}^2 T}{\mathrm{d}t^2} + \omega^2T = \left( \frac{\mathrm{d}^2}{\mathrm{d}t^2} + \omega^2 \right) T = 0
+\nabla^2 A = -k^2 A
+\nabla_{\perp}^2 A + 2ik\frac{\partial A}{\partial z} = 0
+\nabla^2 A(x) + k^2 A(x) = -f(x)
+\nabla^2 u + k^2 u = 0
+\frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} + \frac{\partial^2 u}{\partial z^2} + k^2 u(x,y,z) = 0
+\nabla^2 u + k^2 u(\rho,\psi,z) = 0
+\nabla^2 u + k^2 u(\rho , \psi , z) = 0 \qquad\mbox{or} \qquad \frac{1}{\rho} \,\frac{\partial}{\partial \rho} \left( \rho\,\frac{\partial u}{\partial \rho} \right) + \frac{1}{\rho^2} \,\frac{\partial^2 u}{\partial \phi^2} + \frac{\partial^2 u}{\partial z^2} + k^2 u = 0
+\nabla^4\varphi=0
+\nabla^2\nabla^2\varphi=0
+\Delta^2\varphi=0
+\sum_{i=1}^n\sum_{j=1}^n\partial_i\partial_i\partial_j\partial_j \varphi = 0
+\left(\sum_{i=1}^n\partial_i\partial_i\right)\left(\sum_{j=1}^n \partial_j\partial_j\right) \varphi = 0
+{\partial^4 \varphi\over \partial x^4 } + {\partial^4 \varphi\over \partial y^4 } + {\partial^4 \varphi\over \partial z^4 } + 2{\partial^4 \varphi\over \partial x^2\partial y^2} + 2{\partial^4 \varphi\over \partial y^2\partial z^2} + 2{\partial^4 \varphi\over \partial x^2\partial z^2} = 0
+\frac{1}{r} \frac{\partial}{\partial r} \left(r \frac{\partial}{\partial r} \left(\frac{1}{r} \frac{\partial}{\partial r} \left(r \frac{\partial \varphi}{\partial r}\right)\right)\right) + \frac{2}{r^2} \frac{\partial^4 \varphi}{\partial \theta^2 \partial r^2} + \frac{1}{r^4} \frac{\partial^4 \varphi}{\partial \theta^4} - \frac{2}{r^3} \frac{\partial^3 \varphi}{\partial \theta^2 \partial r} + \frac{4}{r^4} \frac{\partial^2 \varphi}{\partial \theta^2} = 0
+\Delta\Delta u(x,y)= 0
+\Delta\Delta u(x,y)= f(x,y)
+\phi_{rrrr} + \frac{2}{r}\phi_{rrr} - \frac{1}{r^2}\phi_{rr} + \frac{1}{r^3}\phi_r = 0
+\vec{F} = \frac{d\vec{p}}{dt}
+\vec{F} = m\vec{a}
+\vec{F} = m\frac{d^2}{dt^2}  \vec{s}
+\textbf{F} = \frac{d}{dt} (m\textbf{v})
+\vec{F} \Delta p = \Delta p
+\vec{F} = \frac{m \Delta \vec{v}}{\Delta t}
+\vec{F} = m \frac{\Delta \vec{v}}{\Delta t}
+\vec{F} = \frac{ \vec{p}}{t}
+F = \propto ma
+F = kma
+\sigma_{x}\sigma_{p} \geq \frac{\hbar}{2}
+\sigma_E \frac{\sigma_B}{\left| \frac{d\langle \hat B \rangle}{dt}\right |} \ge \frac{\hbar}{2}
+\sigma_{J_x}^2+\sigma_{J_y}^2+\sigma_{J_z}^2\ge j
+\Delta x \Delta p \geq \frac{\hbar}{2}
+\sigma_{x}^2\sigma_{p}^2 \geq \Right( \frac{1}{2i} \langle \lbrack \hat{\vec{x}}, \hat{\vec{p}} \rbrack \rangle \Left)^2
+\sigma_{x}^2\sigma_{p}^2 \geq \frac{\hbar}{2}^2
+\sigma_{x}^2\sigma_{p}^2 \geq -\frac{1}{4} \langle \lbrack \hat{A}, \hat{\B} \rbrack \rangle \Left)^2
+\sigma_{x}\sigma_{p} \geq \frac{1}{2} | -i\hbar \int \Psi* \Psi dx |
+\sigma_{x}\sigma_{p} \geq \frac{1}{2} | -i\hbar |
+\sigma_{x}\sigma_{p} \geq \frac{1}{2} | \int \Psi*  \lbrack \hat{x}, \hat{p} \rbrack \Psi dx |
+\oint \frac{\delta Q}{T}=0
+\Delta S \ge \int \frac{\delta Q}{T_{surr}}
+dS_{\mathrm{tot}}= dS + dS_R \ge 0
+dS_{tot} \ge 0
+dE + \delta w_u \le 0
+\int \frac{\delta Q}{T} = -N
+\frac{dS}{dt} \ge 0
+\frac{dS}{dt} = \dot S_{i}
+\frac{dS}{dt} = \frac{\dot Q}{T}+\dot S+\dot S_{i}
+dS =\frac{\delta Q}{T}
+|F_1| = |F_2| = \frac{|q_1 \times q_2|}{r^2}
+|F|=k_\text{e} \frac{|q_1||q_2|}{r^2}
+|\mathbf{F}|=k_\text{e} \frac{|q_1q_2|}{r^2}
+\mathbf{F}_1 = \frac{q_1q_2}{4\pi\varepsilon_0} \frac{\mathbf{r}_1-\mathbf{r}_2}{|\mathbf{r}_1 - \mathbf{r}_2|^3}
+\mathbf{F}_1 = \frac{q_1q_2}{4\pi\varepsilon_0} \frac{\mathbf{\hat{r}}_{12}}{|\mathbf{r}_{12}|^2}
+\mathbf{F}(\mathbf{r}) = {q\over4\pi\varepsilon_0} \sum_{i=1}^N q_i \frac{\mathbf{r} - \mathbf{r}_i}{|\mathbf{r}- \mathbf{r}_i|^3}
+\mathbf{F}(\mathbf{r}) = {q\over 4\pi\varepsilon_0} \sum_{i=1}^N q_i {\hat{\mathbf{R}}_i\over|\mathbf{R}_i|^2}
+\mathbf{F}(\mathbf{r}) = \frac{q}{4\pi\varepsilon_0}\int dq' \frac{\mathbf{r} - \mathbf{r'}}{|\mathbf{r} - \mathbf{r'}|^3}
+\mathbf{E}(\mathbf{r}) = {1\over4\pi\varepsilon_0} \sum_{i=1}^N q_i \frac{\mathbf{r}-\mathbf{r}_i}{|\mathbf{r}-\mathbf{r}_i|^3} 
+\mathbf{E}(\mathbf{r}) = \frac{Q}{4\pi \varepsilon_0} \frac{\hat{\mathbf{r}}}{r^2}

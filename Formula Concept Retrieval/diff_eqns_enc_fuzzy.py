@@ -6,10 +6,10 @@ import matplotlib.pyplot as plt
 
 # define file names
 
-tex_file = "diff_eqns_examples/diff_eqns_tex.csv"
-content_file = "diff_eqns_examples/diff_eqns_content.csv"
-qids_file = "diff_eqns_examples/diff_eqns_qids.csv"
-labels_file = "diff_eqns_examples/diff_eqns_labels.csv"
+tex_file = "diff_eqns_examples/three examples/diff_eqns_tex.csv"
+content_file = "diff_eqns_examples/three examples/diff_eqns_content.csv"
+qids_file = "diff_eqns_examples/three examples/diff_eqns_qids.csv"
+labels_file = "diff_eqns_examples/three examples/diff_eqns_labels.csv"
 
 # get equations tex
 
