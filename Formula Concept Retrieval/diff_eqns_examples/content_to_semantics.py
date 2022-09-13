@@ -1,7 +1,7 @@
 import re
 
 example_nr_prefix = ['three','ten'][1]
-file_path = example_nr_prefix + " examples/"
+file_path = example_nr_prefix + " examples/temp/"
 
 semantics_file_tmp = file_path + "diff_eqns_semantics_tmp.txt"
 semantics_file_old = file_path + "diff_eqns_semantics_old.txt"
@@ -48,10 +48,16 @@ with open(semantics_file_new,'w') as f:
 
     for line in eqns_sem_old:
         new_line = ''
+        line_parts = []
         for cont in line.split(','):
             cont = cont.strip().lstrip('ï»¿')
             try:
-                new_line += cont + ': ' + tmp_sem_dict[cont] + ', '
+                #new_line += cont + ': ' + tmp_sem_dict[cont] + ', '
+                new_part = cont + ': ' + tmp_sem_dict[cont]
             except:
-                new_line += cont + ': ' + '"?" (Q?)' + ', '
-        f.write(new_line.rstrip(', ')+'\n')
+                #new_line += cont + ': ' + '"?" (Q?)' + ', '
+                new_part = cont + ': ' + '"?" (Q?)'
+            if not new_part in line_parts:
+                line_parts.append(new_part)
+        #f.write(new_line.rstrip(', ')+'\n')
+        f.write(', '.join(line_parts)+'\n')
