@@ -1,6 +1,6 @@
 import re
 
-example_nr_prefix = ['three','ten'][0]
+example_nr_prefix = ['three','ten'][1]
 file_path = example_nr_prefix + " examples/"
 
 # input

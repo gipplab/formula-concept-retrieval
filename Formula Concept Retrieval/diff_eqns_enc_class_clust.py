@@ -21,46 +21,76 @@ import numpy
 
 from collections import Counter
 
-tex_file = "diff_eqns_examples/three examples/diff_eqns_tex.csv"
-content_file = "diff_eqns_examples/three examples/diff_eqns_content.csv"
-qids_file = "diff_eqns_examples/three examples/diff_eqns_qids.csv"
-labels_file = "diff_eqns_examples/three examples/diff_eqns_labels.csv"
+example_nr_prefix = ['three','ten'][1]
+example_path = example_nr_prefix + " examples/"
+full_path = "diff_eqns_examples/" + example_path
+
+tex_file = full_path + "diff_eqns_tex.txt"
+content_file = full_path + "diff_eqns_content.txt"
+qids_file = full_path + "diff_eqns_qids.txt"
+labels_file = full_path + "diff_eqns_labels.txt"
+
+# parameters
+#N_examples_included
+N_classes = 10
+N_examples_per_class = 10
+N_examples = N_classes*N_examples_per_class
 
 # get equations tex
 
 with open(tex_file,'r') as f:
     eqns_tex = f.readlines()
+# clean
+eqns_tex[0] = eqns_tex[0].lstrip('ï»¿')
+# cutoff
+eqns_tex = eqns_tex[:N_examples]
 
 # get equations content
 
 with open(content_file,'r') as f:
-    lines = f.readlines()
-
+    eqns_cont_tmp = f.readlines()
+# clean
+eqns_cont_tmp[0] = eqns_cont_tmp[0].lstrip('ï»¿')
+#
 eqns_cont = []
-
-for line in lines:
-    #eqns_cont.append(line.replace(",","").strip("\n"))
-    tmp_cont = line.replace(",","").strip("\n")
+for eqn_cont in eqns_cont_tmp:
+    #eqns_cont.append(eqn_cont.replace(",","").strip("\n"))
+    tmp_cont = eqn_cont.replace(",","").strip("\n")
     tmp_tmp_cont = ""
     for word in tmp_cont.split():
         tmp_tmp_cont += " math" + word
     eqns_cont.append(tmp_tmp_cont)
+del eqns_cont_tmp
+# cutoff
+eqns_cont = eqns_cont[:N_examples]
 
 # get equations qids
 
 with open(qids_file,'r') as f:
-    lines = f.readlines()
+    eqns_qids_tmp = f.readlines()
 eqns_qids = []
-for line in lines:
-    eqns_qids.append(line.strip("\n"))
+for eqn_qid in eqns_qids_tmp:
+    eqns_qids.append(eqn_qid.strip("\n"))
+del eqns_qids_tmp
+# clean
+eqns_qids[0] = eqns_qids[0].lstrip('ï»¿')
+# cutoff
+eqns_qids = eqns_qids[:N_examples]
 
 # get equations labels
 
 with open(labels_file,'r') as f:
-     lines = f.readlines()
+     eqns_labs_tmp = f.readlines()
+# clean
+eqns_labs_tmp[0] = eqns_labs_tmp[0].lstrip('ï»¿')
+#
 eqns_labs = []
-for line in lines:
-    eqns_labs.append(line.strip("\n"))
+for eqn_lab in eqns_labs_tmp:
+    eqns_labs.append(eqn_lab.strip("\n"))
+eqns_labs = eqns_labs[:]
+del eqns_labs_tmp
+# cutoff
+eqns_labs = eqns_labs[:N_examples]
 
 # ENCODING
 # get encoding
@@ -72,7 +102,7 @@ eqns_enc = arXivDocs2tfidf.docs2tfidf(eqns_cont)
 enc_str += 'tfidf'
 title_text = "Formula content space (TF-IDF)"
 #
-#eqns_enc = arXivDocs2Vec.docs2vec(eqns_cont,eqns_tex)
+#eqns_enc = arXivDocs2Vec.docs2vec(eqns_cont,eqns_tex)[1]
 #enc_str += 'd2v'
 #title_text = "Formula content space (Doc2Vec)"
 #
@@ -83,7 +113,7 @@ title_text = "Formula content space (TF-IDF)"
 #enc_str += 'tfidf'
 #title_text = "Formula semantic space (TF-IDF)"
 #
-#eqns_enc = arXivDocs2Vec.docs2vec(eqns_qids,eqns_tex)
+#eqns_enc = arXivDocs2Vec.docs2vec(eqns_qids,eqns_tex)[1]
 #enc_str += 'd2v'
 #title_text = "Formula semantic space (Doc2Vec)"
 
@@ -103,13 +133,13 @@ prediction = list(classifier.predict(X))
 #         matches += 1
 # accuracy = matches/total
 
-accuracy = numpy.mean(cross_val_score(classifier, X, y, cv=3))
+accuracy = numpy.mean(cross_val_score(classifier, X, y, cv=N_classes))
 
 print('Classification accuracy: ' + str(accuracy))
 
 # CLUSTERING
 
-n_clusters = 3
+n_clusters = N_classes
 clusterer = KMeans(n_clusters=n_clusters)
 
 clustering = clusterer.fit_predict(X)
@@ -205,27 +235,29 @@ for i, lab in enumerate(eqns_labs):
 #for i, text in enumerate(eqns_tex):
 #    ax.annotate(text, (vectors_red[i,0],vectors_red[i,1]))
 # text
-text = 'Mean cluster purity: '
-if enc_str == 'cont_tfidf':
-    text += '0.50'
-    x_pos, y_pos = 0.2, -0.3
-elif enc_str == 'cont_d2v':
-    text += '0.97'
-    x_pos, y_pos = 0.2, -0.3
-elif enc_str == 'sem_tfidf':
-    text += '0.97'
-    x_pos, y_pos = 0.2, -0.3
-elif enc_str == 'sem_d2v':
-    text += '0.97'
-    x_pos, y_pos = 0.2, -0.3
-plt.text(x_pos, y_pos, text)
+plt.text(0.2, -0.6, 'Mean classification accuracy: ' + str(round(accuracy,2)))
+plt.text(0.2, -0.4, 'Mean cluster purity: ' + str(round(purity,2)))
+# if enc_str == 'cont_tfidf':
+#     text += '0.50'
+#     x_pos, y_pos = 0.2, -0.3
+# elif enc_str == 'cont_d2v':
+#     text += '0.97'
+#     x_pos, y_pos = 0.2, -0.3
+# elif enc_str == 'sem_tfidf':
+#     text += '0.97'
+#     x_pos, y_pos = 0.2, -0.3
+# elif enc_str == 'sem_d2v':
+#     text += '0.97'
+#     x_pos, y_pos = 0.2, -0.3
+#plt.text(x_pos, y_pos, text)
 
 plt.xlabel("PCA dimension 1")
 plt.ylabel("PCA dimension 2")
 plt.title(title_text)
 
-ax.scatter(vectors_red[:,0], vectors_red[:,1],c=labels, cmap='rainbow')
+ax.scatter(vectors_red[:,0], vectors_red[:,1], c=labels, cmap='rainbow')
+#ax.legend()
 
-plt.show()
+#plt.show()
 
 print("end")
