@@ -25,7 +25,7 @@ def docs2vec(docData,docNames):
 
     # Train Doc2Vec model
     for epoch in range(10):#10
-        print('iteration' + str(epoch+1))
+        #print('iteration' + str(epoch+1))
         model.train(iterator, epochs=model.epochs, total_examples=model.corpus_count)
         model.alpha -= 0.002
         model.min_alpha = model.alpha

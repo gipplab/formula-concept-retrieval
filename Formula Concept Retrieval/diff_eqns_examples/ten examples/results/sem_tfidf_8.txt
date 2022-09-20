@@ -1,0 +1,229 @@
+Combination Nr. 1
+Chosen: {'HUP', 'HE', 'BE', 'KGE', 'SE', 'EFE', 'NSL', 'ME'}
+Classification accuracy: 0.9624999999999999
+Cluster purity: 0.7666666666666666
+
+Combination Nr. 2
+Chosen: {'HE', 'BE', 'KGE', 'SLT', 'SE', 'EFE', 'NSL', 'ME'}
+Classification accuracy: 0.9375
+Cluster purity: 0.9
+
+Combination Nr. 3
+Chosen: {'HE', 'BE', 'KGE', 'SE', 'CL', 'EFE', 'NSL', 'ME'}
+Classification accuracy: 0.9624999999999999
+Cluster purity: 0.8333333333333334
+
+Combination Nr. 4
+Chosen: {'HUP', 'HE', 'BE', 'KGE', 'SLT', 'SE', 'EFE', 'ME'}
+Classification accuracy: 0.9375
+Cluster purity: 0.8666666666666667
+
+Combination Nr. 5
+Chosen: {'HUP', 'HE', 'BE', 'KGE', 'SE', 'CL', 'EFE', 'ME'}
+Classification accuracy: 0.9624999999999999
+Cluster purity: 0.8333333333333334
+
+Combination Nr. 6
+Chosen: {'HE', 'BE', 'KGE', 'SLT', 'SE', 'CL', 'EFE', 'ME'}
+Classification accuracy: 0.9375
+Cluster purity: 0.9
+
+Combination Nr. 7
+Chosen: {'HUP', 'HE', 'KGE', 'SLT', 'SE', 'EFE', 'NSL', 'ME'}
+Classification accuracy: 0.9375
+Cluster purity: 0.9
+
+Combination Nr. 8
+Chosen: {'HUP', 'HE', 'KGE', 'SE', 'CL', 'EFE', 'NSL', 'ME'}
+Classification accuracy: 0.9624999999999999
+Cluster purity: 0.7666666666666666
+
+Combination Nr. 9
+Chosen: {'HE', 'KGE', 'SLT', 'SE', 'CL', 'EFE', 'NSL', 'ME'}
+Classification accuracy: 0.95
+Cluster purity: 0.7999999999999999
+
+Combination Nr. 10
+Chosen: {'HUP', 'HE', 'KGE', 'SLT', 'SE', 'CL', 'EFE', 'ME'}
+Classification accuracy: 0.9375
+Cluster purity: 0.8333333333333334
+
+Combination Nr. 11
+Chosen: {'HUP', 'BE', 'KGE', 'SLT', 'SE', 'EFE', 'NSL', 'ME'}
+Classification accuracy: 0.95
+Cluster purity: 0.8666666666666667
+
+Combination Nr. 12
+Chosen: {'HUP', 'BE', 'KGE', 'SE', 'CL', 'EFE', 'NSL', 'ME'}
+Classification accuracy: 0.975
+Cluster purity: 0.9333333333333332
+
+Combination Nr. 13
+Chosen: {'BE', 'KGE', 'SLT', 'SE', 'CL', 'EFE', 'NSL', 'ME'}
+Classification accuracy: 0.9625
+Cluster purity: 0.7666666666666666
+
+Combination Nr. 14
+Chosen: {'HUP', 'BE', 'KGE', 'SLT', 'SE', 'CL', 'EFE', 'ME'}
+Classification accuracy: 0.95
+Cluster purity: 0.9
+
+Combination Nr. 15
+Chosen: {'HUP', 'KGE', 'SLT', 'SE', 'CL', 'EFE', 'NSL', 'ME'}
+Classification accuracy: 0.9624999999999999
+Cluster purity: 0.9666666666666667
+
+Combination Nr. 16
+Chosen: {'HUP', 'BE', 'HE', 'KGE', 'SLT', 'EFE', 'NSL', 'ME'}
+Classification accuracy: 0.9375
+Cluster purity: 0.9333333333333332
+
+Combination Nr. 17
+Chosen: {'HUP', 'BE', 'HE', 'KGE', 'CL', 'EFE', 'NSL', 'ME'}
+Classification accuracy: 0.9624999999999999
+Cluster purity: 0.9333333333333332
+
+Combination Nr. 18
+Chosen: {'BE', 'HE', 'KGE', 'SLT', 'CL', 'EFE', 'NSL', 'ME'}
+Classification accuracy: 0.95
+Cluster purity: 0.8666666666666667
+
+Combination Nr. 19
+Chosen: {'HUP', 'BE', 'HE', 'KGE', 'SLT', 'CL', 'EFE', 'ME'}
+Classification accuracy: 0.9375
+Cluster purity: 0.9
+
+Combination Nr. 20
+Chosen: {'HUP', 'HE', 'KGE', 'SLT', 'CL', 'EFE', 'NSL', 'ME'}
+Classification accuracy: 0.95
+Cluster purity: 0.8333333333333334
+
+Combination Nr. 21
+Chosen: {'HUP', 'BE', 'KGE', 'SLT', 'CL', 'EFE', 'NSL', 'ME'}
+Classification accuracy: 0.9624999999999999
+Cluster purity: 0.9333333333333332
+
+Combination Nr. 22
+Chosen: {'HUP', 'BE', 'HE', 'KGE', 'SLT', 'SE', 'EFE', 'NSL'}
+Classification accuracy: 0.975
+Cluster purity: 0.9
+
+Combination Nr. 23
+Chosen: {'HUP', 'BE', 'HE', 'KGE', 'SE', 'CL', 'EFE', 'NSL'}
+Classification accuracy: 0.975
+Cluster purity: 0.9666666666666667
+
+Combination Nr. 24
+Chosen: {'BE', 'HE', 'KGE', 'SLT', 'SE', 'CL', 'EFE', 'NSL'}
+Classification accuracy: 0.9624999999999999
+Cluster purity: 0.9333333333333332
+
+Combination Nr. 25
+Chosen: {'HUP', 'BE', 'HE', 'KGE', 'SLT', 'SE', 'CL', 'EFE'}
+Classification accuracy: 0.975
+Cluster purity: 0.9
+
+Combination Nr. 26
+Chosen: {'HUP', 'HE', 'KGE', 'SLT', 'SE', 'CL', 'EFE', 'NSL'}
+Classification accuracy: 0.9624999999999999
+Cluster purity: 0.9333333333333332
+
+Combination Nr. 27
+Chosen: {'HUP', 'BE', 'KGE', 'SLT', 'SE', 'CL', 'EFE', 'NSL'}
+Classification accuracy: 0.975
+Cluster purity: 0.7999999999999999
+
+Combination Nr. 28
+Chosen: {'HUP', 'BE', 'HE', 'KGE', 'SLT', 'CL', 'EFE', 'NSL'}
+Classification accuracy: 0.975
+Cluster purity: 0.8333333333333334
+
+Combination Nr. 29
+Chosen: {'HUP', 'BE', 'HE', 'KGE', 'SLT', 'SE', 'NSL', 'ME'}
+Classification accuracy: 0.925
+Cluster purity: 0.7333333333333334
+
+Combination Nr. 30
+Chosen: {'HUP', 'BE', 'HE', 'KGE', 'SE', 'CL', 'NSL', 'ME'}
+Classification accuracy: 0.95
+Cluster purity: 0.8333333333333334
+
+Combination Nr. 31
+Chosen: {'BE', 'HE', 'KGE', 'SLT', 'SE', 'CL', 'NSL', 'ME'}
+Classification accuracy: 0.925
+Cluster purity: 0.7666666666666666
+
+Combination Nr. 32
+Chosen: {'HUP', 'BE', 'HE', 'KGE', 'SLT', 'SE', 'CL', 'ME'}
+Classification accuracy: 0.9375
+Cluster purity: 0.7333333333333334
+
+Combination Nr. 33
+Chosen: {'HUP', 'HE', 'KGE', 'SLT', 'SE', 'CL', 'NSL', 'ME'}
+Classification accuracy: 0.925
+Cluster purity: 0.7333333333333334
+
+Combination Nr. 34
+Chosen: {'HUP', 'BE', 'KGE', 'SLT', 'SE', 'CL', 'NSL', 'ME'}
+Classification accuracy: 0.9375
+Cluster purity: 0.7999999999999999
+
+Combination Nr. 35
+Chosen: {'HUP', 'BE', 'HE', 'KGE', 'SLT', 'CL', 'NSL', 'ME'}
+Classification accuracy: 0.9375
+Cluster purity: 0.7666666666666666
+
+Combination Nr. 36
+Chosen: {'HUP', 'BE', 'HE', 'KGE', 'SLT', 'SE', 'CL', 'NSL'}
+Classification accuracy: 0.9375
+Cluster purity: 0.7333333333333334
+
+Combination Nr. 37
+Chosen: {'HUP', 'BE', 'HE', 'SLT', 'SE', 'EFE', 'NSL', 'ME'}
+Classification accuracy: 0.95
+Cluster purity: 0.9333333333333332
+
+Combination Nr. 38
+Chosen: {'HUP', 'BE', 'HE', 'SE', 'CL', 'EFE', 'NSL', 'ME'}
+Classification accuracy: 0.975
+Cluster purity: 0.9333333333333332
+
+Combination Nr. 39
+Chosen: {'BE', 'HE', 'SLT', 'SE', 'CL', 'EFE', 'NSL', 'ME'}
+Classification accuracy: 0.9624999999999999
+Cluster purity: 1.0
+
+Combination Nr. 40
+Chosen: {'HUP', 'BE', 'HE', 'SLT', 'SE', 'CL', 'EFE', 'ME'}
+Classification accuracy: 0.95
+Cluster purity: 0.9666666666666667
+
+Combination Nr. 41
+Chosen: {'HUP', 'HE', 'SLT', 'SE', 'CL', 'EFE', 'NSL', 'ME'}
+Classification accuracy: 0.95
+Cluster purity: 0.9333333333333332
+
+Combination Nr. 42
+Chosen: {'HUP', 'BE', 'SLT', 'SE', 'CL', 'EFE', 'NSL', 'ME'}
+Classification accuracy: 0.9624999999999999
+Cluster purity: 0.9
+
+Combination Nr. 43
+Chosen: {'HUP', 'BE', 'HE', 'SLT', 'CL', 'EFE', 'NSL', 'ME'}
+Classification accuracy: 0.9624999999999999
+Cluster purity: 0.8333333333333334
+
+Combination Nr. 44
+Chosen: {'HUP', 'BE', 'HE', 'SLT', 'SE', 'CL', 'EFE', 'NSL'}
+Classification accuracy: 0.975
+Cluster purity: 0.8666666666666667
+
+Combination Nr. 45
+Chosen: {'HUP', 'BE', 'HE', 'SLT', 'SE', 'CL', 'NSL', 'ME'}
+Classification accuracy: 0.9624999999999999
+Cluster purity: 0.7333333333333334
+
+Mean classification accuracy: 0.9536111111111112
+Mean cluster purity: 0.8600000000000001
+
+end

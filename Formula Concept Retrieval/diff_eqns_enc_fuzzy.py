@@ -4,12 +4,16 @@ from fuzzywuzzy import fuzz
 import numpy as np
 import matplotlib.pyplot as plt
 
-# define file names
+# set paths
+example_nr_prefix = ['three','ten'][0]
+example_path = example_nr_prefix + " examples/"
+full_path = "diff_eqns_examples/" + example_path
 
-tex_file = "diff_eqns_examples/three examples/diff_eqns_tex.csv"
-content_file = "diff_eqns_examples/three examples/diff_eqns_content.csv"
-qids_file = "diff_eqns_examples/three examples/diff_eqns_qids.csv"
-labels_file = "diff_eqns_examples/three examples/diff_eqns_labels.csv"
+# set file names
+tex_file = full_path + "diff_eqns_tex.txt"
+content_file = full_path + "diff_eqns_content.txt"
+qids_file = full_path + "diff_eqns_qids.txt"
+labels_file = full_path + "diff_eqns_labels.txt"
 
 # get equations tex
 
@@ -91,9 +95,9 @@ plt.colorbar()
 
 ax = plt.axes()
 # annotate class squares
-ax.annotate("KGE",(3,4),fontsize=10,weight='bold')
-ax.annotate("EFE",(12,14),fontsize=10,weight='bold')
-ax.annotate("ME",(21,22.25),fontsize=10,weight='bold')
+#ax.annotate("KGE",(3,4),fontsize=10,weight='bold')
+#ax.annotate("EFE",(12,14),fontsize=10,weight='bold')
+#ax.annotate("ME",(21,22.25),fontsize=10,weight='bold')
 
 plt.show()
 
