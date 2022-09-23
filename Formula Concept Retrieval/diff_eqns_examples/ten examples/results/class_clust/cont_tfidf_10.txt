@@ -1,0 +1,3 @@
+Combination Nr. 1
+Chosen: {'NSL', 'EFE', 'ME', 'HUP', 'SLT', 'KGE', 'BE', 'CL', 'SE', 'HE'}
+Backend TkAgg is interactive backend. Turning interactive mode on.

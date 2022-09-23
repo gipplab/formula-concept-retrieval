@@ -1,0 +1,8 @@
+Combination Nr. 1
+Chosen: {'CL', 'EFE', 'ME', 'SLT', 'HUP', 'SE', 'HE', 'NSL', 'BE', 'KGE'}
+Classification accuracy: 0.73
+Cluster purity: 0.6
+
+Mean classification accuracy: 0.73
+Mean cluster purity: 0.6
+

@@ -5,7 +5,6 @@ from sklearn.preprocessing import LabelBinarizer
 
 from sklearn.linear_model import LogisticRegression
 from sklearn.svm import LinearSVC
-
 from sklearn.model_selection import cross_val_score
 
 from sklearn.cluster import KMeans
@@ -26,8 +25,10 @@ import random
 import sys
 import json
 
+# PARAMETERS
+
 # set paths
-example_nr_prefix = ['three','ten'][1]
+example_nr_prefix = ['two','three','ten'][2]
 example_path = example_nr_prefix + " examples/"
 full_path = "diff_eqns_examples/" + example_path
 
@@ -45,7 +46,7 @@ N_examples = N_classes*N_examples_per_class
 enc_str = ['cont_tfidf','cont_d2v','sem_tfidf','sem_d2v'][3]
 
 # save protocol
-protocol_path = full_path + 'results/' + enc_str + '_' + str(N_classes) + '.txt'
+protocol_path = full_path + 'results/class_clust/' + enc_str + '_' + str(N_classes) + '.txt'
 sys.stdout = open(protocol_path,'w')
 
 # LOADING
@@ -119,7 +120,8 @@ chosen_classes = list(range(N_classes))
 #chosen_classes = [7, 0, 9] # full performance
 
 # combinations
-potential_choices = list(itertools.combinations(sorted((range(10))),N_classes))
+potential_choices = list(itertools.combinations(
+    sorted((range(len(set(eqns_labs))))),N_classes))
 nr_choices = len(potential_choices)
 # executed after main function definition
 
@@ -127,7 +129,7 @@ nr_choices = len(potential_choices)
 
 def get_class_clust_plot(chosen_classes,
                          eqns_labs,eqns_tex,eqns_cont,eqns_qids,
-                         toggle_plot):
+                         show_plot):
 
     # SORTING
 
@@ -197,8 +199,7 @@ def get_class_clust_plot(chosen_classes,
 
     # CLUSTERING
 
-    n_clusters = N_classes
-    clusterer = KMeans(n_clusters=n_clusters)
+    clusterer = KMeans(n_clusters=N_classes)
 
     clustering = clusterer.fit_predict(X)
 
@@ -207,15 +208,23 @@ def get_class_clust_plot(chosen_classes,
 
     # calculate purities
     purities = []
-    ranges = [(0,10),(10,20),(20,30)]
-    for range in ranges:
-        purities.append(max(Counter(clusters[range[0]:range[1]]).values())/10)
+
+    # three examples
+    #ranges = [(0,10),(10,20),(20,30)]
+    # ten examples
+    ranges = []
+    for N in range(N_classes):
+        ranges.append((N*N_examples_per_class,(N+1)*N_examples_per_class))
+
+    # get purity
+    for rangee in ranges:
+        purities.append(max(Counter(clusters[rangee[0]:rangee[1]]).values())/N_examples_per_class)
     purity = np.mean(purities)
 
     print('Cluster purity: ' + str(purity))
 
     # PLOT
-    if toggle_plot == True:
+    if show_plot == True:
 
         # DIMENSIONALITY REDUCTION
 
@@ -232,7 +241,7 @@ def get_class_clust_plot(chosen_classes,
         # labels = eqns_labs
 
         #red = PCA(n_components=2)
-        red = TruncatedSVD(n_components=2)
+        red = TruncatedSVD(n_components=2) #3 in 3D
         vectors_red = red.fit_transform(X)
 
         # calculate cluster centroid distances in reduced space
@@ -270,7 +279,10 @@ def get_class_clust_plot(chosen_classes,
         # reduced vectors
 
         fig = plt.figure()
+        # 2D
         ax = plt.axes()
+        # 3D
+        #ax = fig.add_subplot(projection='3d')
 
         # Plot a line from slope and intercept
         # def plot_line(intercept, slope):
@@ -297,6 +309,7 @@ def get_class_clust_plot(chosen_classes,
         #for i, text in enumerate(eqns_tex):
         #    ax.annotate(text, (vectors_red[i,0],vectors_red[i,1]))
         # text
+        # 2D
         plt.text(0.2, -0.6, 'Mean classification accuracy: ' + str(round(accuracy,2)))
         plt.text(0.2, -0.4, 'Mean cluster purity: ' + str(round(purity,2)))
         # if enc_str == 'cont_tfidf':
@@ -317,7 +330,12 @@ def get_class_clust_plot(chosen_classes,
         plt.ylabel("PCA dimension 2")
         plt.title(title_text)
 
-        ax.scatter(vectors_red[:,0], vectors_red[:,1], c=labels, cmap='rainbow')
+        # 2D
+        ax.scatter(vectors_red[:, 0], vectors_red[:, 1],
+                   c=labels, cmap='rainbow')
+        # 3D
+        #ax.scatter(vectors_red[:,0], vectors_red[:,1], vectors_red[:,2],
+        #           c=labels, cmap='rainbow')
         #ax.legend()
 
         plt.show()
@@ -335,7 +353,7 @@ for chosen_classes in potential_choices:
     accuracy,purity =\
         get_class_clust_plot(chosen_classes,
                          eqns_labs, eqns_tex, eqns_cont, eqns_qids,
-                         toggle_plot=False)
+                         show_plot=False)
     accuracies.append(accuracy)
     purities.append(purity)
 
@@ -351,7 +369,7 @@ print()
 # REPORT
 
 # save results to eval dict
-eval_dict_path = full_path + 'results/' + 'eval_dict.json'
+eval_dict_path = full_path + 'results/class_clust/' + 'eval_dict.json'
 # load
 with open(eval_dict_path,'r') as f:
     eval_dict = json.load(f)
@@ -366,4 +384,4 @@ except:
 with open(eval_dict_path,'w') as f:
     json.dump(eval_dict,f)
 
-print("end")
+#print("end")

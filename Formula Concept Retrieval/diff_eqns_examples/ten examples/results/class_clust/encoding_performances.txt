@@ -1,0 +1,23 @@
+Mean accuracy of encoding cont_tfidf: 0.95
+Mean purity of encoding cont_tfidf: 0.925
+
+Mean accuracy of encoding cont_d2v: 0.9333333333333333
+Mean purity of encoding cont_d2v: 0.9583333333333333
+
+Mean accuracy of encoding sem_tfidf: 0.9583333333333333
+Mean purity of encoding sem_tfidf: 0.9833333333333334
+
+Mean accuracy of encoding sem_d2v: 0.9166666666666666
+Mean purity of encoding sem_d2v: 0.8500000000000001
+
+---
+
+Mean accuracy of encoding cont_tfidf: 0.95
+Mean accuracy of encoding cont_d2v: 0.9333333333333333
+Mean accuracy of encoding sem_tfidf: 0.9583333333333333
+Mean accuracy of encoding sem_d2v: 0.9166666666666666
+
+Mean purity of encoding cont_tfidf: 0.925
+Mean purity of encoding cont_d2v: 0.9583333333333333
+Mean purity of encoding sem_tfidf: 0.9833333333333334
+Mean purity of encoding sem_d2v: 0.8500000000000001

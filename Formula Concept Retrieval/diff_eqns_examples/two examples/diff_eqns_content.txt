@@ -1,0 +1,20 @@
+﻿c, \partial, \psi, t, \nabla, m, \hbar
+u, t, A, f
+\partial^, c, t, h, n, z, ^, \nu
+\nabla, ^, a, \psi, \mu
+\hbar, \partial, \Psi, t, c, \nabla, m
+\nabla, \phi, c, \partial, t, \alpha, a
+u, t, \Delta, m
+\eta, \mu, \nu, \partial, x, m, c, \hbar, \varphi
+c, \partial, t, \sum, i, p, x, m, \hbar, \varphi
+u, t, \Delta, m
+i, \hbar, \partial, t, \psi, H, \psi
+i, \hbar, \partial, t, \Psi, x, m, \partial, V
+i, \hbar, d, t, Psi, H
+H, \Psi, E
+i, \hbar, d, \Psi, t, m, p, V
+i, \hbar, \partial, t, \Psi, r, m, \nabla, V
+\hbar, m, d, \psi, x, E, \psi
+E, \psi, \hbar, m, d, x, \omega
+E, \psi, \hbar, \mu, \nabla, q, \varepsilon, r, \psi
+i, \hbar, \partial, t, \Psi, r, H
