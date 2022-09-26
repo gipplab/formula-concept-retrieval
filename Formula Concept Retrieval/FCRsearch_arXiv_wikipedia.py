@@ -65,15 +65,18 @@ def search_formulae_by_identifier_symbols(identifier_symbols,catalog):
 	Formula_Catalog = get_formula_catalog(catalog=catalog)
 
 	# find all formulae containing at least one identifier symbol from all queried names
-	query_results = {}
+	match_candidates = {}
 	for formula in Formula_Catalog.items():
 		found = []
 		for identifier_symbol in identifier_symbols:
 			if identifier_symbol in formula[1]["id"]:
 					found.append(identifier_symbol)
 
-		if len(found) == len(identifier_symbols):
-			query_results[formula[0] + " (" + formula[1]["file"] + ")"] = found
+		#if len(found) == len(identifier_symbols):
+		match_candidates[formula[0]] = len(found)
+
+	match_candidates_sorted = sorted(match_candidates.items(), key=lambda kv: kv[1], reverse=True)
+	query_results = match_candidates_sorted
 
 	# return query results
 	return query_results
