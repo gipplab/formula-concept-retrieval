@@ -1,4 +1,3 @@
-C:\Users\Philipp\PycharmProjects\PythonVenv\Scripts\python.exe "C:/Users/Philipp/Meine Ablage (philippscharpfresearch@gmail.com)/PhD/Projects/Formula Concepts/formula-concept-retrieval/Formula Concept Retrieval/FCR_search.py"
 Example nr. 1
 Wikidata formula
 ('{\\displaystyle {\\frac {1}{c^{2}}}{\\frac {\\partial ^{2}}{\\partial t^{2}}}\\psi -\\nabla ^{2}\\psi +{\\frac {m^{2}c^{2}}{\\hbar ^{2}}}\\psi =0}', 68.27309236947792)
@@ -12,16 +11,16 @@ Wikidata formula
 ('{\\displaystyle {\\frac {\\partial c}{\\partial t}}=\\nabla \\cdot (D\\nabla c)-\\nabla \\cdot ({\\vec {v}}c)+R}', 50.0)
 ('{\\displaystyle {\\frac {\\partial u}{\\partial t}}-\\alpha \\nabla ^{2}u=0}', 50.0)
 Wikidata identifiers
-\displaystyle \varepsilon is[[Strain(materialsscience)|strain]]
-\displaystyle https://wikimedia.org/api/rest_{v}1/media/math/render/svg/88f6758b4504c63d3764efcbae675418236f8ffd
-\displaystyle https://wikimedia.org/api/rest_{v}1/media/math/render/svg/5db574aa692cbb26ad46a16073c162fd4820ad86
-\displaystyle \delta t=L\left({\frac {1}{v_{1}}}-{\frac {1}{v_{2}}}\right)\approx {\frac {Lc}{2p^{2}}}(m_{1}^{2}-m_{2}^{2})
-\displaystyle {\frac {1}{c^{2}}}{\frac {\partial ^{2}}{\partial t^{2}}}\psi -\nabla ^{2}\psi +{\frac {m^{2}c^{2}}{\hbar ^{2}}}\psi =0
-\displaystyle AMC={\frac {monocytes}{100}}\cdot WBC
-\displaystyle https://wikimedia.org/api/rest_{v}1/media/math/render/svg/a821009d23fc8e0cb336aaa789a39723083f7d66
-\displaystyle https://wikimedia.org/api/rest_{v}1/media/math/render/svg/9e3e99be0d5f411abbb649520d1a436c95b0c951
-\displaystyle https://wikimedia.org/api/rest_{v}1/media/math/render/svg/0a7f5d7121faa8ecb64ee3f4d218b4640be59e0a
-\displaystyle https://wikimedia.org/api/rest_{v}1/media/math/render/svg/9e687358c3e2a12d9d56ca7a19591a441d03bc6d
+('\\displaystyle \\varepsilon is[[Strain(materialsscience)|strain]]', 1)
+('\\displaystyle https://wikimedia.org/api/rest_{v}1/media/math/render/svg/a821009d23fc8e0cb336aaa789a39723083f7d66', 2)
+('\\displaystyle https://wikimedia.org/api/rest_{v}1/media/math/render/svg/88f6758b4504c63d3764efcbae675418236f8ffd', 3)
+('\\displaystyle https://wikimedia.org/api/rest_{v}1/media/math/render/svg/5db574aa692cbb26ad46a16073c162fd4820ad86', 4)
+('\\displaystyle AMC={\\frac {monocytes}{100}}\\cdot WBC', 5)
+('\\displaystyle \\delta t=L\\left({\\frac {1}{v_{1}}}-{\\frac {1}{v_{2}}}\\right)\\approx {\\frac {Lc}{2p^{2}}}(m_{1}^{2}-m_{2}^{2})', 6)
+('\\displaystyle {\\frac {1}{c^{2}}}{\\frac {\\partial ^{2}}{\\partial t^{2}}}\\psi -\\nabla ^{2}\\psi +{\\frac {m^{2}c^{2}}{\\hbar ^{2}}}\\psi =0', 7)
+('\\displaystyle https://wikimedia.org/api/rest_{v}1/media/math/render/svg/9e3e99be0d5f411abbb649520d1a436c95b0c951', 8)
+('\\displaystyle https://wikimedia.org/api/rest_{v}1/media/math/render/svg/0a7f5d7121faa8ecb64ee3f4d218b4640be59e0a', 9)
+('\\displaystyle https://wikimedia.org/api/rest_{v}1/media/math/render/svg/9e687358c3e2a12d9d56ca7a19591a441d03bc6d', 10)
 arXiv formula
 ('\\frac{1}{r}\\frac{\\partial\\phi}{\\partial\\theta}(\\frac{n}{r}+A)=0,', 60.67415730337078)
 ('\\frac{\\partial^{2}\\xi}{\\partial z^{2}}+\\lambda\\left(x^{i}\\right)\\xi=0,', 59.78260869565217)
@@ -79,7 +78,7 @@ Wikidata formula
 ('{\\displaystyle f(x,y,z)=0}', 32.6530612244898)
 ("{\\displaystyle \\mu _{\\mathrm {V} }=\\mu '+(2/3)\\mu }", 32.432432432432435)
 Wikidata identifiers
-\displaystyle {Single-\ loss\ expectancy\ (SLE)}={Asset\ value\ (AV)\ }\times {\ Exposure\ factor\ (EF)}
+('\\displaystyle {Single-\\ loss\\ expectancy\\ (SLE)}={Asset\\ value\\ (AV)\\ }\\times {\\ Exposure\\ factor\\ (EF)}', 1)
 arXiv formula
 ('u_{t}+f(u)_{x}=0', 61.53846153846154)
 ('u_{t}+f(u_{x})=0', 61.53846153846154)
@@ -253,16 +252,16 @@ Wikidata formula
 ('{\\displaystyle {\\frac {\\partial \\mathbf {B} }{\\partial t}}=\\eta \\nabla ^{2}\\mathbf {B} +\\nabla \\times (\\mathbf {u} \\times \\mathbf {B} )}', 48.67256637168141)
 ('{\\displaystyle j={\\frac {\\hbar }{2mi}}\\left(\\Psi ^{*}{\\frac {\\partial \\Psi }{\\partial x}}-\\Psi {\\frac {\\partial \\Psi ^{*}}{\\partial x}}\\right)}', 48.068669527897)
 Wikidata identifiers
-\displaystyle \varepsilon is[[Strain(materialsscience)|strain]]
-\displaystyle https://wikimedia.org/api/rest_{v}1/media/math/render/svg/88f6758b4504c63d3764efcbae675418236f8ffd
-\displaystyle https://wikimedia.org/api/rest_{v}1/media/math/render/svg/5db574aa692cbb26ad46a16073c162fd4820ad86
-\displaystyle https://wikimedia.org/api/rest_{v}1/media/math/render/svg/a821009d23fc8e0cb336aaa789a39723083f7d66
-\displaystyle \delta t=L\left({\frac {1}{v_{1}}}-{\frac {1}{v_{2}}}\right)\approx {\frac {Lc}{2p^{2}}}(m_{1}^{2}-m_{2}^{2})
-\displaystyle {\frac {1}{c^{2}}}{\frac {\partial ^{2}}{\partial t^{2}}}\psi -\nabla ^{2}\psi +{\frac {m^{2}c^{2}}{\hbar ^{2}}}\psi =0
-\displaystyle https://wikimedia.org/api/rest_{v}1/media/math/render/svg/9e687358c3e2a12d9d56ca7a19591a441d03bc6d
-\displaystyle \sigma _{total}={{\bigl (}\sigma _{sample}^{2}+\sigma _{calib}^{2}{\bigr )}}^{\frac {1}{2}}
-\displaystyle i\hbar {\frac {\partial \Psi }{\partial t}}=(c{\hat {\boldsymbol {\alpha }}}\cdot {\hat {\boldsymbol {p}}}+mc^{2}{\hat {\beta }})\Psi 
-\displaystyle \eta _{th}is[[thermalefficiency]]
+('\\displaystyle \\varepsilon is[[Strain(materialsscience)|strain]]', 1)
+('\\displaystyle https://wikimedia.org/api/rest_{v}1/media/math/render/svg/88f6758b4504c63d3764efcbae675418236f8ffd', 2)
+('\\displaystyle https://wikimedia.org/api/rest_{v}1/media/math/render/svg/5db574aa692cbb26ad46a16073c162fd4820ad86', 3)
+('\\displaystyle https://wikimedia.org/api/rest_{v}1/media/math/render/svg/a821009d23fc8e0cb336aaa789a39723083f7d66', 4)
+('\\displaystyle \\delta t=L\\left({\\frac {1}{v_{1}}}-{\\frac {1}{v_{2}}}\\right)\\approx {\\frac {Lc}{2p^{2}}}(m_{1}^{2}-m_{2}^{2})', 5)
+('\\displaystyle {\\frac {1}{c^{2}}}{\\frac {\\partial ^{2}}{\\partial t^{2}}}\\psi -\\nabla ^{2}\\psi +{\\frac {m^{2}c^{2}}{\\hbar ^{2}}}\\psi =0', 6)
+('\\displaystyle AMC={\\frac {monocytes}{100}}\\cdot WBC', 7)
+('\\displaystyle https://wikimedia.org/api/rest_{v}1/media/math/render/svg/9e3e99be0d5f411abbb649520d1a436c95b0c951', 8)
+('\\displaystyle https://wikimedia.org/api/rest_{v}1/media/math/render/svg/9e687358c3e2a12d9d56ca7a19591a441d03bc6d', 9)
+('\\displaystyle \\sigma _{total}={{\\bigl (}\\sigma _{sample}^{2}+\\sigma _{calib}^{2}{\\bigr )}}^{\\frac {1}{2}}', 10)
 arXiv formula
 ('i\\hbar\\frac{\\partial\\Psi}{\\partial t}=H\\Psi,', 61.19402985074627)
 ('i\\hbar{\\frac{\\partial\\psi}{\\partial t}}=\\widehat{\\cal H}\\,\\psi', 60.526315789473685)
@@ -320,16 +319,16 @@ Wikidata formula
 ('{\\displaystyle {\\frac {\\partial \\theta }{\\partial t}}={\\frac {\\partial }{\\partial z}}\\left[K(\\theta )\\left({\\frac {\\partial h}{\\partial z}}+1\\right)\\right]}', 52.27963525835866)
 ('{\\displaystyle {\\frac {\\partial }{\\partial x}}\\left({\\frac {\\partial }{\\partial y}}f(x,y)\\right)={\\frac {\\partial }{\\partial y}}\\left({\\frac {\\partial }{\\partial x}}f(x,y)\\right)}', 52.27272727272727)
 Wikidata identifiers
-\displaystyle \varepsilon is[[Strain(materialsscience)|strain]]
-\displaystyle https://wikimedia.org/api/rest_{v}1/media/math/render/svg/88f6758b4504c63d3764efcbae675418236f8ffd
-\displaystyle https://wikimedia.org/api/rest_{v}1/media/math/render/svg/5db574aa692cbb26ad46a16073c162fd4820ad86
-\displaystyle |c-a/q|\leq tq^{-2},
-\displaystyle FMV\,=\,{VBAB*TAB_{factor}}
-\displaystyle https://wikimedia.org/api/rest_{v}1/media/math/render/svg/a821009d23fc8e0cb336aaa789a39723083f7d66
-\displaystyle \forall t&gt;1\colon |\{(a,b,c)\in (\mathbb {Z} ^{+})^{3}\colon a+b=c,\;\gcd\{a,b,c\}=1,\;c&gt;\operatorname {rad} (abc)^{t}\}|&lt;\aleph _{0}
-\displaystyle {\begin{aligned}k_{1}&amp;=f\left(t_{n},y_{n}\right)\\k_{2}&amp;=f\left(t_{n}+c_{2}h,y_{n}+h\left(a_{21}k_{1}\right)\right)\\k_{3}&amp;=f\left(t_{n}+c_{3}h,y_{n}+h\left(a_{31}k_{1}+a_{32}k_{2}\right)\right)\\&amp;\vdots \\k_{s}&amp;=f\left(t_{n}+c_{s}h,y_{n}+h\left(a_{s1}k_{1}+a_{s2}k_{2}+\cdots +a_{s,s-1}k_{s-1}\right)\right)\\y_{n+1}&amp;=y_{n}+h\sum _{i=1}^{s}b_{i}k_{i}\end{aligned}}
-\displaystyle \ x(t)=M_{a}\sin(2\pi f_{a}t+\phi _{a})+M_{b}\sin(2\pi f_{b}t+\phi _{b})+M_{c}\sin(2\pi f_{c}t+\phi _{c})
-\displaystyle https://wikimedia.org/api/rest_{v}1/media/math/render/svg/9e3e99be0d5f411abbb649520d1a436c95b0c951
+('\\displaystyle \\varepsilon is[[Strain(materialsscience)|strain]]', 1)
+('\\displaystyle https://wikimedia.org/api/rest_{v}1/media/math/render/svg/88f6758b4504c63d3764efcbae675418236f8ffd', 2)
+('\\displaystyle https://wikimedia.org/api/rest_{v}1/media/math/render/svg/5db574aa692cbb26ad46a16073c162fd4820ad86', 3)
+('\\displaystyle |c-a/q|\\leq tq^{-2},', 4)
+('\\displaystyle FMV\\,=\\,{VBAB*TAB_{factor}}', 5)
+('\\displaystyle https://wikimedia.org/api/rest_{v}1/media/math/render/svg/a821009d23fc8e0cb336aaa789a39723083f7d66', 6)
+('\\displaystyle \\forall t&gt;1\\colon |\\{(a,b,c)\\in (\\mathbb {Z} ^{+})^{3}\\colon a+b=c,\\;\\gcd\\{a,b,c\\}=1,\\;c&gt;\\operatorname {rad} (abc)^{t}\\}|&lt;\\aleph _{0}', 7)
+('\\displaystyle \\ x(t)=M_{a}\\sin(2\\pi f_{a}t+\\phi _{a})+M_{b}\\sin(2\\pi f_{b}t+\\phi _{b})+M_{c}\\sin(2\\pi f_{c}t+\\phi _{c})', 8)
+('\\displaystyle {\\begin{aligned}k_{1}&amp;=f\\left(t_{n},y_{n}\\right)\\\\k_{2}&amp;=f\\left(t_{n}+c_{2}h,y_{n}+h\\left(a_{21}k_{1}\\right)\\right)\\\\k_{3}&amp;=f\\left(t_{n}+c_{3}h,y_{n}+h\\left(a_{31}k_{1}+a_{32}k_{2}\\right)\\right)\\\\&amp;\\vdots \\\\k_{s}&amp;=f\\left(t_{n}+c_{s}h,y_{n}+h\\left(a_{s1}k_{1}+a_{s2}k_{2}+\\cdots +a_{s,s-1}k_{s-1}\\right)\\right)\\\\y_{n+1}&amp;=y_{n}+h\\sum _{i=1}^{s}b_{i}k_{i}\\end{aligned}}', 9)
+('\\displaystyle https://wikimedia.org/api/rest_{v}1/media/math/render/svg/9e3e99be0d5f411abbb649520d1a436c95b0c951', 10)
 arXiv formula
 ('\\frac{\\partial h_{\\alpha}}{\\partial t}+\\frac{\\partial B}{\\partial x^{\\alpha}}=0', 54.761904761904766)
 ('X=\\frac{p}{m}\\,\\frac{\\partial}{\\partial x}-f(t)\\,\\frac{\\partial}{\\partial p}\\ .', 53.17460317460318)
@@ -387,14 +386,14 @@ Wikidata formula
 ('{\\displaystyle \\delta \\phi (x)=a+b_{\\mu }x^{\\mu }}', 36.7816091954023)
 ('{\\displaystyle \\Delta f_{\\mathrm {actual} }=f(x+\\Delta x)-f(x)}', 36.0)
 Wikidata identifiers
-\displaystyle net.assets\div net.premium.written
-\displaystyle Fisresultantfinenessmodulus
-\displaystyle \rho ={\frac {m_{eau}}{V_{tot}}}
-\displaystyle m={\frac {(1+CurrencyDrainRatio)}{(CurrencyDrainRatio+DesiredReserveRatio)}}
-\displaystyle TRevPAR=TotalRevenue/RoomsAvailable
-\displaystyle 3+4referstotheprocessofaddingaswellastheoutcomeoftheprocess
-\displaystyle L=N\,l,where''N''isthenumberofmonomers
-\displaystyle {\frac {Energy\ consumed}{Built\ area}}
+('\\displaystyle Fisresultantfinenessmodulus', 1)
+('\\displaystyle net.assets\\div net.premium.written', 2)
+('\\displaystyle \\rho ={\\frac {m_{eau}}{V_{tot}}}', 3)
+('\\displaystyle 3+4referstotheprocessofaddingaswellastheoutcomeoftheprocess', 4)
+('\\displaystyle m={\\frac {(1+CurrencyDrainRatio)}{(CurrencyDrainRatio+DesiredReserveRatio)}}', 5)
+('\\displaystyle TRevPAR=TotalRevenue/RoomsAvailable', 6)
+("\\displaystyle L=N\\,l,where''N''isthenumberofmonomers", 7)
+('\\displaystyle {\\frac {Energy\\ consumed}{Built\\ area}}', 8)
 arXiv formula
 ('\\Delta u+\\lambda f(u)=0', 53.333333333333336)
 ('u_{t}=a(u)\\Delta u+c(u)(\\nabla u)^{2}+q(u))', 52.5)
@@ -452,13 +451,13 @@ Wikidata formula
 ('{\\displaystyle \\operatorname {arcoth} x={\\frac {1}{2}}\\left(\\ln \\left(1+{\\frac {1}{x}}\\right)-\\ln \\left(1-{\\frac {1}{x}}\\right)\\right)}', 49.02723735408561)
 ('{\\displaystyle I(\\theta )=\\operatorname {E} \\left[\\left.\\left({\\frac {\\partial }{\\partial \\theta }}\\log f(X;\\theta )\\right)^{2}\\right|\\theta \\right]}', 48.708487084870846)
 Wikidata identifiers
-\displaystyle \varphi (\theta )=mR\theta +x+\sum _{n\neq 0}c_{n}e^{in\theta }
-\displaystyle S={\frac {1}{c}}\int {d^{4}x{\sqrt {-g}}{\frac {1}{2\mu }}}\times \left[\Phi R-{\frac {\omega (\Phi )}{\Phi }}(\partial _{\sigma }\Phi )^{2}-V(\Phi )+2\mu ~{\mathcal {L}}_{m}(g_{\mu \nu },\Psi )\right]
-\displaystyle {\frac {\ell x^{2}+mx+n}{(x-a)(x-b)(x-c)}}={\frac {A}{(x-a)}}+{\frac {B}{(x-b)}}+{\frac {C}{(x-c)}}
-\displaystyle {{\varepsilon }_{n}}={\frac {{a}_{n}}{2}}{{\left({\frac {2\hbar eH{{v}_{x0}}}{c{\sqrt {{m}_{yy0}}}}}\right)}^{2/3}}
-\displaystyle B(x,\mu )=f(x)-\mu ~\sum _{i=1}^{m}\log(c_{i}(x))~~~~~(2)
-\displaystyle (x^{2}+y^{2})^{2}-(2m^{2}+c)x^{2}+(2m^{2}-c)y^{2}=0
-\displaystyle {\Delta }S_{mix}=-R\sum _{i=1}^{N}c_{i}\ln {c_{i}}
+('\\displaystyle \\varphi (\\theta )=mR\\theta +x+\\sum _{n\\neq 0}c_{n}e^{in\\theta }', 1)
+('\\displaystyle S={\\frac {1}{c}}\\int {d^{4}x{\\sqrt {-g}}{\\frac {1}{2\\mu }}}\\times \\left[\\Phi R-{\\frac {\\omega (\\Phi )}{\\Phi }}(\\partial _{\\sigma }\\Phi )^{2}-V(\\Phi )+2\\mu ~{\\mathcal {L}}_{m}(g_{\\mu \\nu },\\Psi )\\right]', 2)
+('\\displaystyle {{\\varepsilon }_{n}}={\\frac {{a}_{n}}{2}}{{\\left({\\frac {2\\hbar eH{{v}_{x0}}}{c{\\sqrt {{m}_{yy0}}}}}\\right)}^{2/3}}', 3)
+('\\displaystyle B(x,\\mu )=f(x)-\\mu ~\\sum _{i=1}^{m}\\log(c_{i}(x))~~~~~(2)', 4)
+('\\displaystyle {\\frac {\\ell x^{2}+mx+n}{(x-a)(x-b)(x-c)}}={\\frac {A}{(x-a)}}+{\\frac {B}{(x-b)}}+{\\frac {C}{(x-c)}}', 5)
+('\\displaystyle (x^{2}+y^{2})^{2}-(2m^{2}+c)x^{2}+(2m^{2}-c)y^{2}=0', 6)
+('\\displaystyle {\\Delta }S_{mix}=-R\\sum _{i=1}^{N}c_{i}\\ln {c_{i}}', 7)
 arXiv formula
 ('\\left[\\eta^{\\mu\\nu}\\partial_{\\mu}\\partial_{\\nu}+m^{2}_{n}\\right]\\varphi_{n}=0.', 63.0)
 ('\\left.+g^{\\mu\\nu}\\partial_{\\mu}\\eta\\partial_{\\nu}\\eta-2M^{2}\\eta^{2}\\right)', 59.89847715736041)
@@ -574,14 +573,14 @@ Wikidata formula
 ('{\\displaystyle \\Delta ^{2}f=0}', 36.92307692307693)
 ('{\\displaystyle \\Delta \\phi =f}', 36.92307692307693)
 Wikidata identifiers
-\displaystyle Fisresultantfinenessmodulus
-\displaystyle net.assets\div net.premium.written
-\displaystyle \rho ={\frac {m_{eau}}{V_{tot}}}
-\displaystyle TRevPAR=TotalRevenue/RoomsAvailable
-\displaystyle m={\frac {(1+CurrencyDrainRatio)}{(CurrencyDrainRatio+DesiredReserveRatio)}}
-\displaystyle 3+4referstotheprocessofaddingaswellastheoutcomeoftheprocess
-\displaystyle L=N\,l,where''N''isthenumberofmonomers
-\displaystyle {\frac {Energy\ consumed}{Built\ area}}
+('\\displaystyle net.assets\\div net.premium.written', 1)
+('\\displaystyle Fisresultantfinenessmodulus', 2)
+('\\displaystyle \\rho ={\\frac {m_{eau}}{V_{tot}}}', 3)
+('\\displaystyle TRevPAR=TotalRevenue/RoomsAvailable', 4)
+('\\displaystyle 3+4referstotheprocessofaddingaswellastheoutcomeoftheprocess', 5)
+('\\displaystyle m={\\frac {(1+CurrencyDrainRatio)}{(CurrencyDrainRatio+DesiredReserveRatio)}}', 6)
+("\\displaystyle L=N\\,l,where''N''isthenumberofmonomers", 7)
+('\\displaystyle {\\frac {Energy\\ consumed}{Built\\ area}}', 8)
 arXiv formula
 ('\\Delta u+\\lambda f(u)=0', 55.172413793103445)
 ('u_{t}=a(u)\\Delta u+c(u)(\\nabla u)^{2}+q(u))', 51.28205128205128)
@@ -639,8 +638,8 @@ Wikidata formula
 ('{\\displaystyle g_{\\mu \\nu }=e_{\\mu }^{a}e_{\\nu }^{b}\\eta _{ab}}', 46.15384615384615)
 ('{\\displaystyle ch(V)=\\sum _{\\mu }\\dim V_{\\mu }e^{\\mu }}', 45.87155963302752)
 Wikidata identifiers
-\displaystyle {\begin{aligned}\beta ^{i}(g){\frac {\partial c(g)}{\partial g_{i}}}&amp;\leq 0\\c(g)&amp;=C(g)+4\beta ^{i}(g)H_{i}(g)-6\beta ^{i}(g)\beta ^{j}(g)G_{ij}(g)\\C(g)&amp;=2z^{2}\langle T_{zz}(z,{\bar {z}})T_{zz}(0)\rangle |_{|z|=1}\\H_{i}(g)&amp;=z^{2}|z|^{2}\langle T_{zz}(z,{\bar {z}})\Phi _{i}(0)\rangle _{|z|=1}\\G_{ij}(g)&amp;=|z|^{4}\langle \Phi _{i}(z,{\bar {z}})\Phi _{j}(0)\rangle |_{|z|=1}\\T_{z{\bar {z}}}&amp;=\beta ^{i}(g)\Phi _{i}\end{aligned}}
-\displaystyle G_{\mu \nu }+\Lambda g_{\mu \nu }={\frac {8\pi G}{c^{4}}}T_{\mu \nu }
+('\\displaystyle {\\begin{aligned}\\beta ^{i}(g){\\frac {\\partial c(g)}{\\partial g_{i}}}&amp;\\leq 0\\\\c(g)&amp;=C(g)+4\\beta ^{i}(g)H_{i}(g)-6\\beta ^{i}(g)\\beta ^{j}(g)G_{ij}(g)\\\\C(g)&amp;=2z^{2}\\langle T_{zz}(z,{\\bar {z}})T_{zz}(0)\\rangle |_{|z|=1}\\\\H_{i}(g)&amp;=z^{2}|z|^{2}\\langle T_{zz}(z,{\\bar {z}})\\Phi _{i}(0)\\rangle _{|z|=1}\\\\G_{ij}(g)&amp;=|z|^{4}\\langle \\Phi _{i}(z,{\\bar {z}})\\Phi _{j}(0)\\rangle |_{|z|=1}\\\\T_{z{\\bar {z}}}&amp;=\\beta ^{i}(g)\\Phi _{i}\\end{aligned}}', 1)
+('\\displaystyle G_{\\mu \\nu }+\\Lambda g_{\\mu \\nu }={\\frac {8\\pi G}{c^{4}}}T_{\\mu \\nu }', 2)
 arXiv formula
 ('G_{\\mu\\nu}+\\Lambda g_{\\mu\\nu}=\\kappa T_{\\mu\\nu},', 92.15686274509804)
 ('G_{\\mu\\nu}-\\Lambda g_{\\mu\\nu}=\\kappa T_{\\mu\\nu}\\,,', 88.46153846153845)
@@ -756,8 +755,8 @@ Wikidata formula
 ('{\\displaystyle \\Lambda _{\\mathrm {m} }={\\frac {\\kappa }{c}}}', 44.96124031007752)
 ('{\\displaystyle a_{\\mathrm {A} }=\\lambda _{\\mathrm {A} }/\\lambda _{\\mathrm {A} }^{*}}', 44.44444444444444)
 Wikidata identifiers
-\displaystyle {\begin{aligned}\beta ^{i}(g){\frac {\partial c(g)}{\partial g_{i}}}&amp;\leq 0\\c(g)&amp;=C(g)+4\beta ^{i}(g)H_{i}(g)-6\beta ^{i}(g)\beta ^{j}(g)G_{ij}(g)\\C(g)&amp;=2z^{2}\langle T_{zz}(z,{\bar {z}})T_{zz}(0)\rangle |_{|z|=1}\\H_{i}(g)&amp;=z^{2}|z|^{2}\langle T_{zz}(z,{\bar {z}})\Phi _{i}(0)\rangle _{|z|=1}\\G_{ij}(g)&amp;=|z|^{4}\langle \Phi _{i}(z,{\bar {z}})\Phi _{j}(0)\rangle |_{|z|=1}\\T_{z{\bar {z}}}&amp;=\beta ^{i}(g)\Phi _{i}\end{aligned}}
-\displaystyle G_{\mu \nu }+\Lambda g_{\mu \nu }={\frac {8\pi G}{c^{4}}}T_{\mu \nu }
+('\\displaystyle {\\begin{aligned}\\beta ^{i}(g){\\frac {\\partial c(g)}{\\partial g_{i}}}&amp;\\leq 0\\\\c(g)&amp;=C(g)+4\\beta ^{i}(g)H_{i}(g)-6\\beta ^{i}(g)\\beta ^{j}(g)G_{ij}(g)\\\\C(g)&amp;=2z^{2}\\langle T_{zz}(z,{\\bar {z}})T_{zz}(0)\\rangle |_{|z|=1}\\\\H_{i}(g)&amp;=z^{2}|z|^{2}\\langle T_{zz}(z,{\\bar {z}})\\Phi _{i}(0)\\rangle _{|z|=1}\\\\G_{ij}(g)&amp;=|z|^{4}\\langle \\Phi _{i}(z,{\\bar {z}})\\Phi _{j}(0)\\rangle |_{|z|=1}\\\\T_{z{\\bar {z}}}&amp;=\\beta ^{i}(g)\\Phi _{i}\\end{aligned}}', 1)
+('\\displaystyle G_{\\mu \\nu }+\\Lambda g_{\\mu \\nu }={\\frac {8\\pi G}{c^{4}}}T_{\\mu \\nu }', 2)
 arXiv formula
 ('G_{\\mu\\nu}=-\\Lambda g_{\\mu\\nu}+\\kappa^{2}T^{\\rm tot}_{\\mu\\nu}\\,,', 91.72932330827068)
 ('G_{\\mu\\nu}-\\Lambda g_{\\mu\\nu}=\\kappa T_{\\mu\\nu}\\,,', 77.31092436974791)
@@ -1279,7 +1278,7 @@ Wikidata formula
 ('{\\displaystyle \\beta _{\\mathrm {v} }={\\frac {L_{\\mathrm {v} ,\\mathrm {n} }}{L_{\\mathrm {v} ,\\mathrm {d} }}}}', 51.52838427947598)
 ('{\\displaystyle 1\\ \\mathrm {Gy} =1\\ {\\frac {\\mathrm {J} }{\\mathrm {kg} }}=1\\ {\\frac {\\mathrm {m} ^{2}}{\\mathrm {s} ^{2}}}}', 51.23966942148761)
 Wikidata identifiers
-\displaystyle \ CVI(ESA)=A\phi \mu _{d}{\frac {\rho _{p}-\rho _{m}}{\rho _{m}}}
+('\\displaystyle \\ CVI(ESA)=A\\phi \\mu _{d}{\\frac {\\rho _{p}-\\rho _{m}}{\\rho _{m}}}', 1)
 arXiv formula
 ('\\oint_{\\partial\\mathbb{H}}\\,\\mathrm{d}z\\frac{1}{\\bar{u}-z}\\frac{1}{\\bar{z}-w}', 54.54545454545454)
 ('\\omega_{ij}=\\mathbf{e}_{i}\\cdot\\mathrm{d}\\mathbf{e}_{j}', 50.0)
@@ -1395,7 +1394,7 @@ Wikidata formula
 ('{\\displaystyle {\\boldsymbol {\\nabla }}\\cdot \\mathbb {P} +\\mathbf {f} =0}', 57.55395683453237)
 ('{\\displaystyle {\\hat {\\mathbf {Z} }}=\\varprojlim \\mathbf {Z} /n\\mathbf {Z} }', 57.34265734265735)
 Wikidata identifiers
-\displaystyle SR={\frac {CompoundROR}{ABS(Avg.AnnualDD-10\%)}}
+('\\displaystyle SR={\\frac {CompoundROR}{ABS(Avg.AnnualDD-10\\%)}}', 1)
 arXiv formula
 ('\\mathbf{n}\\cdot\\mathrm{d}\\mathbf{x}=0', 67.3076923076923)
 ('\\theta=J\\mathbf{u}\\cdot\\mathrm{d}\\mathbf{u}', 67.27272727272727)
@@ -1685,7 +1684,7 @@ Wikidata formula
 ('{\\displaystyle f(x)={\\frac {x^{\\alpha -1}(1+x)^{-\\alpha -\\beta }}{B(\\alpha ,\\beta )}}}', 50.0)
 ('{\\displaystyle \\Lambda _{\\mathrm {m} }={\\frac {\\kappa }{c}}}', 49.152542372881356)
 Wikidata identifiers
-\displaystyle {\vec {F}}={\frac {q^{2}}{6\pi \epsilon _{0}c^{3}}}{\frac {d{\vec {a}}}{dt}}={\frac {q^{2}}{6\pi \epsilon _{0}c^{3}}}{\vec {j}}
+('\\displaystyle {\\vec {F}}={\\frac {q^{2}}{6\\pi \\epsilon _{0}c^{3}}}{\\frac {d{\\vec {a}}}{dt}}={\\frac {q^{2}}{6\\pi \\epsilon _{0}c^{3}}}{\\vec {j}}', 1)
 arXiv formula
 ('\\partial^{\\alpha}\\equiv g^{\\alpha\\beta}\\,\\partial_{\\beta}', 67.82608695652175)
 ('\\partial_{\\alpha}\\,F^{\\alpha\\beta}=0', 65.95744680851064)
@@ -1743,16 +1742,16 @@ Wikidata formula
 ('{\\displaystyle {\\alpha }=(1-D){\\bar {\\alpha }}(\\theta _{i})+D{\\bar {\\bar {\\alpha }}}}', 46.913580246913575)
 ('{\\displaystyle R_{T}=R{\\sqrt {\\sin ^{2}\\alpha \\sin ^{2}\\beta \\sin ^{2}\\gamma +\\cos ^{2}\\alpha \\cos ^{2}\\beta \\cos ^{2}\\gamma }}}', 46.829268292682926)
 Wikidata identifiers
-\displaystyle 2^{-s}F(s;q)=F\left(s,{\frac {q}{2}}\right)+F\left(s,{\frac {q+1}{2}}\right).
-\displaystyle FMV\,=\,{VBAB*TAB_{factor}}
-\displaystyle F(v_{1},...,av_{i}+av_{i}',...,v_{k})=aF(v_{1},...,v_{i},...,v_{k})+a'F(v_{1},...,v_{i}',...,v_{k})
-\displaystyle FEV1/FVC
-\displaystyle A_{ABDE}+A_{ACFG}=A_{BCLM}
-\displaystyle p:E\to F\land F\subseteq E\land p^{2}=p
-\displaystyle T_{raise}={\frac {Fd_{m}}{2}}\left({\frac {l+\pi \mu d_{m}}{\pi d_{m}-\mu l}}\right)={\frac {Fd_{m}}{2}}\tan {\left(\phi +\lambda \right)}
-\displaystyle g_{F}=g_{obs}-g_{\lambda }+\delta g_{F}
-\displaystyle W_{\mathrm {SWU} }=P\cdot V\left(x_{p}\right)+T\cdot V(x_{t})-F\cdot V(x_{f})
-\displaystyle F_{\mathrm {t} ,\mathrm {max} }=\mu _{\mathrm {s} }N
+("\\displaystyle F(v_{1},...,av_{i}+av_{i}',...,v_{k})=aF(v_{1},...,v_{i},...,v_{k})+a'F(v_{1},...,v_{i}',...,v_{k})", 1)
+('\\displaystyle FEV1/FVC', 2)
+('\\displaystyle A_{ABDE}+A_{ACFG}=A_{BCLM}', 3)
+('\\displaystyle p:E\\to F\\land F\\subseteq E\\land p^{2}=p', 4)
+('\\displaystyle T_{raise}={\\frac {Fd_{m}}{2}}\\left({\\frac {l+\\pi \\mu d_{m}}{\\pi d_{m}-\\mu l}}\\right)={\\frac {Fd_{m}}{2}}\\tan {\\left(\\phi +\\lambda \\right)}', 5)
+('\\displaystyle g_{F}=g_{obs}-g_{\\lambda }+\\delta g_{F}', 6)
+('\\displaystyle W_{\\mathrm {SWU} }=P\\cdot V\\left(x_{p}\\right)+T\\cdot V(x_{t})-F\\cdot V(x_{f})', 7)
+('\\displaystyle F_{\\mathrm {t} ,\\mathrm {max} }=\\mu _{\\mathrm {s} }N', 8)
+('\\displaystyle T_{A}=3.468F{{\\lambda }^{2}}10^{G/10}', 9)
+('\\displaystyle Q_{Y}(\\tau )=F_{Y}^{-1}(\\tau )=\\inf \\left\\{yF_{Y}(y)\\geq \\tau \\right\\}', 10)
 arXiv formula
 ('e^{\\;\\alpha\\beta\\gamma\\delta}\\partial_{\\;\\beta}F_{\\;\\gamma\\delta}=0.', 81.37931034482759)
 ('\\epsilon^{\\alpha\\beta\\gamma\\delta\\epsilon}\\partial_{\\alpha}f_{\\beta\\gamma}=0', 74.50980392156863)
@@ -1810,11 +1809,11 @@ Wikidata formula
 ('{\\displaystyle U|\\psi \\rangle _{A}|e\\rangle _{B}=|\\psi \\rangle _{A}|\\psi \\rangle _{B}}', 52.071005917159766)
 ('{\\displaystyle -{\\frac {\\partial u}{\\partial t}}=\\nabla \\cdot \\mathbf {S} +\\mathbf {J} \\cdot \\mathbf {E} }', 51.85185185185186)
 Wikidata identifiers
-\displaystyle \partial _{t}\rho ={\frac {i}{\hbar }}[\rho ,H]=L\rho 
-\displaystyle {\begin{aligned}&amp;{\frac {\mathrm {d} }{\mathrm {d} t}}\rho (t)=-{\frac {\mathrm {i} }{\hbar }}[H,\rho (t)]-\sum _{i=1}^{N}\lambda \left(\rho (t)-T_{i}[\rho ]\right)\\&amp;T_{i}[\rho ]\equiv \int \mathrm {d} x\,L_{x}^{i}\rho L_{x}^{i}\\&amp;L_{x}^{i}=\left(\pi r_{0}^{2}\right)^{-3/4}\exp \left(-{\frac {(x_{i}-x)^{2}}{2r_{0}^{2}}}\right)\end{aligned}}
-\displaystyle H(t)=-\sum _{i}P(X(t)=i)\log \left({\frac {P(X(t)=i)}{\pi _{i}}}\right)
-\displaystyle ABSI={WC \over {BMI^{2 \over 3}\times Height^{1 \over 2}}}
-\displaystyle {\frac {\partial {\hat {\rho }}}{\partial t}}=-{\frac {i}{\hbar }}\left[{\hat {H}},{\hat {\rho }}\right]
+('\\displaystyle \\partial _{t}\\rho ={\\frac {i}{\\hbar }}[\\rho ,H]=L\\rho ', 1)
+('\\displaystyle {\\begin{aligned}&amp;{\\frac {\\mathrm {d} }{\\mathrm {d} t}}\\rho (t)=-{\\frac {\\mathrm {i} }{\\hbar }}[H,\\rho (t)]-\\sum _{i=1}^{N}\\lambda \\left(\\rho (t)-T_{i}[\\rho ]\\right)\\\\&amp;T_{i}[\\rho ]\\equiv \\int \\mathrm {d} x\\,L_{x}^{i}\\rho L_{x}^{i}\\\\&amp;L_{x}^{i}=\\left(\\pi r_{0}^{2}\\right)^{-3/4}\\exp \\left(-{\\frac {(x_{i}-x)^{2}}{2r_{0}^{2}}}\\right)\\end{aligned}}', 2)
+('\\displaystyle H(t)=-\\sum _{i}P(X(t)=i)\\log \\left({\\frac {P(X(t)=i)}{\\pi _{i}}}\\right)', 3)
+('\\displaystyle ABSI={WC \\over {BMI^{2 \\over 3}\\times Height^{1 \\over 2}}}', 4)
+('\\displaystyle {\\frac {\\partial {\\hat {\\rho }}}{\\partial t}}=-{\\frac {i}{\\hbar }}\\left[{\\hat {H}},{\\hat {\\rho }}\\right]', 5)
 arXiv formula
 ('i\\hbar\\frac{\\partial}{\\partial t}|\\Psi(t)\\rangle=\\hat{H}(t)|\\Psi(t)\\rangle.', 87.34177215189874)
 ('i\\hbar\\frac{\\partial}{\\partial t}|\\Psi(t)\\rangle=\\hat{H}(t)|\\Psi(t)\\rangle,', 87.34177215189874)
@@ -1872,7 +1871,7 @@ Wikidata formula
 ('{\\displaystyle \\nabla ^{2}={\\frac {\\partial ^{2}}{\\partial x^{2}}}+{\\frac {\\partial ^{2}}{\\partial y^{2}}}+{\\frac {\\partial ^{2}}{\\partial z^{2}}}}', 53.76344086021505)
 ('{\\displaystyle x{\\frac {\\partial f}{\\partial x}}(p,q,r)+y{\\frac {\\partial f}{\\partial y}}(p,q,r)+z{\\frac {\\partial f}{\\partial z}}(p,q,r)=0}', 53.67647058823529)
 Wikidata identifiers
-\displaystyle m{\frac {\mathrm {d} ^{2}{\vec {x}}(t)}{\mathrm {d} t^{2}}}=-\nabla V({\vec {x}}(t))with{\vec {x}}=(x,y,z)
+('\\displaystyle m{\\frac {\\mathrm {d} ^{2}{\\vec {x}}(t)}{\\mathrm {d} t^{2}}}=-\\nabla V({\\vec {x}}(t))with{\\vec {x}}=(x,y,z)', 1)
 arXiv formula
 ('v=\\frac{\\partial}{\\partial x}\\theta-\\frac{1}{2}\\psi\\frac{\\partial}{\\partial x}\\psi', 66.35514018691589)
 ('\\frac{\\partial}{\\partial x^{j}}\\left(g^{jk}(x)\\frac{\\partial}{\\partial x^{k}}\\right)', 63.888888888888886)
@@ -1988,16 +1987,16 @@ Wikidata formula
 ('{\\displaystyle L=\\langle \\in \\rangle }', 50.0)
 ("{\\displaystyle \\forall A\\in \\operatorname {Observable} \\colon \\langle \\psi |A|\\psi '\\rangle =0}", 49.6551724137931)
 Wikidata identifiers
-\displaystyle F/E,F^{\#}/E\in H_{2}(\mathbb {C} ^{+})
-\displaystyle E[B_{H}(t)B_{H}(s)]={\tfrac {1}{2}}(|t|^{2H}+|s|^{2H}-|t-s|^{2H})
-\displaystyle H_{i}=E_{m_{i}}{(H_{i-1})}\oplus {H_{i-1}}
-\displaystyle |\psi ^{(\pm )}\rangle =|\phi \rangle +{\frac {1}{E-H_{0}\pm i\epsilon }}V|\psi ^{(\pm )}\rangle .\,
-\displaystyle {\begin{aligned}&amp;\pi \colon M\to B(H)\\&amp;\forall E\in M\colon \pi (E)=\pi (E)^{\dagger }\\&amp;\pi (X)=\operatorname {id} _{H}\\&amp;\pi (\varnothing )=0_{H}\\&amp;\forall E\in M^{\mathbb {N} },x\in H\colon \left(\forall i\neq j\colon E_{i}\cap E_{j}=\varnothing \right)\implies \left\langle \pi \left(\bigcup _{i=0}^{\infty }E_{i}\right)x,x\right\rangle =\sum _{i=0}^{\infty }\langle \pi (E_{i})x,x\rangle \geq 0\end{aligned}}
-\displaystyle E_{2}^{p,q}={\check {H}}^{p}({\mathfrak {U}},{\mathcal {H}}^{q}(X,{\mathcal {F}}))\Rightarrow H^{p+q}(X,{\mathcal {F}})
-\displaystyle \Phi \colon H^{k}(B;\mathbf {Z} _{2})\to {\tilde {H}}^{k+n}(T(E);\mathbf {Z} _{2})
-\displaystyle \eta ={E_{x} \over H_{y}}
-\displaystyle H_{\mathrm {eff} }(E)=QHQ+\lim _{\varepsilon \to 0}QHP{1 \over E+i\varepsilon -PHP}PHQ=QHQ+\Delta (E)-i\Gamma (E)/2,
-\displaystyle {\hat {H}}|\psi \rangle =E|\psi \rangle 
+('\\displaystyle F/E,F^{\\#}/E\\in H_{2}(\\mathbb {C} ^{+})', 1)
+('\\displaystyle |\\psi ^{(\\pm )}\\rangle =|\\phi \\rangle +{\\frac {1}{E-H_{0}\\pm i\\epsilon }}V|\\psi ^{(\\pm )}\\rangle .\\,', 2)
+('\\displaystyle {\\begin{aligned}&amp;\\pi \\colon M\\to B(H)\\\\&amp;\\forall E\\in M\\colon \\pi (E)=\\pi (E)^{\\dagger }\\\\&amp;\\pi (X)=\\operatorname {id} _{H}\\\\&amp;\\pi (\\varnothing )=0_{H}\\\\&amp;\\forall E\\in M^{\\mathbb {N} },x\\in H\\colon \\left(\\forall i\\neq j\\colon E_{i}\\cap E_{j}=\\varnothing \\right)\\implies \\left\\langle \\pi \\left(\\bigcup _{i=0}^{\\infty }E_{i}\\right)x,x\\right\\rangle =\\sum _{i=0}^{\\infty }\\langle \\pi (E_{i})x,x\\rangle \\geq 0\\end{aligned}}', 3)
+('\\displaystyle E_{2}^{p,q}={\\check {H}}^{p}({\\mathfrak {U}},{\\mathcal {H}}^{q}(X,{\\mathcal {F}}))\\Rightarrow H^{p+q}(X,{\\mathcal {F}})', 4)
+('\\displaystyle E[B_{H}(t)B_{H}(s)]={\\tfrac {1}{2}}(|t|^{2H}+|s|^{2H}-|t-s|^{2H})', 5)
+('\\displaystyle H_{i}=E_{m_{i}}{(H_{i-1})}\\oplus {H_{i-1}}', 6)
+('\\displaystyle H_{\\mathrm {eff} }(E)=QHQ+\\lim _{\\varepsilon \\to 0}QHP{1 \\over E+i\\varepsilon -PHP}PHQ=QHQ+\\Delta (E)-i\\Gamma (E)/2,', 7)
+('\\displaystyle \\Phi \\colon H^{k}(B;\\mathbf {Z} _{2})\\to {\\tilde {H}}^{k+n}(T(E);\\mathbf {Z} _{2})', 8)
+('\\displaystyle P(H\\mid E)={\\frac {P(E\\mid H)\\cdot P(H)}{P(E)}}', 9)
+('\\displaystyle {\\begin{aligned}&amp;\\pi \\colon M\\to B(H)\\\\&amp;\\forall E\\in M\\colon \\pi (E)^{2}=\\pi (E)=\\pi (E)^{\\dagger }\\\\&amp;\\pi (X)=\\operatorname {id} _{H}\\\\&amp;\\pi (\\varnothing )=0_{H}\\\\&amp;\\forall E\\in M^{\\mathbb {N} },x\\in H\\colon \\left(\\forall i\\neq j\\colon E_{i}\\cap E_{j}=\\varnothing \\right)\\implies \\left\\langle \\pi \\left(\\bigcup _{i=0}^{\\infty }E_{i}\\right)x,x\\right\\rangle =\\sum _{i=0}^{\\infty }\\langle \\pi (E_{i})x,x\\rangle \\end{aligned}}', 10)
 arXiv formula
 ('\\hat{H}|\\Psi\\rangle-E|\\Psi\\rangle=0', 72.94117647058825)
 ('{\\cal H}|\\psi\\rangle=E|\\psi\\rangle', 71.42857142857143)
@@ -2113,7 +2112,7 @@ Wikidata formula
 ('{\\displaystyle \\rho _{0}{\\frac {\\partial ^{2}\\mathbf {u} }{\\partial t^{2}}}=\\left(\\lambda +\\mu \\right)\\mathbf {grad} \\left(\\mathrm {div} \\;\\mathbf {u} \\right)+\\mu \\Delta \\mathbf {u} +\\mathbf {f} _{v}}', 50.29585798816568)
 ('{\\displaystyle E_{n}({\\mathbf {k}})={\\frac {\\hbar ^{2}({\\mathbf {k}}+{\\mathbf {G}}_{n})^{2}}{2m}}}', 50.0)
 Wikidata identifiers
-\displaystyle V_{i}isthemembranepotentialofithcompartment
+('\\displaystyle V_{i}isthemembranepotentialofithcompartment', 1)
 arXiv formula
 ('i\\frac{\\partial}{\\partial t}\\psi=-\\frac{\\nabla^{2}}{2m_{e}}\\psi+V(x)\\ast\\psi,', 57.674418604651166)
 ('i\\hbar\\frac{\\partial}{\\partial t}|\\Psi(t)\\rangle=\\hat{H}(t)|\\Psi(t)\\rangle,', 57.27699530516433)
@@ -2345,7 +2344,7 @@ Wikidata formula
 ('{\\displaystyle {\\frac {\\partial \\mathbf {v} }{\\partial t}}+(\\mathbf {v} \\cdot \\nabla )\\mathbf {v} =\\mathbf {g} -{\\frac {1}{\\rho }}\\nabla p}', 51.85185185185186)
 ('{\\displaystyle {\\frac {\\partial {\\hat {\\rho }}}{\\partial t}}=-{\\frac {i}{\\hbar }}\\left[{\\hat {H}},{\\hat {\\rho }}\\right]}', 51.78571428571428)
 Wikidata identifiers
-\displaystyle {\begin{aligned}&amp;{\frac {\mathrm {d} }{\mathrm {d} t}}\rho (t)=-{\frac {\mathrm {i} }{\hbar }}[H,\rho (t)]-\sum _{i=1}^{N}\lambda \left(\rho (t)-T_{i}[\rho ]\right)\\&amp;T_{i}[\rho ]\equiv \int \mathrm {d} x\,L_{x}^{i}\rho L_{x}^{i}\\&amp;L_{x}^{i}=\left(\pi r_{0}^{2}\right)^{-3/4}\exp \left(-{\frac {(x_{i}-x)^{2}}{2r_{0}^{2}}}\right)\end{aligned}}
+('\\displaystyle {\\begin{aligned}&amp;{\\frac {\\mathrm {d} }{\\mathrm {d} t}}\\rho (t)=-{\\frac {\\mathrm {i} }{\\hbar }}[H,\\rho (t)]-\\sum _{i=1}^{N}\\lambda \\left(\\rho (t)-T_{i}[\\rho ]\\right)\\\\&amp;T_{i}[\\rho ]\\equiv \\int \\mathrm {d} x\\,L_{x}^{i}\\rho L_{x}^{i}\\\\&amp;L_{x}^{i}=\\left(\\pi r_{0}^{2}\\right)^{-3/4}\\exp \\left(-{\\frac {(x_{i}-x)^{2}}{2r_{0}^{2}}}\\right)\\end{aligned}}', 1)
 arXiv formula
 ('\\hat{E}_{i}\\left(\\mathbf{r},t\\right)\\hat{E}_{j}\\left(\\mathbf{r},t\\right)', 72.72727272727273)
 ('\\hat{E}_{i}\\left(\\mathbf{r},t\\right)\\hat{B}_{j}\\left(\\mathbf{r},t\\right)', 72.72727272727273)
@@ -2403,11 +2402,11 @@ Wikidata formula
 ('{\\displaystyle x(x^{2}+y^{2})=y(ay-bx)}', 31.25)
 ('{\\displaystyle x^{2}-y^{2}=\\pm 1}', 31.034482758620683)
 Wikidata identifiers
-\displaystyle f(x)=\sum _{k=1}^{n}a_{k}{\mathbf {1} }_{A_{k}}(x)
-\displaystyle f(z)=\sum _{n=0}^{\infty }\left[A_{n}(1-z)f^{(2n)}(0)+A_{n}(z)f^{(2n)}(1)\right]+\sum _{k=1}^{N}C_{k}\sin(k\pi z)
-\displaystyle f(x)={\frac {a_{0}}{2}}+\sum \limits _{k=1}^{+\infty }A_{k}\cos \left(k{\frac {2\pi }{\tau }}x+\theta _{k}\right)=\sum \limits _{k=-\infty }^{+\infty }{\hat {f}}_{k}e^{ik{\frac {2\pi }{\tau }}x}
-\displaystyle f(\mu _{A}(a_{1},\ldots ,a_{k}))=\mu _{B}(f(a_{1}),\ldots ,f(a_{k}))
-\displaystyle \xi =A_{x}f_{x}(z)e^{i(\omega t-kx)}\quad \quad (1)
+('\\displaystyle f(x)=\\sum _{k=1}^{n}a_{k}{\\mathbf {1} }_{A_{k}}(x)', 1)
+('\\displaystyle f(z)=\\sum _{n=0}^{\\infty }\\left[A_{n}(1-z)f^{(2n)}(0)+A_{n}(z)f^{(2n)}(1)\\right]+\\sum _{k=1}^{N}C_{k}\\sin(k\\pi z)', 2)
+('\\displaystyle f(x)={\\frac {a_{0}}{2}}+\\sum \\limits _{k=1}^{+\\infty }A_{k}\\cos \\left(k{\\frac {2\\pi }{\\tau }}x+\\theta _{k}\\right)=\\sum \\limits _{k=-\\infty }^{+\\infty }{\\hat {f}}_{k}e^{ik{\\frac {2\\pi }{\\tau }}x}', 3)
+('\\displaystyle f(\\mu _{A}(a_{1},\\ldots ,a_{k}))=\\mu _{B}(f(a_{1}),\\ldots ,f(a_{k}))', 4)
+('\\displaystyle \\xi =A_{x}f_{x}(z)e^{i(\\omega t-kx)}\\quad \\quad (1)', 5)
 arXiv formula
 ('(\\nabla^{2}+m^{2})\\phi=0', 53.06122448979591)
 ('(\\nabla^{2}X)', 52.63157894736843)
@@ -2465,16 +2464,16 @@ Wikidata formula
 ("{\\displaystyle f=g\\circ f'}", 34.78260869565217)
 ('{\\displaystyle Qf=\\int fdQ}', 34.78260869565217)
 Wikidata identifiers
-\displaystyle https://wikimedia.org/api/rest_{v}1/media/math/render/svg/88f6758b4504c63d3764efcbae675418236f8ffd
-\displaystyle https://wikimedia.org/api/rest_{v}1/media/math/render/svg/5db574aa692cbb26ad46a16073c162fd4820ad86
-\displaystyle {\boldsymbol {x}}_{k}=f({\boldsymbol {x}}_{k-1},{\boldsymbol {u}}_{k})+{\boldsymbol {w}}_{k}
-\displaystyle \operatorname {W} ^{s,p}(M)=\left\{f\in \operatorname {L} ^{p}(M)\colon \sum _{\mu _{1},\dots ,\mu _{k}}T^{\mu _{1},\dots ,\mu _{k}}\partial _{\mu _{1}}\cdots \partial _{\mu _{k}}f\in \operatorname {L} ^{p}(M;\mathbb {K} )\qquad \forall T\in \Gamma ^{\infty }(\mathrm {T} M^{\otimes k}),\,\|T\|\leq 1,\,k\leq s\right\}
-\displaystyle f(x)=\sum _{k=0}^{\infty }{\frac {\phi (k)}{k!}}(-x)^{k}\!
-\displaystyle f(x)={\frac {a_{0}}{2}}+\sum _{k=1}^{n}(a_{k}\cos(kx)+b_{k}\sin(kx))
-\displaystyle [T_{i},T_{j}]=if^{ijk}T^{k}
-\displaystyle https://wikimedia.org/api/rest_{v}1/media/math/render/svg/a821009d23fc8e0cb336aaa789a39723083f7d66
-\displaystyle {\dot {k}}=f(k)-c-(n+g+\delta )k
-\displaystyle f_{X}(x;n)={\frac {1}{2(n-1)!}}\sum _{k=0}^{n}(-1)^{k}{n \choose k}(x-k)^{n-1}\operatorname {sgn}(x-k)
+('\\displaystyle f(x)=\\sum _{k=0}^{\\infty }{\\frac {\\phi (k)}{k!}}(-x)^{k}\\!', 1)
+('\\displaystyle https://wikimedia.org/api/rest_{v}1/media/math/render/svg/88f6758b4504c63d3764efcbae675418236f8ffd', 2)
+('\\displaystyle https://wikimedia.org/api/rest_{v}1/media/math/render/svg/5db574aa692cbb26ad46a16073c162fd4820ad86', 3)
+('\\displaystyle {\\boldsymbol {x}}_{k}=f({\\boldsymbol {x}}_{k-1},{\\boldsymbol {u}}_{k})+{\\boldsymbol {w}}_{k}', 4)
+('\\displaystyle \\operatorname {W} ^{s,p}(M)=\\left\\{f\\in \\operatorname {L} ^{p}(M)\\colon \\sum _{\\mu _{1},\\dots ,\\mu _{k}}T^{\\mu _{1},\\dots ,\\mu _{k}}\\partial _{\\mu _{1}}\\cdots \\partial _{\\mu _{k}}f\\in \\operatorname {L} ^{p}(M;\\mathbb {K} )\\qquad \\forall T\\in \\Gamma ^{\\infty }(\\mathrm {T} M^{\\otimes k}),\\,\\|T\\|\\leq 1,\\,k\\leq s\\right\\}', 5)
+('\\displaystyle f(x)={\\frac {a_{0}}{2}}+\\sum _{k=1}^{n}(a_{k}\\cos(kx)+b_{k}\\sin(kx))', 6)
+('\\displaystyle [T_{i},T_{j}]=if^{ijk}T^{k}', 7)
+('\\displaystyle {\\dot {k}}=f(k)-c-(n+g+\\delta )k', 8)
+('\\displaystyle f_{X}(x;n)={\\frac {1}{2(n-1)!}}\\sum _{k=0}^{n}(-1)^{k}{n \\choose k}(x-k)^{n-1}\\operatorname {sgn}(x-k)', 9)
+('\\displaystyle https://wikimedia.org/api/rest_{v}1/media/math/render/svg/a821009d23fc8e0cb336aaa789a39723083f7d66', 10)
 arXiv formula
 ('\\nabla^{2}f=Ef', 66.66666666666667)
 ('\\nabla^{2}f=0', 62.5)
@@ -2532,14 +2531,14 @@ Wikidata formula
 ('{\\displaystyle 1\\ \\mathrm {Gy} =1\\ {\\frac {\\mathrm {J} }{\\mathrm {kg} }}=1\\ {\\frac {\\mathrm {m} ^{2}}{\\mathrm {s} ^{2}}}}', 52.100840336134446)
 ('{\\displaystyle \\mathrm {d} y={\\frac {\\mathrm {d} y}{\\mathrm {d} x}}\\,\\mathrm {d} x}', 52.0)
 Wikidata identifiers
-\displaystyle P(t,T)=e^{-\int _{t}^{T}f(t,s)ds}
-\displaystyle {{\frac {dQ}{dt}}=h\cdot A\cdot (T(t)-T_{\text{env}})=h\cdot A\Delta T(t)\quad }
-\displaystyle P_{T}=\int \limits _{0}^{t}F_{thrust}(t^{\prime })dt^{\prime }=F_{ave}t
-\displaystyle {\frac {dM_{x}(t)}{dt}}=\gamma ({\mathbf {M}}(t)\times {\mathbf {B}}(t))_{x}-{\frac {M_{x}(t)}{T_{2}}}
-\displaystyle {\frac {d\epsilon }{dt}}={\frac {\sigma }{d^{3}}}D_{gb}e^{-Q_{Coble}/RT}
-\displaystyle P={\frac {1}{T}}\int _{0}^{T}i(t)\cdot e(t)dt\,\!
-\displaystyle P(t,T)=\mathbb {E} ^{Q}\left[\left.\exp {\left(-\int _{t}^{T}r_{s}\,ds\right)}\right|{\mathcal {F}}_{t}\right]
-\displaystyle {\frac {\mathrm {d} \varepsilon }{\mathrm {d} t}}={\frac {C\sigma ^{m}}{d^{b}}}e^{\frac {-Q}{kT}}
+('\\displaystyle P(t,T)=e^{-\\int _{t}^{T}f(t,s)ds}', 1)
+('\\displaystyle {{\\frac {dQ}{dt}}=h\\cdot A\\cdot (T(t)-T_{\\text{env}})=h\\cdot A\\Delta T(t)\\quad }', 2)
+('\\displaystyle P(t,T)=\\mathbb {E} ^{Q}\\left[\\left.\\exp {\\left(-\\int _{t}^{T}r_{s}\\,ds\\right)}\\right|{\\mathcal {F}}_{t}\\right]', 3)
+('\\displaystyle {\\frac {\\mathrm {d} \\varepsilon }{\\mathrm {d} t}}={\\frac {C\\sigma ^{m}}{d^{b}}}e^{\\frac {-Q}{kT}}', 4)
+('\\displaystyle P_{T}=\\int \\limits _{0}^{t}F_{thrust}(t^{\\prime })dt^{\\prime }=F_{ave}t', 5)
+('\\displaystyle {\\frac {dM_{x}(t)}{dt}}=\\gamma ({\\mathbf {M}}(t)\\times {\\mathbf {B}}(t))_{x}-{\\frac {M_{x}(t)}{T_{2}}}', 6)
+('\\displaystyle {\\frac {d\\epsilon }{dt}}={\\frac {\\sigma }{d^{3}}}D_{gb}e^{-Q_{Coble}/RT}', 7)
+('\\displaystyle P={\\frac {1}{T}}\\int _{0}^{T}i(t)\\cdot e(t)dt\\,\\!', 8)
 arXiv formula
 ('g_{M}=\\mathrm{d}x^{2}+\\mathrm{d}y^{2}=\\mathrm{d}r^{2}+r^{2}\\mathrm{d}\\theta^{2}', 58.16326530612245)
 ('X_{\\mu}^{\\mathrm{M}}=\\left(X^{\\mathrm{M}},P^{\\mathrm{M}}\\right)', 57.77777777777777)
@@ -2597,16 +2596,16 @@ Wikidata formula
 ('{\\displaystyle a^{2}+b^{2}=c^{2}}', 34.61538461538461)
 ('{\\displaystyle \\phi :\\nabla \\phi ={\\vec {A}}}', 34.375)
 Wikidata identifiers
-\displaystyle \sum _{k=2}^{n}\tau (\rho _{A_{1}A_{k}})\leq \tau (\rho _{A_{1}(A_{2}\dotsm A_{n})})
-\displaystyle S={\frac {k}{4\pi }}\int _{M}\operatorname {tr} (A\wedge \mathrm {d} A+{\tfrac {2}{3}}A\wedge A\wedge A)
-\displaystyle {\frac {\mathrm {d} }{\mathrm {d} t}}A_{i}+[A_{0},A_{i}]={\frac {1}{2}}\epsilon _{i}{}^{jk}[A_{j},A_{k}]
-\displaystyle f(x)=\sum _{k=1}^{n}a_{k}{\mathbf {1} }_{A_{k}}(x)
-\displaystyle \lim _{t\to \infty }{\frac {N(A,t,k,q)}{N(A,t)}}={\frac {1}{q}}
-\displaystyle {\text{Pr}}\left(\bigcap _{i=1}^{n}A_{i}\right)=\prod _{j=2}^{n}{\text{Pr}}\left(A_{j}\mid \bigcap _{k=1}^{j-1}A_{k}\right)
-\displaystyle \omega _{a}={\sqrt {\frac {k_{1}M}{m_{A}m_{B}}}}
-\displaystyle k=Ae^{-E_{a}/(RT)}
-\displaystyle Q=\{x\in k^{n}\mid x^{T}Ax+2b^{T}x+c=0\}
-\displaystyle \rho _{k}=rank(A-\lambda _{i}I)^{k-1}-rank(A-\lambda _{i}I)^{k}\qquad (k=1,2,\ldots ,m_{i})
+('\\displaystyle \\sum _{k=2}^{n}\\tau (\\rho _{A_{1}A_{k}})\\leq \\tau (\\rho _{A_{1}(A_{2}\\dotsm A_{n})})', 1)
+('\\displaystyle S={\\frac {k}{4\\pi }}\\int _{M}\\operatorname {tr} (A\\wedge \\mathrm {d} A+{\\tfrac {2}{3}}A\\wedge A\\wedge A)', 2)
+('\\displaystyle f(x)=\\sum _{k=1}^{n}a_{k}{\\mathbf {1} }_{A_{k}}(x)', 3)
+('\\displaystyle \\lim _{t\\to \\infty }{\\frac {N(A,t,k,q)}{N(A,t)}}={\\frac {1}{q}}', 4)
+('\\displaystyle {\\frac {\\mathrm {d} }{\\mathrm {d} t}}A_{i}+[A_{0},A_{i}]={\\frac {1}{2}}\\epsilon _{i}{}^{jk}[A_{j},A_{k}]', 5)
+('\\displaystyle {\\text{Pr}}\\left(\\bigcap _{i=1}^{n}A_{i}\\right)=\\prod _{j=2}^{n}{\\text{Pr}}\\left(A_{j}\\mid \\bigcap _{k=1}^{j-1}A_{k}\\right)', 6)
+('\\displaystyle \\omega _{a}={\\sqrt {\\frac {k_{1}M}{m_{A}m_{B}}}}', 7)
+('\\displaystyle \\rho _{k}=rank(A-\\lambda _{i}I)^{k-1}-rank(A-\\lambda _{i}I)^{k}\\qquad (k=1,2,\\ldots ,m_{i})', 8)
+('\\displaystyle k=Ae^{-E_{a}/(RT)}', 9)
+('\\displaystyle A_{n,k}=\\prod _{\\begin{smallmatrix}1\\leq j\\leq n\\\\j\\neq k\\end{smallmatrix}}\\cot(a_{k}-a_{j})', 10)
 arXiv formula
 ('\\nabla^{-2}', 60.0)
 ('\\nabla^{2}y=m^{2}y', 59.45945945945945)
@@ -2664,7 +2663,7 @@ Wikidata formula
 ('{\\displaystyle E_{ij}=\\sum _{a=1}^{n}x_{ia}{\\frac {\\partial }{\\partial x_{ja}}}}', 52.55474452554745)
 ('{\\displaystyle F_{electrostatic}={\\frac {1}{2}}{\\frac {\\partial C}{\\partial z}}\\Delta V^{2}}', 52.348993288590606)
 Wikidata identifiers
-\displaystyle \xi =A_{x}f_{x}(z)e^{i(\omega t-kx)}\quad \quad (1)
+('\\displaystyle \\xi =A_{x}f_{x}(z)e^{i(\\omega t-kx)}\\quad \\quad (1)', 1)
 arXiv formula
 ('\\nabla_{t}=\\frac{\\partial}{\\partial t}+\\phi', 70.0)
 ('\\beta_{\\phi}=A\\frac{\\partial}{\\partial A}\\phi\\ ,', 68.57142857142857)
@@ -2722,9 +2721,9 @@ Wikidata formula
 ('{\\displaystyle d(x,z)+d(z,y)=d(x,y),}', 40.57971014492754)
 ('{\\displaystyle (g\\circ f)(x)=g(f(x))}', 40.57971014492754)
 Wikidata identifiers
-\displaystyle f(x)=\sum _{k=1}^{n}a_{k}{\mathbf {1} }_{A_{k}}(x)
-\displaystyle f(x)={\frac {a_{0}}{2}}+\sum \limits _{k=1}^{+\infty }A_{k}\cos \left(k{\frac {2\pi }{\tau }}x+\theta _{k}\right)=\sum \limits _{k=-\infty }^{+\infty }{\hat {f}}_{k}e^{ik{\frac {2\pi }{\tau }}x}
-\displaystyle \xi =A_{x}f_{x}(z)e^{i(\omega t-kx)}\quad \quad (1)
+('\\displaystyle f(x)=\\sum _{k=1}^{n}a_{k}{\\mathbf {1} }_{A_{k}}(x)', 1)
+('\\displaystyle f(x)={\\frac {a_{0}}{2}}+\\sum \\limits _{k=1}^{+\\infty }A_{k}\\cos \\left(k{\\frac {2\\pi }{\\tau }}x+\\theta _{k}\\right)=\\sum \\limits _{k=-\\infty }^{+\\infty }{\\hat {f}}_{k}e^{ik{\\frac {2\\pi }{\\tau }}x}', 2)
+('\\displaystyle \\xi =A_{x}f_{x}(z)e^{i(\\omega t-kx)}\\quad \\quad (1)', 3)
 arXiv formula
 ('\\nabla^{2}G(x)+G(x)=-\\delta(x)', 64.51612903225806)
 ('\\nabla^{2}U(X)+\\,k^{2}U(X)=\\,-q(X).', 59.70149253731343)
@@ -2782,16 +2781,16 @@ Wikidata formula
 ('{\\displaystyle F(x,u,Du,D^{2}u)=0}', 35.71428571428571)
 ('{\\displaystyle \\nabla f\\cdot \\nabla g=0}', 35.483870967741936)
 Wikidata identifiers
-\displaystyle u'+x'i+y'j+z'k=(a+bi+cj+dk)(u+xi+yj+zk)(p+qi+rj+sk),
-\displaystyle {\begin{aligned}&amp;\|-\|_{1},\|-\|_{2},\dotsc \colon X\to \mathbb {R} _{\geq 0}\\&amp;\|\lambda x\|_{k}=|\lambda |\|x\|_{k}\\&amp;\|x+y\|_{k}\leq \|x\|_{k}+\|y\|_{k}\\&amp;x=0\iff \forall k&gt;0\colon \|x\|_{k}=0\\&amp;U\in \operatorname {Open} (X)\iff \forall u\in U\exists K&gt;0,r&gt;0\colon \{x\in X\colon \forall k\geq K\colon \|u-x\|_{k}&lt;r\}\subset U\end{aligned}}
-\displaystyle \lim _{k\to \infty }u_{k}=u{\mbox{ in }}L^{1}(\Omega ;\mathbf {R} ^{m})
-\displaystyle \lim _{k\to \infty }u_{k}=u{\mbox{ in }}L^{1}(\Omega ;\mathbf {R} ^{m})
-\displaystyle \sum _{k=1}^{r}\lambda _{k}u_{k}\in S,\sum _{k=1}^{r}\lambda _{k}=1
-\displaystyle f^{put}\left(S_{T},k\right)=\left(k-S_{T}\right)^{+}
-\displaystyle f'(x_{0})=k\cdot u'(x_{0})
-\displaystyle x(u)=a\operatorname {sn} (u,k)+(a/k){\big (}(1-k^{2})u-E(u,k){\big )}
-\displaystyle {\frac {\partial u}{\partial t}}-{\frac {\partial ^{2}u}{\partial x^{2}}}={\frac {\alpha }{k}}u(1-u^{q})
-\displaystyle k={\frac {1}{2}}\left({\overline {(u'_{1})^{2}}}+{\overline {(u'_{2})^{2}}}+{\overline {(u'_{3})^{2}}}\right)
+("\\displaystyle f'(x_{0})=k\\cdot u'(x_{0})", 1)
+('\\displaystyle \\sum _{k=1}^{r}\\lambda _{k}u_{k}\\in S,\\sum _{k=1}^{r}\\lambda _{k}=1', 2)
+('\\displaystyle x(u)=a\\operatorname {sn} (u,k)+(a/k){\\big (}(1-k^{2})u-E(u,k){\\big )}', 3)
+('\\displaystyle {\\begin{aligned}&amp;\\|-\\|_{1},\\|-\\|_{2},\\dotsc \\colon X\\to \\mathbb {R} _{\\geq 0}\\\\&amp;\\|\\lambda x\\|_{k}=|\\lambda |\\|x\\|_{k}\\\\&amp;\\|x+y\\|_{k}\\leq \\|x\\|_{k}+\\|y\\|_{k}\\\\&amp;x=0\\iff \\forall k&gt;0\\colon \\|x\\|_{k}=0\\\\&amp;U\\in \\operatorname {Open} (X)\\iff \\forall u\\in U\\exists K&gt;0,r&gt;0\\colon \\{x\\in X\\colon \\forall k\\geq K\\colon \\|u-x\\|_{k}&lt;r\\}\\subset U\\end{aligned}}', 4)
+("\\displaystyle u'+x'i+y'j+z'k=(a+bi+cj+dk)(u+xi+yj+zk)(p+qi+rj+sk),", 5)
+('\\displaystyle \\lim _{k\\to \\infty }u_{k}=u{\\mbox{ in }}L^{1}(\\Omega ;\\mathbf {R} ^{m})', 6)
+('\\displaystyle \\lim _{k\\to \\infty }u_{k}=u{\\mbox{ in }}L^{1}(\\Omega ;\\mathbf {R} ^{m})', 7)
+('\\displaystyle f^{put}\\left(S_{T},k\\right)=\\left(k-S_{T}\\right)^{+}', 8)
+('\\displaystyle {\\frac {\\partial u}{\\partial t}}-{\\frac {\\partial ^{2}u}{\\partial x^{2}}}={\\frac {\\alpha }{k}}u(1-u^{q})', 9)
+("\\displaystyle k={\\frac {1}{2}}\\left({\\overline {(u'_{1})^{2}}}+{\\overline {(u'_{2})^{2}}}+{\\overline {(u'_{3})^{2}}}\\right)", 10)
 arXiv formula
 ('\\nabla u=0', 62.5)
 ('\\nabla^{2}u+\\lambda u=0', 62.22222222222222)
@@ -2849,7 +2848,7 @@ Wikidata formula
 ('{\\displaystyle {\\frac {\\partial }{\\partial x}}\\left({\\frac {\\partial }{\\partial y}}f(x,y)\\right)={\\frac {\\partial }{\\partial y}}\\left({\\frac {\\partial }{\\partial x}}f(x,y)\\right)}', 60.06600660066006)
 ('{\\displaystyle i{\\frac {\\partial \\psi }{\\partial \\tau }}+{\\frac {1}{2}}{\\frac {\\partial ^{2}\\psi }{\\partial \\xi ^{2}}}+|\\psi |^{2}\\psi =0}', 58.778625954198475)
 Wikidata identifiers
-\displaystyle u'+x'i+y'j+z'k=(a+bi+cj+dk)(u+xi+yj+zk)(p+qi+rj+sk),
+("\\displaystyle u'+x'i+y'j+z'k=(a+bi+cj+dk)(u+xi+yj+zk)(p+qi+rj+sk),", 1)
 arXiv formula
 ('\\frac{\\partial^{2}f}{\\partial x^{2}}+\\frac{\\partial^{2}f}{\\partial y^{2}}=0', 67.33668341708542)
 ('\\frac{\\partial u}{\\partial x},\\frac{\\partial u}{\\partial y}\\in C^{k+1,\\alpha}(S)', 66.66666666666667)
@@ -2907,16 +2906,16 @@ Wikidata formula
 ('{\\displaystyle A=2\\pi r(r+h)=\\pi d(r+h)=L+2B}', 35.0)
 ('{\\displaystyle \\nu ^{2}=uS(u),\\;S(\\nu )=\\nu ,\\;\\varepsilon (\\nu )=1}', 34.95145631067961)
 Wikidata identifiers
-\displaystyle {\begin{aligned}&amp;\|-\|_{1},\|-\|_{2},\dotsc \colon X\to \mathbb {R} _{\geq 0}\\&amp;\|\lambda x\|_{k}=|\lambda |\|x\|_{k}\\&amp;\|x+y\|_{k}\leq \|x\|_{k}+\|y\|_{k}\\&amp;x=0\iff \forall k&gt;0\colon \|x\|_{k}=0\\&amp;U\in \operatorname {Open} (X)\iff \forall u\in U\exists K&gt;0,r&gt;0\colon \{x\in X\colon \forall k\geq K\colon \|u-x\|_{k}&lt;r\}\subset U\end{aligned}}
-\displaystyle f'(x_{0})=k\cdot u'(x_{0})
-\displaystyle f^{put}\left(S_{T},k\right)=\left(k-S_{T}\right)^{+}
-\displaystyle x(u)=a\operatorname {sn} (u,k)+(a/k){\big (}(1-k^{2})u-E(u,k){\big )}
-\displaystyle u'+x'i+y'j+z'k=(a+bi+cj+dk)(u+xi+yj+zk)(p+qi+rj+sk),
-\displaystyle \lim _{k\to \infty }u_{k}=u{\mbox{ in }}L^{1}(\Omega ;\mathbf {R} ^{m})
-\displaystyle \lim _{k\to \infty }u_{k}=u{\mbox{ in }}L^{1}(\Omega ;\mathbf {R} ^{m})
-\displaystyle {\frac {\partial u}{\partial t}}-{\frac {\partial ^{2}u}{\partial x^{2}}}={\frac {\alpha }{k}}u(1-u^{q})
-\displaystyle k={\frac {1}{2}}\left({\overline {(u'_{1})^{2}}}+{\overline {(u'_{2})^{2}}}+{\overline {(u'_{3})^{2}}}\right)
-\displaystyle \varrho {\ddot {\vec {u}}}=G\left[\Delta {\vec {u}}+{\frac {1}{1-2\nu }}\nabla (\nabla \cdot {\vec {u}})\right]+\varrho {\vec {k}}
+("\\displaystyle f'(x_{0})=k\\cdot u'(x_{0})", 1)
+('\\displaystyle \\sum _{k=1}^{r}\\lambda _{k}u_{k}\\in S,\\sum _{k=1}^{r}\\lambda _{k}=1', 2)
+('\\displaystyle x(u)=a\\operatorname {sn} (u,k)+(a/k){\\big (}(1-k^{2})u-E(u,k){\\big )}', 3)
+('\\displaystyle {\\begin{aligned}&amp;\\|-\\|_{1},\\|-\\|_{2},\\dotsc \\colon X\\to \\mathbb {R} _{\\geq 0}\\\\&amp;\\|\\lambda x\\|_{k}=|\\lambda |\\|x\\|_{k}\\\\&amp;\\|x+y\\|_{k}\\leq \\|x\\|_{k}+\\|y\\|_{k}\\\\&amp;x=0\\iff \\forall k&gt;0\\colon \\|x\\|_{k}=0\\\\&amp;U\\in \\operatorname {Open} (X)\\iff \\forall u\\in U\\exists K&gt;0,r&gt;0\\colon \\{x\\in X\\colon \\forall k\\geq K\\colon \\|u-x\\|_{k}&lt;r\\}\\subset U\\end{aligned}}', 4)
+("\\displaystyle u'+x'i+y'j+z'k=(a+bi+cj+dk)(u+xi+yj+zk)(p+qi+rj+sk),", 5)
+('\\displaystyle \\lim _{k\\to \\infty }u_{k}=u{\\mbox{ in }}L^{1}(\\Omega ;\\mathbf {R} ^{m})', 6)
+('\\displaystyle \\lim _{k\\to \\infty }u_{k}=u{\\mbox{ in }}L^{1}(\\Omega ;\\mathbf {R} ^{m})', 7)
+('\\displaystyle f^{put}\\left(S_{T},k\\right)=\\left(k-S_{T}\\right)^{+}', 8)
+('\\displaystyle {\\frac {\\partial u}{\\partial t}}-{\\frac {\\partial ^{2}u}{\\partial x^{2}}}={\\frac {\\alpha }{k}}u(1-u^{q})', 9)
+("\\displaystyle k={\\frac {1}{2}}\\left({\\overline {(u'_{1})^{2}}}+{\\overline {(u'_{2})^{2}}}+{\\overline {(u'_{3})^{2}}}\\right)", 10)
 arXiv formula
 ('\\nabla^{2}u+\\omega^{2}\\rho u=0', 58.46153846153845)
 ('(\\nabla^{2}+m^{2})\\phi=0', 54.23728813559322)
@@ -2974,7 +2973,7 @@ Wikidata formula
 ('{\\displaystyle {\\begin{aligned}{\\frac {\\partial }{\\partial z_{i}}}&amp;={\\frac {1}{2}}\\left({\\frac {\\partial }{\\partial x_{i}}}-\\mathrm {i} {\\frac {\\partial }{\\partial y_{i}}}\\right)\\\\{\\frac {\\partial }{\\partial {\\bar {z}}_{i}}}&amp;={\\frac {1}{2}}\\left({\\frac {\\partial }{\\partial x_{i}}}+\\mathrm {i} {\\frac {\\partial }{\\partial y_{i}}}\\right)\\end{aligned}}}', 52.46422893481717)
 ('{\\displaystyle {\\frac {\\partial P}{\\partial t}}=\\left[-{\\frac {\\partial }{\\partial x}}v+{\\frac {\\partial }{\\partial v}}\\left(\\gamma v-{\\frac {F(x)}{m}}\\right)+{\\frac {\\gamma k_{B}T}{m}}{\\frac {\\partial ^{2}}{\\partial ^{2}v}}\\right]P}', 51.29224652087475)
 Wikidata identifiers
-\displaystyle u'+x'i+y'j+z'k=(a+bi+cj+dk)(u+xi+yj+zk)(p+qi+rj+sk),
+("\\displaystyle u'+x'i+y'j+z'k=(a+bi+cj+dk)(u+xi+yj+zk)(p+qi+rj+sk),", 1)
 arXiv formula
 ('X=\\frac{p}{m}\\,\\frac{\\partial}{\\partial x}-f(t)\\,\\frac{\\partial}{\\partial p}\\ .', 41.83381088825215)
 ('k=\\frac{\\partial}{\\partial\\tau}+\\frac{1}{r_{H}}\\frac{\\partial}{\\partial\\phi}', 41.61849710982659)
@@ -3264,16 +3263,16 @@ Wikidata formula
 ('{\\displaystyle \\left({\\frac {\\partial u(t,x)}{\\partial t}}+u(t,x){\\frac {\\partial u(t,x)}{\\partial x}}\\right)={\\frac {1}{2}}\\left({\\frac {\\partial u(t,x)}{\\partial x}}\\right)^{2}}', 46.09929078014184)
 ('{\\displaystyle r_{c}=\\left\\{{\\frac {\\partial V}{\\partial J}}\\right\\}_{V=0}}', 46.06741573033708)
 Wikidata identifiers
-\displaystyle n'_{i}=\sum _{j}w_{ij}n_{j}
-\displaystyle A_{i}^{\text{WSM-score}}=\sum _{j=1}^{n}w_{j}a_{ij},{\text{ for }}i=1,2,3,\dots ,m
-\displaystyle |a_{ii}|\geq \sum _{j\neq i}|a_{ij}|\quad \forall i\in \{1,\dots n\}
-\displaystyle ([x_{0}:\dotsb :x_{m}],[y_{0}:\dotsb :y_{n}])\mapsto [x_{0}y_{0}:x_{0}y_{1}:\dotsb :x_{i}y_{j}:\dotsb :x_{m}y_{n}]
-\displaystyle \sum _{i,j=1}^{m}g^{ij}\left({\frac {\partial ^{2}\phi ^{\gamma }}{\partial x_{i}\partial x_{j}}}-\sum _{k=1}^{m}{\hat {\Gamma }}_{ij}^{k}{\frac {\partial \phi ^{\gamma }}{\partial x_{k}}}+\sum _{\alpha ,\beta =1}^{n}\Gamma _{\alpha \beta }^{\gamma }\circ \phi {\frac {\partial \phi ^{\alpha }}{\partial x_{i}}}{\frac {\partial \phi ^{\beta }}{\partial x_{j}}}\right)=0
-\displaystyle (\star \alpha )_{i_{p+1}\dotso i_{n}}={\frac {1}{p!}}{\sqrt {|\det g|}}\epsilon _{i_{1}\dotso i_{n}}g^{i_{1}j_{1}}\dotsm g^{i_{p}j_{p}}\alpha _{j_{1}\dotso j_{p}}
-\displaystyle T(X,Y)=\sum _{i=1}^{n}\sum _{j=1}^{m}p(x_{i},y_{j})T(x_{i},y_{j})
-\displaystyle {\text{Pr}}\left(\bigcap _{i=1}^{n}A_{i}\right)=\prod _{j=2}^{n}{\text{Pr}}\left(A_{j}\mid \bigcap _{k=1}^{j-1}A_{k}\right)
-\displaystyle [a_{1}\dotsm a_{m},b_{1}\dotsm b_{n}]=\sum _{i,j}(-1)^{i+j}[a_{i},b_{j}]a_{1}\dotsm a_{i-1}a_{i+1}\dotsm a_{m}b_{1}\dotsm b_{j-1}b_{j+1}\dotsm b_{n}
-\displaystyle EU(n)=\left\{e_{1},\ldots ,e_{n}\ \ (e_{i},e_{j})=\delta _{ij},e_{i}\in {\mathcal {H}}\right\}
+('\\displaystyle A_{i}^{\\text{WSM-score}}=\\sum _{j=1}^{n}w_{j}a_{ij},{\\text{ for }}i=1,2,3,\\dots ,m', 1)
+("\\displaystyle n'_{i}=\\sum _{j}w_{ij}n_{j}", 2)
+('\\displaystyle |a_{ii}|\\geq \\sum _{j\\neq i}|a_{ij}|\\quad \\forall i\\in \\{1,\\dots n\\}', 3)
+('\\displaystyle ([x_{0}:\\dotsb :x_{m}],[y_{0}:\\dotsb :y_{n}])\\mapsto [x_{0}y_{0}:x_{0}y_{1}:\\dotsb :x_{i}y_{j}:\\dotsb :x_{m}y_{n}]', 4)
+('\\displaystyle {\\text{Pr}}\\left(\\bigcap _{i=1}^{n}A_{i}\\right)=\\prod _{j=2}^{n}{\\text{Pr}}\\left(A_{j}\\mid \\bigcap _{k=1}^{j-1}A_{k}\\right)', 5)
+('\\displaystyle [a_{1}\\dotsm a_{m},b_{1}\\dotsm b_{n}]=\\sum _{i,j}(-1)^{i+j}[a_{i},b_{j}]a_{1}\\dotsm a_{i-1}a_{i+1}\\dotsm a_{m}b_{1}\\dotsm b_{j-1}b_{j+1}\\dotsm b_{n}', 6)
+('\\displaystyle EU(n)=\\left\\{e_{1},\\ldots ,e_{n}\\ \\ (e_{i},e_{j})=\\delta _{ij},e_{i}\\in {\\mathcal {H}}\\right\\}', 7)
+('\\displaystyle 2n\\leq 1+\\sum _{i=1}^{j}d_{i}', 8)
+('\\displaystyle {\\mathit {MSE}}={\\frac {1}{m\\,n}}\\sum _{i=0}^{m-1}\\sum _{j=0}^{n-1}[I(i,j)-K(i,j)]^{2}', 9)
+('\\displaystyle \\sum _{i,j=1}^{m}g^{ij}\\left({\\frac {\\partial ^{2}\\phi ^{\\gamma }}{\\partial x_{i}\\partial x_{j}}}-\\sum _{k=1}^{m}{\\hat {\\Gamma }}_{ij}^{k}{\\frac {\\partial \\phi ^{\\gamma }}{\\partial x_{k}}}+\\sum _{\\alpha ,\\beta =1}^{n}\\Gamma _{\\alpha \\beta }^{\\gamma }\\circ \\phi {\\frac {\\partial \\phi ^{\\alpha }}{\\partial x_{i}}}{\\frac {\\partial \\phi ^{\\beta }}{\\partial x_{j}}}\\right)=0', 10)
 arXiv formula
 ('\\left(\\partial_{\\alpha}p_{a}\\right)\\left(\\partial^{\\alpha}\\eta_{a}\\right)', 60.22727272727273)
 ('\\left(\\partial_{\\alpha}\\pi_{a}\\right)\\left(\\partial^{\\alpha}C_{a}\\right)', 59.42857142857143)
@@ -3331,16 +3330,7 @@ Wikidata formula
 ("{\\displaystyle \\ {\\frac {\\partial p'}{\\partial \\varepsilon _{s}}}={\\frac {\\partial q}{\\partial \\varepsilon _{s}}}={\\frac {\\partial \\nu }{\\partial \\varepsilon _{s}}}=0}", 50.43859649122807)
 ('{\\displaystyle {\\frac {\\partial }{\\partial x}}\\left({\\frac {\\partial }{\\partial y}}f(x,y)\\right)={\\frac {\\partial }{\\partial y}}\\left({\\frac {\\partial }{\\partial x}}f(x,y)\\right)}', 49.572649572649574)
 Wikidata identifiers
-\displaystyle \forall x,y,z\in X(y{\mathcal {R}}x\land z{\mathcal {R}}x\implies y{\mathcal {R}}z)
-\displaystyle {\boldsymbol {T}}=T_{xx}{\boldsymbol {e}}_{x}{\boldsymbol {e}}_{x}+T_{xy}{\boldsymbol {e}}_{x}{\boldsymbol {e}}_{y}+\ldots +T_{zz}{\boldsymbol {e}}_{z}{\boldsymbol {e}}_{z}
-\displaystyle x^{2}={\frac {(a^{2}+\lambda )(a^{2}+\mu )(a^{2}+\nu )}{(a^{2}-b^{2})(a^{2}-c^{2})}},y^{2}={\frac {(b^{2}+\lambda )(b^{2}+\mu )(b^{2}+\nu )}{(b^{2}-a^{2})(b^{2}-c^{2})}},z^{2}={\frac {(c^{2}+\lambda )(c^{2}+\mu )(c^{2}+\nu )}{(c^{2}-b^{2})(c^{2}-a^{2})}}
-\displaystyle {\frac {z}{c}}={\frac {x^{2}}{a^{2}}}+{\frac {y^{2}}{b^{2}}}
-\displaystyle (\forall x\,D(x)\Rightarrow M(x))\land \neg (\exists y\,M(y)\land B(y))\Rightarrow \neg (\exists z\,D(z)\land B(z))
-\displaystyle x^{2}+y^{2}+z^{2}=r^{2}
-\displaystyle {\frac {\partial ^{2}z}{\partial x^{2}}}{\frac {\partial ^{2}z}{\partial y^{2}}}-\left({\frac {\partial ^{2}z}{\partial x\partial y}}\right)^{2}=a{\frac {\partial ^{2}z}{\partial x^{2}}}+2b{\frac {\partial ^{2}z}{\partial x\partial y}}+c{\frac {\partial ^{2}z}{\partial y^{2}}}+\phi 
-\displaystyle \tau (x,y,z)={\begin{cases}\tau (\tau (x-1,y,z),\tau (y-1,z,x),\tau (z-1,x,y))&amp;y&lt;x\\z&amp;y\geq x\end{cases}}
-\displaystyle x:y:z\longrightarrow x^{-1}:y^{-1}:z^{-1}
-\displaystyle x:y:z\longrightarrow x^{-1}:y^{-1}:z^{-1}
+
 arXiv formula
 ('{\\partial\\phi\\over\\partial\\tau}=-{\\partial S(\\phi)\\over\\partial\\phi}+\\eta(\\tau),', 37.94037940379403)
 ('\\frac{\\partial v}{\\partial t}+\\varphi\\frac{\\partial v}{\\partial\\varphi}-4v=0.', 37.704918032786885)
@@ -3398,16 +3388,16 @@ Wikidata formula
 ('{\\displaystyle {\\frac {\\partial }{\\partial x}}\\left({\\frac {\\partial }{\\partial y}}f(x,y)\\right)={\\frac {\\partial }{\\partial y}}\\left({\\frac {\\partial }{\\partial x}}f(x,y)\\right)}', 46.15384615384615)
 ("{\\displaystyle \\mathbf {E} (\\mathbf {r} ,t)={\\frac {1}{4\\pi \\epsilon _{0}}}\\int \\left[\\left({\\frac {\\rho (\\mathbf {r} ',t_{r})}{|\\mathbf {r} -\\mathbf {r} '|^{3}}}+{\\frac {1}{|\\mathbf {r} -\\mathbf {r} '|^{2}c}}{\\frac {\\partial \\rho (\\mathbf {r} ',t_{r})}{\\partial t}}\\right)(\\mathbf {r} -\\mathbf {r} ')-{\\frac {1}{|\\mathbf {r} -\\mathbf {r} '|c^{2}}}{\\frac {\\partial \\mathbf {J} (\\mathbf {r} ',t_{r})}{\\partial t}}\\right]\\mathrm {d} ^{3}\\mathbf {r} '}", 46.08599779492833)
 Wikidata identifiers
-\displaystyle r=h/w
-\displaystyle S=pi*r*s
-\displaystyle r={\frac {R}{H_{0}}}
-\displaystyle {\vec {x}}={\vec {p}}+s({\vec {q}}-{\vec {p}})+t({\vec {r}}-{\vec {p}})
-\displaystyle q=\sum _{r}{\exp {\frac {-\varepsilon _{r}}{kT}}}
-\displaystyle \varepsilon is[[Strain(materialsscience)|strain]]
-\displaystyle c=S_{0}e^{-r_{f}T}{\mathcal {N}}(d_{1})-Ke^{-r_{d}T}{\mathcal {N}}(d_{2})
-\displaystyle \rho ={\frac {1}{2}}r\left(1-r\right)
-\displaystyle x^{2}+y^{2}+z^{2}=r^{2}
-\displaystyle r=-{\frac {1}{a}}{\frac {d[\mathrm {A} ]}{dt}}=-{\frac {1}{b}}{\frac {d[\mathrm {B} ]}{dt}}={\frac {1}{p}}{\frac {d[\mathrm {P} ]}{dt}}={\frac {1}{q}}{\frac {d[\mathrm {Q} ]}{dt}}
+('\\displaystyle r=h/w', 1)
+('\\displaystyle S=pi*r*s', 2)
+('\\displaystyle r={\\frac {R}{H_{0}}}', 3)
+('\\displaystyle {\\vec {x}}={\\vec {p}}+s({\\vec {q}}-{\\vec {p}})+t({\\vec {r}}-{\\vec {p}})', 4)
+('\\displaystyle q=\\sum _{r}{\\exp {\\frac {-\\varepsilon _{r}}{kT}}}', 5)
+('\\displaystyle \\varepsilon is[[Strain(materialsscience)|strain]]', 6)
+('\\displaystyle c=S_{0}e^{-r_{f}T}{\\mathcal {N}}(d_{1})-Ke^{-r_{d}T}{\\mathcal {N}}(d_{2})', 7)
+('\\displaystyle \\rho ={\\frac {1}{2}}r\\left(1-r\\right)', 8)
+('\\displaystyle x^{2}+y^{2}+z^{2}=r^{2}', 9)
+('\\displaystyle r=-{\\frac {1}{a}}{\\frac {d[\\mathrm {A} ]}{dt}}=-{\\frac {1}{b}}{\\frac {d[\\mathrm {B} ]}{dt}}={\\frac {1}{p}}{\\frac {d[\\mathrm {P} ]}{dt}}={\\frac {1}{q}}{\\frac {d[\\mathrm {Q} ]}{dt}}', 10)
 arXiv formula
 ('\\frac{\\partial h_{\\alpha}}{\\partial t}+\\frac{\\partial B}{\\partial x^{\\alpha}}=0', 27.93296089385475)
 ('\\frac{\\partial v}{\\partial t}+\\varphi\\frac{\\partial v}{\\partial\\varphi}-4v=0.', 27.663551401869157)
@@ -3465,16 +3455,16 @@ Wikidata formula
 ('{\\displaystyle u_{A}(x,y)=2x+y}', 45.28301886792453)
 ('{\\displaystyle \\Delta ^{g}x^{\\mu }=0}', 44.067796610169495)
 Wikidata identifiers
-\displaystyle {\begin{cases}-\Delta u(x)=0,&amp;x\in D;\\\displaystyle {\lim _{y\to x}u(y)}=g(x),&amp;x\in \partial D.\end{cases}}
-\displaystyle u'+x'i+y'j+z'k=(a+bi+cj+dk)(u+xi+yj+zk)(p+qi+rj+sk),
-\displaystyle {\begin{aligned}&amp;\|-\|_{1},\|-\|_{2},\dotsc \colon X\to \mathbb {R} _{\geq 0}\\&amp;\|\lambda x\|_{k}=|\lambda |\|x\|_{k}\\&amp;\|x+y\|_{k}\leq \|x\|_{k}+\|y\|_{k}\\&amp;x=0\iff \forall k&gt;0\colon \|x\|_{k}=0\\&amp;U\in \operatorname {Open} (X)\iff \forall u\in U\exists K&gt;0,r&gt;0\colon \{x\in X\colon \forall k\geq K\colon \|u-x\|_{k}&lt;r\}\subset U\end{aligned}}
-\displaystyle {Single-\ loss\ expectancy\ (SLE)}={Asset\ value\ (AV)\ }\times {\ Exposure\ factor\ (EF)}
-\displaystyle u_{xx}+xu_{yy}=0
-\displaystyle Au_{xx}+2Bu_{xy}+Cu_{yy}+Du_{x}+Eu_{y}+Fu+G=0,
-\displaystyle {\begin{aligned}{\frac {\partial u}{\partial x}}&amp;={\frac {\partial v}{\partial y}}\\{\frac {\partial u}{\partial y}}&amp;=-{\frac {\partial v}{\partial x}}\end{aligned}}
-\displaystyle ds^{2}=H(u,x,y)\,du^{2}+2\,du\,dv+dx^{2}+dy^{2}
-\displaystyle \mathrm {d} s^{2}=H(u,x,y)\,\mathrm {d} u^{2}+2\,\mathrm {d} u\,\mathrm {d} v+\mathrm {d} x^{2}+\mathrm {d} y^{2}
-\displaystyle \left\{(x,y)\in R^{2}:\sum _{i=1}^{n}{\sqrt {(x-u_{i})^{2}+(y-v_{i})^{2}}}=d\right\}
+('\\displaystyle u_{xx}+xu_{yy}=0', 1)
+('\\displaystyle \\mathrm {d} s^{2}=H(u,x,y)\\,\\mathrm {d} u^{2}+2\\,\\mathrm {d} u\\,\\mathrm {d} v+\\mathrm {d} x^{2}+\\mathrm {d} y^{2}', 2)
+('\\displaystyle \\left\\{(x,y)\\in R^{2}:\\sum _{i=1}^{n}{\\sqrt {(x-u_{i})^{2}+(y-v_{i})^{2}}}=d\\right\\}', 3)
+('\\displaystyle {\\begin{aligned}{\\frac {\\partial u}{\\partial x}}&amp;={\\frac {\\partial v}{\\partial y}}\\\\{\\frac {\\partial u}{\\partial y}}&amp;=-{\\frac {\\partial v}{\\partial x}}\\end{aligned}}', 4)
+('\\displaystyle {\\begin{aligned}&amp;\\|-\\|_{1},\\|-\\|_{2},\\dotsc \\colon X\\to \\mathbb {R} _{\\geq 0}\\\\&amp;\\|\\lambda x\\|_{k}=|\\lambda |\\|x\\|_{k}\\\\&amp;\\|x+y\\|_{k}\\leq \\|x\\|_{k}+\\|y\\|_{k}\\\\&amp;x=0\\iff \\forall k&gt;0\\colon \\|x\\|_{k}=0\\\\&amp;U\\in \\operatorname {Open} (X)\\iff \\forall u\\in U\\exists K&gt;0,r&gt;0\\colon \\{x\\in X\\colon \\forall k\\geq K\\colon \\|u-x\\|_{k}&lt;r\\}\\subset U\\end{aligned}}', 5)
+('\\displaystyle {Single-\\ loss\\ expectancy\\ (SLE)}={Asset\\ value\\ (AV)\\ }\\times {\\ Exposure\\ factor\\ (EF)}', 6)
+("\\displaystyle u'+x'i+y'j+z'k=(a+bi+cj+dk)(u+xi+yj+zk)(p+qi+rj+sk),", 7)
+('\\displaystyle {\\begin{cases}-\\Delta u(x)=0,&amp;x\\in D;\\\\\\displaystyle {\\lim _{y\\to x}u(y)}=g(x),&amp;x\\in \\partial D.\\end{cases}}', 8)
+('\\displaystyle f(z)=u(z)+j\\ v(z),\\ z=x+jy,\\ x,y\\in R,\\quad j^{2}=+1,\\quad u(z),v(z)\\in R', 9)
+('\\displaystyle (u_{t}+uu_{x})_{x}+u_{yy}=0,\\qquad (1)', 10)
 arXiv formula
 ('\\Delta\\Delta u=0', 84.21052631578947)
 ('\\Delta u(x,y)=0', 81.08108108108108)
@@ -3532,8 +3522,8 @@ Wikidata formula
 ('{\\displaystyle u_{A}(x,y)=2x+y}', 48.275862068965516)
 ('{\\displaystyle f(-x)=-f(x)}', 48.14814814814815)
 Wikidata identifiers
-\displaystyle {Single-\ loss\ expectancy\ (SLE)}={Asset\ value\ (AV)\ }\times {\ Exposure\ factor\ (EF)}
-\displaystyle f(z)=u(z)+j\ v(z),\ z=x+jy,\ x,y\in R,\quad j^{2}=+1,\quad u(z),v(z)\in R
+('\\displaystyle {Single-\\ loss\\ expectancy\\ (SLE)}={Asset\\ value\\ (AV)\\ }\\times {\\ Exposure\\ factor\\ (EF)}', 1)
+('\\displaystyle f(z)=u(z)+j\\ v(z),\\ z=x+jy,\\ x,y\\in R,\\quad j^{2}=+1,\\quad u(z),v(z)\\in R', 2)
 arXiv formula
 ('(\\Delta f)(x,y)=f(xy)', 75.0)
 ('(\\Delta f)(x,y)=f(x+y)', 73.46938775510203)
@@ -3591,16 +3581,16 @@ Wikidata formula
 ('{\\displaystyle {\\frac {x}{x_{0}}}+{\\frac {y}{y_{0}}}+{\\frac {z}{z_{0}}}=1}', 44.99999999999999)
 ('{\\displaystyle w={\\frac {1}{2}}\\rho _{\\mathrm {m} }u^{2}+{\\frac {1}{2}}{\\frac {p^{2}}{\\rho _{\\mathrm {m} }c^{2}}}}', 44.99999999999999)
 Wikidata identifiers
-\displaystyle d={\frac {\hbar \mu _{0}}{4\pi }}{\frac {\gamma _{1}\gamma _{2}}{r^{3}}}
-\displaystyle T_{raise}={\frac {Fd_{m}}{2}}\left({\frac {l+\pi \mu d_{m}}{\pi d_{m}-\mu l}}\right)={\frac {Fd_{m}}{2}}\tan {\left(\phi +\lambda \right)}
-\displaystyle https://wikimedia.org/api/rest_{v}1/media/math/render/svg/88f6758b4504c63d3764efcbae675418236f8ffd
-\displaystyle https://wikimedia.org/api/rest_{v}1/media/math/render/svg/5db574aa692cbb26ad46a16073c162fd4820ad86
-\displaystyle {\frac {\partial u}{\partial t}}-D{\frac {\partial ^{2}u}{\partial x^{2}}}=ru(1-u)
-\displaystyle \tau _{q}(r)=-\pi ^{s_{p}(r)}\prod _{0\leq i&lt;f}\Gamma _{p}(r^{(i)}/(q-1))
-\displaystyle r=sin(2\phi )
-\displaystyle \langle r,a\mid r^{3}=1,a^{2}=1,ara=r^{-1}\rangle 
-\displaystyle r=h/w
-\displaystyle S=pi*r*s
+('\\displaystyle r=h/w', 1)
+('\\displaystyle S=pi*r*s', 2)
+('\\displaystyle r={\\frac {R}{H_{0}}}', 3)
+('\\displaystyle {\\vec {x}}={\\vec {p}}+s({\\vec {q}}-{\\vec {p}})+t({\\vec {r}}-{\\vec {p}})', 4)
+('\\displaystyle q=\\sum _{r}{\\exp {\\frac {-\\varepsilon _{r}}{kT}}}', 5)
+('\\displaystyle \\varepsilon is[[Strain(materialsscience)|strain]]', 6)
+('\\displaystyle c=S_{0}e^{-r_{f}T}{\\mathcal {N}}(d_{1})-Ke^{-r_{d}T}{\\mathcal {N}}(d_{2})', 7)
+('\\displaystyle \\rho ={\\frac {1}{2}}r\\left(1-r\\right)', 8)
+('\\displaystyle x^{2}+y^{2}+z^{2}=r^{2}', 9)
+('\\displaystyle r=-{\\frac {1}{a}}{\\frac {d[\\mathrm {A} ]}{dt}}=-{\\frac {1}{b}}{\\frac {d[\\mathrm {B} ]}{dt}}={\\frac {1}{p}}{\\frac {d[\\mathrm {P} ]}{dt}}={\\frac {1}{q}}{\\frac {d[\\mathrm {Q} ]}{dt}}', 10)
 arXiv formula
 ('V(\\phi)=-\\frac{a}{2}\\phi^{2}-\\frac{1-a}{3}\\phi^{3}+\\frac{1}{4}\\phi^{4}.', 64.96815286624205)
 ('\\phi_{tt}-\\phi_{rr}-\\frac{2}{r}\\phi_{r}+\\frac{m^{2}}{n}\\sin{(n\\phi)}=0\\ ,', 64.15094339622642)
@@ -3658,7 +3648,7 @@ Wikidata formula
 ('{\\displaystyle K=-V{\\frac {dp}{dV}}}', 49.23076923076923)
 ('{\\displaystyle {\\frac {dU}{dt}}}', 49.18032786885246)
 Wikidata identifiers
-\displaystyle RF=\sum _{n=1}^{100}Abs_{i}\cdot F_{i}/(pathlength\cdot density)
+('\\displaystyle RF=\\sum _{n=1}^{100}Abs_{i}\\cdot F_{i}/(pathlength\\cdot density)', 1)
 arXiv formula
 ('\\vec{v}=\\frac{d\\vec{x}}{dt}.', 87.71929824561404)
 ('\\vec{\\omega}=\\frac{\\vec{p}}{|p|}', 75.40983606557377)
@@ -3716,13 +3706,13 @@ Wikidata formula
 ('{\\displaystyle {\\omega }={eB \\over Mc}}', 38.59649122807017)
 ('{\\displaystyle D^{2}=\\Delta }', 38.297872340425535)
 Wikidata identifiers
-\displaystyle T_{raise}={\frac {Fd_{m}}{2}}\left({\frac {l+\pi \mu d_{m}}{\pi d_{m}-\mu l}}\right)={\frac {Fd_{m}}{2}}\tan {\left(\phi +\lambda \right)}
-\displaystyle F_{N}=m\cdot \mu \left({\frac {a}{a_{0}}}\right)a
-\displaystyle Fisresultantfinenessmodulus
-\displaystyle {\vec {F}}=m\cdot {\vec {a}}
-\displaystyle F=ma
-\displaystyle (F,m)({\mathcal {C}},\otimes ,I)\to ({\mathcal {D}},\bullet ,J)and(G,n)({\mathcal {C}},\otimes ,I)\to ({\mathcal {D}},\bullet ,J)
-\displaystyle {\vec {F}}_{bolt}=P_{max}\cdot A_{internal}
+('\\displaystyle T_{raise}={\\frac {Fd_{m}}{2}}\\left({\\frac {l+\\pi \\mu d_{m}}{\\pi d_{m}-\\mu l}}\\right)={\\frac {Fd_{m}}{2}}\\tan {\\left(\\phi +\\lambda \\right)}', 1)
+('\\displaystyle Fisresultantfinenessmodulus', 2)
+('\\displaystyle F_{N}=m\\cdot \\mu \\left({\\frac {a}{a_{0}}}\\right)a', 3)
+('\\displaystyle (F,m)({\\mathcal {C}},\\otimes ,I)\\to ({\\mathcal {D}},\\bullet ,J)and(G,n)({\\mathcal {C}},\\otimes ,I)\\to ({\\mathcal {D}},\\bullet ,J)', 4)
+('\\displaystyle F=ma', 5)
+('\\displaystyle {\\vec {F}}=m\\cdot {\\vec {a}}', 6)
+('\\displaystyle {\\vec {F}}_{bolt}=P_{max}\\cdot A_{internal}', 7)
 arXiv formula
 ('\\vec{F}=m\\vec{a}', 94.11764705882352)
 ('\\vec{F}=\\vec{0}', 84.84848484848484)
@@ -3780,7 +3770,7 @@ Wikidata formula
 ('{\\displaystyle h_{0}=h+{\\frac {V^{2}}{2}}}', 46.15384615384615)
 ('{\\displaystyle q={\\frac {1}{2}}\\rho v^{2}}', 46.15384615384615)
 Wikidata identifiers
-\displaystyle Fisresultantfinenessmodulus
+('\\displaystyle Fisresultantfinenessmodulus', 1)
 arXiv formula
 ('\\vec{A}=\\frac{4}{1+r^{2}}\\vec{N}', 70.58823529411764)
 ('\\vec{B}=\\frac{16}{(1+r^{2})^{2}}\\vec{N}', 66.66666666666667)
@@ -3896,16 +3886,16 @@ Wikidata formula
 ('{\\displaystyle \\phi =1/\\eta }', 46.42857142857143)
 ('{\\displaystyle C={\\frac {|u|\\,\\Delta t}{\\Delta x}}}', 46.15384615384615)
 Wikidata identifiers
-\displaystyle p:E\to F\land F\subseteq E\land p^{2}=p
-\displaystyle W_{\mathrm {SWU} }=P\cdot V\left(x_{p}\right)+T\cdot V(x_{t})-F\cdot V(x_{f})
-\displaystyle Q_{X}(p)\,=\,\inf \left\{x\in \mathbb {R} :p\leq F_{X}(x)\right\}
-\displaystyle R_{Sh}^{-1}={\frac {3\pi }{16}}{\frac {n{{e}^{2}}{{d}^{2}}}{{p}_{F}}},
-\displaystyle {Single-\ loss\ expectancy\ (SLE)}={Asset\ value\ (AV)\ }\times {\ Exposure\ factor\ (EF)}
-\displaystyle RF=\sum _{n=1}^{100}Abs_{i}\cdot F_{i}/(pathlength\cdot density)
-\displaystyle {\mbox{MD}}={\frac {C_{p}CL}{F}}
-\displaystyle \Omega _{F}=\sum _{p\in P_{F}}2^{-|p|}
-\displaystyle {\vec {F}}={\frac {\mathrm {d} }{\mathrm {d} t}}{\vec {p}}
-\displaystyle U_{x}(x_{1},x_{2};y_{2})=p_{1}x_{1}+(1-x_{2}-y_{2})x_{2}-(x_{1}+x_{2})^{2}/2-F
+('\\displaystyle p:E\\to F\\land F\\subseteq E\\land p^{2}=p', 1)
+('\\displaystyle W_{\\mathrm {SWU} }=P\\cdot V\\left(x_{p}\\right)+T\\cdot V(x_{t})-F\\cdot V(x_{f})', 2)
+('\\displaystyle Q_{X}(p)\\,=\\,\\inf \\left\\{x\\in \\mathbb {R} :p\\leq F_{X}(x)\\right\\}', 3)
+('\\displaystyle R_{Sh}^{-1}={\\frac {3\\pi }{16}}{\\frac {n{{e}^{2}}{{d}^{2}}}{{p}_{F}}},', 4)
+('\\displaystyle {\\vec {F}}={\\frac {\\mathrm {d} }{\\mathrm {d} t}}{\\vec {p}}', 5)
+('\\displaystyle {Single-\\ loss\\ expectancy\\ (SLE)}={Asset\\ value\\ (AV)\\ }\\times {\\ Exposure\\ factor\\ (EF)}', 6)
+('\\displaystyle M_{\\phi }(X)=-\\int _{0}^{1}\\phi (p)F_{X}^{-1}(p)dp', 7)
+('\\displaystyle RF=\\sum _{n=1}^{100}Abs_{i}\\cdot F_{i}/(pathlength\\cdot density)', 8)
+('\\displaystyle {\\mbox{MD}}={\\frac {C_{p}CL}{F}}', 9)
+('\\displaystyle p={\\frac {F}{A}}', 10)
 arXiv formula
 ('\\Delta q=\\Delta p', 72.72727272727273)
 ('\\Delta W=\\Delta U', 68.18181818181819)
@@ -3963,7 +3953,7 @@ Wikidata formula
 ('{\\displaystyle {\\mathit {Be}}^{*}={\\frac {\\Delta pl^{2}}{\\eta D}}}', 51.37614678899083)
 ('{\\displaystyle K={\\frac {q}{\\Delta T}}}', 51.21951219512195)
 Wikidata identifiers
-\displaystyle {\frac {\partial P}{\partial t}}=\left[-{\frac {\partial }{\partial x}}v+{\frac {\partial }{\partial v}}\left(\gamma v-{\frac {F(x)}{m}}\right)+{\frac {\gamma k_{B}T}{m}}{\frac {\partial ^{2}}{\partial ^{2}v}}\right]P
+('\\displaystyle {\\frac {\\partial P}{\\partial t}}=\\left[-{\\frac {\\partial }{\\partial x}}v+{\\frac {\\partial }{\\partial v}}\\left(\\gamma v-{\\frac {F(x)}{m}}\\right)+{\\frac {\\gamma k_{B}T}{m}}{\\frac {\\partial ^{2}}{\\partial ^{2}v}}\\right]P', 1)
 arXiv formula
 ('\\frac{\\Delta v_{i}}{\\Delta t_{i}}', 71.05263157894737)
 ('\\frac{\\Delta p_{i}}{\\Delta t_{i}}', 68.42105263157895)
@@ -4021,7 +4011,7 @@ Wikidata formula
 ('{\\displaystyle K={\\frac {q}{\\Delta T}}}', 51.21951219512195)
 ('{\\displaystyle \\eta _{r}={\\frac {\\eta }{\\eta _{s}}}}', 50.526315789473685)
 Wikidata identifiers
-\displaystyle {\frac {\partial P}{\partial t}}=\left[-{\frac {\partial }{\partial x}}v+{\frac {\partial }{\partial v}}\left(\gamma v-{\frac {F(x)}{m}}\right)+{\frac {\gamma k_{B}T}{m}}{\frac {\partial ^{2}}{\partial ^{2}v}}\right]P
+('\\displaystyle {\\frac {\\partial P}{\\partial t}}=\\left[-{\\frac {\\partial }{\\partial x}}v+{\\frac {\\partial }{\\partial v}}\\left(\\gamma v-{\\frac {F(x)}{m}}\\right)+{\\frac {\\gamma k_{B}T}{m}}{\\frac {\\partial ^{2}}{\\partial ^{2}v}}\\right]P', 1)
 arXiv formula
 ('\\frac{\\Delta v_{i}}{\\Delta t_{i}}', 71.05263157894737)
 ('\\frac{\\Delta p_{i}}{\\Delta t_{i}}', 68.42105263157895)
@@ -4079,10 +4069,10 @@ Wikidata formula
 ('{\\displaystyle {\\vec {L}}={\\vec {r}}\\times {\\vec {p}}}', 48.78048780487805)
 ('{\\displaystyle c={\\frac {\\omega }{k}}}', 48.484848484848484)
 Wikidata identifiers
-\displaystyle W_{\mathrm {SWU} }=P\cdot V\left(x_{p}\right)+T\cdot V(x_{t})-F\cdot V(x_{f})
-\displaystyle {Single-\ loss\ expectancy\ (SLE)}={Asset\ value\ (AV)\ }\times {\ Exposure\ factor\ (EF)}
-\displaystyle RF=\sum _{n=1}^{100}Abs_{i}\cdot F_{i}/(pathlength\cdot density)
-\displaystyle {\vec {F}}={\frac {\mathrm {d} }{\mathrm {d} t}}{\vec {p}}
+('\\displaystyle W_{\\mathrm {SWU} }=P\\cdot V\\left(x_{p}\\right)+T\\cdot V(x_{t})-F\\cdot V(x_{f})', 1)
+('\\displaystyle {Single-\\ loss\\ expectancy\\ (SLE)}={Asset\\ value\\ (AV)\\ }\\times {\\ Exposure\\ factor\\ (EF)}', 2)
+('\\displaystyle {\\vec {F}}={\\frac {\\mathrm {d} }{\\mathrm {d} t}}{\\vec {p}}', 3)
+('\\displaystyle RF=\\sum _{n=1}^{100}Abs_{i}\\cdot F_{i}/(pathlength\\cdot density)', 4)
 arXiv formula
 ('\\vec{v}=\\frac{d\\vec{x}}{dt}.', 82.14285714285714)
 ('\\vec{\\omega}=\\frac{\\vec{p}}{|p|}', 76.66666666666666)
@@ -4140,13 +4130,13 @@ Wikidata formula
 ('{\\displaystyle P\\propto {\\frac {1}{V}},or}', 35.71428571428571)
 ('{\\displaystyle F=ma}', 35.29411764705882)
 Wikidata identifiers
-\displaystyle T_{raise}={\frac {Fd_{m}}{2}}\left({\frac {l+\pi \mu d_{m}}{\pi d_{m}-\mu l}}\right)={\frac {Fd_{m}}{2}}\tan {\left(\phi +\lambda \right)}
-\displaystyle Fisresultantfinenessmodulus
-\displaystyle F_{N}=m\cdot \mu \left({\frac {a}{a_{0}}}\right)a
-\displaystyle {\vec {F}}=m\cdot {\vec {a}}
-\displaystyle F=ma
-\displaystyle (F,m)({\mathcal {C}},\otimes ,I)\to ({\mathcal {D}},\bullet ,J)and(G,n)({\mathcal {C}},\otimes ,I)\to ({\mathcal {D}},\bullet ,J)
-\displaystyle {\vec {F}}_{bolt}=P_{max}\cdot A_{internal}
+('\\displaystyle T_{raise}={\\frac {Fd_{m}}{2}}\\left({\\frac {l+\\pi \\mu d_{m}}{\\pi d_{m}-\\mu l}}\\right)={\\frac {Fd_{m}}{2}}\\tan {\\left(\\phi +\\lambda \\right)}', 1)
+('\\displaystyle Fisresultantfinenessmodulus', 2)
+('\\displaystyle F_{N}=m\\cdot \\mu \\left({\\frac {a}{a_{0}}}\\right)a', 3)
+('\\displaystyle {\\vec {F}}=m\\cdot {\\vec {a}}', 4)
+('\\displaystyle F=ma', 5)
+('\\displaystyle (F,m)({\\mathcal {C}},\\otimes ,I)\\to ({\\mathcal {D}},\\bullet ,J)and(G,n)({\\mathcal {C}},\\otimes ,I)\\to ({\\mathcal {D}},\\bullet ,J)', 6)
+('\\displaystyle {\\vec {F}}_{bolt}=P_{max}\\cdot A_{internal}', 7)
 arXiv formula
 ('\\propto a', 78.26086956521739)
 ('c\\propto a', 75.0)
@@ -4262,16 +4252,16 @@ Wikidata formula
 ('{\\displaystyle E_{\\text{P}}={\\sqrt {\\frac {\\hbar c^{5}}{G}}}}', 49.01960784313726)
 ('{\\displaystyle \\sigma _{f}={\\sqrt {\\frac {kT}{mc^{2}}}}f_{0}}', 49.01960784313726)
 Wikidata identifiers
-\displaystyle {\vec {x}}={\vec {p}}+s({\vec {q}}-{\vec {p}})+t({\vec {r}}-{\vec {p}})
-\displaystyle \min _{a\leq b\iff \deg a\leq \deg b}\{p\in K[x]\colon p(\alpha )=0,\;p(x)=x^{\deg p}+{\mathcal {O}}(x^{\deg p-1})\}
-\displaystyle W_{\mathrm {SWU} }=P\cdot V\left(x_{p}\right)+T\cdot V(x_{t})-F\cdot V(x_{f})
-\displaystyle D_{n}(x,\alpha )=\sum _{p=0}^{\lfloor n/2\rfloor }{\frac {n}{n-p}}{\binom {n-p}{p}}(-\alpha )^{p}x^{n-2p}
-\displaystyle \ p_{x}(i)=p(x=i)={\frac {n_{i}}{n}},\quad 0\leq i&lt;L
-\displaystyle L(x)=p(r\mid x)
-\displaystyle a(x-p)^{2}+q=0
-\displaystyle \int |f(x)|^{p}\,\mathrm {d} x&lt;\infty 
-\displaystyle {\frac {dx}{dp}}+{\frac {xf'(p)+g'(p)}{f(p)-p}}=0
-\displaystyle H(p,q)=-\int _{X}p(x)\ln q(x)\,\mathrm {d} x
+('\\displaystyle {\\vec {x}}={\\vec {p}}+s({\\vec {q}}-{\\vec {p}})+t({\\vec {r}}-{\\vec {p}})', 1)
+('\\displaystyle \\min _{a\\leq b\\iff \\deg a\\leq \\deg b}\\{p\\in K[x]\\colon p(\\alpha )=0,\\;p(x)=x^{\\deg p}+{\\mathcal {O}}(x^{\\deg p-1})\\}', 2)
+('\\displaystyle L(x)=p(r\\mid x)', 3)
+('\\displaystyle a(x-p)^{2}+q=0', 4)
+('\\displaystyle W_{\\mathrm {SWU} }=P\\cdot V\\left(x_{p}\\right)+T\\cdot V(x_{t})-F\\cdot V(x_{f})', 5)
+('\\displaystyle D_{n}(x,\\alpha )=\\sum _{p=0}^{\\lfloor n/2\\rfloor }{\\frac {n}{n-p}}{\\binom {n-p}{p}}(-\\alpha )^{p}x^{n-2p}', 6)
+('\\displaystyle \\ p_{x}(i)=p(x=i)={\\frac {n_{i}}{n}},\\quad 0\\leq i&lt;L', 7)
+('\\displaystyle E[y_{i}|x_{i1},\\ldots ,x_{ip}]=\\beta _{0}+\\sum _{j=1}^{p}f_{j}(x_{ij})', 8)
+('\\displaystyle \\int |f(x)|^{p}\\,\\mathrm {d} x&lt;\\infty ', 9)
+("\\displaystyle {\\frac {dx}{dp}}+{\\frac {xf'(p)+g'(p)}{f(p)-p}}=0", 10)
 arXiv formula
 ('\\sigma_{1}=\\sigma+\\frac{A\\phi}{3}', 70.27027027027026)
 ('\\sigma_{\\sigma}^{2}=\\frac{1}{36}', 68.49315068493152)
@@ -4329,7 +4319,7 @@ Wikidata formula
 ('{\\displaystyle \\theta ={\\frac {\\left\\langle i\\right\\rangle }{N}}}', 47.5)
 ('{\\displaystyle {\\frac {|N\\rangle |0\\rangle +\\exp(\\mathrm {i} N\\theta )|0\\rangle |N\\rangle }{\\sqrt {2}}}}', 47.23618090452262)
 Wikidata identifiers
-\displaystyle {\frac {Energy\ consumed}{Built\ area}}
+('\\displaystyle {\\frac {Energy\\ consumed}{Built\\ area}}', 1)
 arXiv formula
 ('\\sigma_{a}^{2}=\\frac{1}{2}\\left(\\frac{1}{4}+\\frac{1}{9}\\right)=\\frac{13}{72}', 56.14035087719298)
 ('M_{N}\\sim\\frac{\\langle A\\rangle^{\\frac{3}{2}}}{\\langle R\\rangle^{\\frac{1}{2}}},', 54.02298850574713)
@@ -4445,16 +4435,16 @@ Wikidata formula
 ('{\\displaystyle \\delta ={\\frac {1}{\\tau }}}', 50.0)
 ('{\\displaystyle \\theta ={\\frac {r}{D}}}', 50.0)
 Wikidata identifiers
-\displaystyle D_{n}(x,\alpha )=\sum _{p=0}^{\lfloor n/2\rfloor }{\frac {n}{n-p}}{\binom {n-p}{p}}(-\alpha )^{p}x^{n-2p}
-\displaystyle \ p_{x}(i)=p(x=i)={\frac {n_{i}}{n}},\quad 0\leq i&lt;L
-\displaystyle W_{\mathrm {SWU} }=P\cdot V\left(x_{p}\right)+T\cdot V(x_{t})-F\cdot V(x_{f})
-\displaystyle L(x)=p(r\mid x)
-\displaystyle a(x-p)^{2}+q=0
-\displaystyle {\vec {x}}={\vec {p}}+s({\vec {q}}-{\vec {p}})+t({\vec {r}}-{\vec {p}})
-\displaystyle \min _{a\leq b\iff \deg a\leq \deg b}\{p\in K[x]\colon p(\alpha )=0,\;p(x)=x^{\deg p}+{\mathcal {O}}(x^{\deg p-1})\}
-\displaystyle \lim \limits _{p\to \infty }{\frac {x_{n}+\ldots +x_{n+p-1}}{p}}=L
-\displaystyle Q_{X}(p)\,=\,\inf \left\{x\in \mathbb {R} :p\leq F_{X}(x)\right\}
-\displaystyle \mathrm {enc} (x_{1},x_{2},x_{3},\dots ,x_{n})=2^{x_{1}}\cdot 3^{x_{2}}\cdot 5^{x_{3}}\cdots p_{n}^{x_{n}}
+('\\displaystyle {\\vec {x}}={\\vec {p}}+s({\\vec {q}}-{\\vec {p}})+t({\\vec {r}}-{\\vec {p}})', 1)
+('\\displaystyle \\min _{a\\leq b\\iff \\deg a\\leq \\deg b}\\{p\\in K[x]\\colon p(\\alpha )=0,\\;p(x)=x^{\\deg p}+{\\mathcal {O}}(x^{\\deg p-1})\\}', 2)
+('\\displaystyle W_{\\mathrm {SWU} }=P\\cdot V\\left(x_{p}\\right)+T\\cdot V(x_{t})-F\\cdot V(x_{f})', 3)
+('\\displaystyle D_{n}(x,\\alpha )=\\sum _{p=0}^{\\lfloor n/2\\rfloor }{\\frac {n}{n-p}}{\\binom {n-p}{p}}(-\\alpha )^{p}x^{n-2p}', 4)
+('\\displaystyle \\ p_{x}(i)=p(x=i)={\\frac {n_{i}}{n}},\\quad 0\\leq i&lt;L', 5)
+('\\displaystyle L(x)=p(r\\mid x)', 6)
+('\\displaystyle a(x-p)^{2}+q=0', 7)
+('\\displaystyle \\int |f(x)|^{p}\\,\\mathrm {d} x&lt;\\infty ', 8)
+("\\displaystyle {\\frac {dx}{dp}}+{\\frac {xf'(p)+g'(p)}{f(p)-p}}=0", 9)
+('\\displaystyle \\lim \\limits _{p\\to \\infty }{\\frac {x_{n}+\\ldots +x_{n+p-1}}{p}}=L', 10)
 arXiv formula
 ('\\Delta x\\Delta k\\geq\\frac{\\hbar}{2}', 93.15068493150685)
 ('\\Delta x\\,\\,\\Delta p\\geq\\frac{\\hbar}{2}\\ \\ .', 85.36585365853658)
@@ -4512,16 +4502,16 @@ Wikidata formula
 ('{\\displaystyle \\sigma _{x}\\sigma _{p}\\geq {\\frac {\\hbar }{2}}}', 42.85714285714286)
 ('{\\displaystyle {\\frac {|N\\rangle |0\\rangle +\\exp(\\mathrm {i} N\\theta )|0\\rangle |N\\rangle }{\\sqrt {2}}}}', 42.85714285714286)
 Wikidata identifiers
-\displaystyle \ p_{x}(i)=p(x=i)={\frac {n_{i}}{n}},\quad 0\leq i&lt;L
-\displaystyle p(x,y)=\sum \limits _{i=0}^{3}\sum _{j=0}^{3}a_{ij}x^{i}y^{j}
-\displaystyle E[y_{i}|x_{i1},\ldots ,x_{ip}]=\beta _{0}+\sum _{j=1}^{p}f_{j}(x_{ij})
-\displaystyle {Single-\ loss\ expectancy\ (SLE)}={Asset\ value\ (AV)\ }\times {\ Exposure\ factor\ (EF)}
-\displaystyle u'+x'i+y'j+z'k=(a+bi+cj+dk)(u+xi+yj+zk)(p+qi+rj+sk),
-\displaystyle p_{k}(x_{1},\ldots ,x_{n})=\sum \nolimits _{i=1}^{n}x_{i}^{k}=x_{1}^{k}+\cdots +x_{n}^{k}
-\displaystyle \mathbf {s} (x)=\sum _{i=0}^{p-1}\mathbf {d} _{i}N_{i}^{n}(x)
-\displaystyle \rho (x,y)=\left(\sum _{i=1}^{n}|x_{i}-y_{i}|^{p}\right)^{1/p}
-\displaystyle E(X^{r})=\sum _{i=1}^{n}x_{i}^{r}p(x_{i})
-\displaystyle T(X,Y)=\sum _{i=1}^{n}\sum _{j=1}^{m}p(x_{i},y_{j})T(x_{i},y_{j})
+('\\displaystyle \\ p_{x}(i)=p(x=i)={\\frac {n_{i}}{n}},\\quad 0\\leq i&lt;L', 1)
+('\\displaystyle E[y_{i}|x_{i1},\\ldots ,x_{ip}]=\\beta _{0}+\\sum _{j=1}^{p}f_{j}(x_{ij})', 2)
+('\\displaystyle {Single-\\ loss\\ expectancy\\ (SLE)}={Asset\\ value\\ (AV)\\ }\\times {\\ Exposure\\ factor\\ (EF)}', 3)
+('\\displaystyle p(x,y)=\\sum \\limits _{i=0}^{3}\\sum _{j=0}^{3}a_{ij}x^{i}y^{j}', 4)
+('\\displaystyle p_{k}(x_{1},\\ldots ,x_{n})=\\sum \\nolimits _{i=1}^{n}x_{i}^{k}=x_{1}^{k}+\\cdots +x_{n}^{k}', 5)
+('\\displaystyle T(X,Y)=\\sum _{i=1}^{n}\\sum _{j=1}^{m}p(x_{i},y_{j})T(x_{i},y_{j})', 6)
+("\\displaystyle u'+x'i+y'j+z'k=(a+bi+cj+dk)(u+xi+yj+zk)(p+qi+rj+sk),", 7)
+('\\displaystyle E(X^{r})=\\sum _{i=1}^{n}x_{i}^{r}p(x_{i})', 8)
+('\\displaystyle \\#\\{n\\leq x\\colon f_{1}(n),\\dotsc ,f_{m}(n)\\in \\mathbb {P} \\}\\sim \\left(\\prod _{p\\in \\mathbb {P} }{\\frac {1-p^{-1}\\#\\{y\\in \\mathbb {F} _{p}\\colon \\prod _{i=1}^{m}f_{i}(y)=0\\}}{(1-1/p)^{m}}}\\right)\\left(\\prod _{i=1}^{m}{\\frac {1}{\\deg f_{i}}}\\right)\\int _{2}^{x}{\\frac {\\mathrm {d} t}{(\\log t)^{m}}}', 9)
+('\\displaystyle \\mathbf {s} (x)=\\sum _{i=0}^{p-1}\\mathbf {d} _{i}N_{i}^{n}(x)', 10)
 arXiv formula
 ('\\displaystyle=\\frac{1}{2}\\langle\\check{\\alpha_{\\epsilon}},\\beta\\rangle E_{\\beta}', 52.0)
 ('S_{NCYM}\\simeq-\\frac{1}{4g_{YM}^{2}}\\langle tr(\\hat{G}\\hat{F}\\hat{G}\\hat{F})\\rangle.', 50.98039215686274)
@@ -4579,16 +4569,16 @@ Wikidata formula
 ('{\\displaystyle p_{\\text{P}}={\\sqrt {\\frac {\\hbar c^{3}}{G}}}}', 46.29629629629629)
 ('{\\displaystyle E_{\\text{P}}={\\sqrt {\\frac {\\hbar c^{5}}{G}}}}', 46.29629629629629)
 Wikidata identifiers
-\displaystyle {\vec {x}}={\vec {p}}+s({\vec {q}}-{\vec {p}})+t({\vec {r}}-{\vec {p}})
-\displaystyle \min _{a\leq b\iff \deg a\leq \deg b}\{p\in K[x]\colon p(\alpha )=0,\;p(x)=x^{\deg p}+{\mathcal {O}}(x^{\deg p-1})\}
-\displaystyle D_{n}(x,\alpha )=\sum _{p=0}^{\lfloor n/2\rfloor }{\frac {n}{n-p}}{\binom {n-p}{p}}(-\alpha )^{p}x^{n-2p}
-\displaystyle \ p_{x}(i)=p(x=i)={\frac {n_{i}}{n}},\quad 0\leq i&lt;L
-\displaystyle W_{\mathrm {SWU} }=P\cdot V\left(x_{p}\right)+T\cdot V(x_{t})-F\cdot V(x_{f})
-\displaystyle L(x)=p(r\mid x)
-\displaystyle a(x-p)^{2}+q=0
-\displaystyle \int |f(x)|^{p}\,\mathrm {d} x&lt;\infty 
-\displaystyle {\frac {dx}{dp}}+{\frac {xf'(p)+g'(p)}{f(p)-p}}=0
-\displaystyle x=r\cos(p\phi ),y=r\sin {(p\phi )},z=-\sin {(q\phi )}
+('\\displaystyle {\\vec {x}}={\\vec {p}}+s({\\vec {q}}-{\\vec {p}})+t({\\vec {r}}-{\\vec {p}})', 1)
+('\\displaystyle \\min _{a\\leq b\\iff \\deg a\\leq \\deg b}\\{p\\in K[x]\\colon p(\\alpha )=0,\\;p(x)=x^{\\deg p}+{\\mathcal {O}}(x^{\\deg p-1})\\}', 2)
+('\\displaystyle W_{\\mathrm {SWU} }=P\\cdot V\\left(x_{p}\\right)+T\\cdot V(x_{t})-F\\cdot V(x_{f})', 3)
+('\\displaystyle D_{n}(x,\\alpha )=\\sum _{p=0}^{\\lfloor n/2\\rfloor }{\\frac {n}{n-p}}{\\binom {n-p}{p}}(-\\alpha )^{p}x^{n-2p}', 4)
+('\\displaystyle \\ p_{x}(i)=p(x=i)={\\frac {n_{i}}{n}},\\quad 0\\leq i&lt;L', 5)
+('\\displaystyle L(x)=p(r\\mid x)', 6)
+('\\displaystyle a(x-p)^{2}+q=0', 7)
+('\\displaystyle \\int |f(x)|^{p}\\,\\mathrm {d} x&lt;\\infty ', 8)
+("\\displaystyle {\\frac {dx}{dp}}+{\\frac {xf'(p)+g'(p)}{f(p)-p}}=0", 9)
+('\\displaystyle \\lim \\limits _{p\\to \\infty }{\\frac {x_{n}+\\ldots +x_{n+p-1}}{p}}=L', 10)
 arXiv formula
 ('\\sigma_{\\sigma}^{2}=\\frac{1}{36}', 65.82278481012658)
 ('Q_{k}^{\\sigma_{k}}(t)\\geq\\frac{1}{2}', 65.06024096385542)
@@ -4704,16 +4694,16 @@ Wikidata formula
 ('{\\displaystyle i\\gamma ^{a}e_{a}^{\\mu }D_{\\mu }\\Psi -m\\Psi =0}', 43.07692307692308)
 ('{\\displaystyle s=2\\sinh \\left({\\frac {1}{2}}d\\right)={\\sqrt {2(\\cosh d-1)}}}', 43.05555555555556)
 Wikidata identifiers
-\displaystyle {\frac {dx}{dp}}+{\frac {xf'(p)+g'(p)}{f(p)-p}}=0
-\displaystyle M_{pq}=\int \limits _{-\infty }^{\infty }\int \limits _{-\infty }^{\infty }x^{p}y^{q}f(x,y)\,dx\,dy
-\displaystyle W_{p}(\mu ,\nu ):=\left(\inf _{\gamma \in \Gamma (\mu ,\nu )}\int _{M\times M}d(x,y)^{p}\,\mathrm {d} \gamma (x,y)\right)^{1/p}
-\displaystyle u'+x'i+y'j+z'k=(a+bi+cj+dk)(u+xi+yj+zk)(p+qi+rj+sk),
-\displaystyle (1-x^{2}){\frac {d^{2}y}{dx^{2}}}-x{\frac {dy}{dx}}+p^{2}y=0
-\displaystyle I[f]=\mathbb {E} [V(f(x),y)]=\int V(f(x),y)\,dp(x,y)
-\displaystyle {\frac {dy}{dx}}+p(x)y=q(x)
-\displaystyle {\begin{aligned}H&amp;=\{f(-,-)\colon M_{0}\to {\mathcal {C}}^{\infty }\}\\M_{p}&amp;=\left\{\eta \in D\colon \int \eta (x)\,dx=1,\;\int \eta (x)x^{q}\,dx=0\;\forall q\in \{1,\dotsc ,p\}\right\}\\E&amp;=\{f\in H\colon \exists p\forall \eta \in M_{0}\colon f(\eta _{\epsilon },x)=O(\epsilon ^{-p})\}\\N&amp;=\{f\in H\colon \forall p\exists q\forall \eta \in M_{q}\colon f(\eta _{\epsilon },x)=O(\epsilon ^{p})\}\\G&amp;=E/N\end{aligned}}
-\displaystyle P(x,p)={\frac {1}{\pi \hbar }}\int _{-\infty }^{\infty }\varphi ^{*}(p+q)\varphi (p-q)e^{-2ixq/\hbar }dy
-\displaystyle df(x_{0},\ldots ,x_{p})=\sum _{i}(-1)^{i}f(x_{0},\ldots ,x_{i-1},x_{i+1},\ldots ,x_{p})
+("\\displaystyle {\\frac {dx}{dp}}+{\\frac {xf'(p)+g'(p)}{f(p)-p}}=0", 1)
+('\\displaystyle M_{pq}=\\int \\limits _{-\\infty }^{\\infty }\\int \\limits _{-\\infty }^{\\infty }x^{p}y^{q}f(x,y)\\,dx\\,dy', 2)
+("\\displaystyle u'+x'i+y'j+z'k=(a+bi+cj+dk)(u+xi+yj+zk)(p+qi+rj+sk),", 3)
+('\\displaystyle (1-x^{2}){\\frac {d^{2}y}{dx^{2}}}-x{\\frac {dy}{dx}}+p^{2}y=0', 4)
+('\\displaystyle W_{p}(\\mu ,\\nu ):=\\left(\\inf _{\\gamma \\in \\Gamma (\\mu ,\\nu )}\\int _{M\\times M}d(x,y)^{p}\\,\\mathrm {d} \\gamma (x,y)\\right)^{1/p}', 5)
+('\\displaystyle {\\frac {dy}{dx}}+p(x)y=q(x)', 6)
+('\\displaystyle {\\begin{aligned}H&amp;=\\{f(-,-)\\colon M_{0}\\to {\\mathcal {C}}^{\\infty }\\}\\\\M_{p}&amp;=\\left\\{\\eta \\in D\\colon \\int \\eta (x)\\,dx=1,\\;\\int \\eta (x)x^{q}\\,dx=0\\;\\forall q\\in \\{1,\\dotsc ,p\\}\\right\\}\\\\E&amp;=\\{f\\in H\\colon \\exists p\\forall \\eta \\in M_{0}\\colon f(\\eta _{\\epsilon },x)=O(\\epsilon ^{-p})\\}\\\\N&amp;=\\{f\\in H\\colon \\forall p\\exists q\\forall \\eta \\in M_{q}\\colon f(\\eta _{\\epsilon },x)=O(\\epsilon ^{p})\\}\\\\G&amp;=E/N\\end{aligned}}', 7)
+('\\displaystyle I[f]=\\mathbb {E} [V(f(x),y)]=\\int V(f(x),y)\\,dp(x,y)', 8)
+('\\displaystyle P(x,p)={\\frac {1}{\\pi \\hbar }}\\int _{-\\infty }^{\\infty }\\varphi ^{*}(p+q)\\varphi (p-q)e^{-2ixq/\\hbar }dy', 9)
+('\\displaystyle df(x_{0},\\ldots ,x_{p})=\\sum _{i}(-1)^{i}f(x_{0},\\ldots ,x_{i-1},x_{i+1},\\ldots ,x_{p})', 10)
 arXiv formula
 ('(\\sigma_{1},\\sigma_{2})\\in(\\frac{1}{2}\\mathbb{Z})^{2}', 54.54545454545454)
 ('\\sigma_{\\pm}\\equiv\\frac{1}{2}(\\sigma_{1}\\pm i\\sigma_{2})', 53.2258064516129)
@@ -4771,16 +4761,16 @@ Wikidata formula
 ('{\\displaystyle E_{B}=\\sum _{n=1}^{\\infty }{\\frac {1}{2^{n}-1}}}', 46.42857142857143)
 ('{\\displaystyle E_{\\mathrm {r} }={\\tfrac {1}{2}}I\\omega ^{2}}', 45.87155963302752)
 Wikidata identifiers
-\displaystyle \ p_{x}(i)=p(x=i)={\frac {n_{i}}{n}},\quad 0\leq i&lt;L
-\displaystyle {Single-\ loss\ expectancy\ (SLE)}={Asset\ value\ (AV)\ }\times {\ Exposure\ factor\ (EF)}
-\displaystyle u'+x'i+y'j+z'k=(a+bi+cj+dk)(u+xi+yj+zk)(p+qi+rj+sk),
-\displaystyle \mathbf {s} (x)=\sum _{i=0}^{p-1}\mathbf {d} _{i}N_{i}^{n}(x)
-\displaystyle \rho (x,y)=\left(\sum _{i=1}^{n}|x_{i}-y_{i}|^{p}\right)^{1/p}
-\displaystyle p_{k}(x_{1},\ldots ,x_{n})=\sum \nolimits _{i=1}^{n}x_{i}^{k}=x_{1}^{k}+\cdots +x_{n}^{k}
-\displaystyle E[y_{i}|x_{i1},\ldots ,x_{ip}]=\beta _{0}+\sum _{j=1}^{p}f_{j}(x_{ij})
-\displaystyle p(x,y)=\sum \limits _{i=0}^{3}\sum _{j=0}^{3}a_{ij}x^{i}y^{j}
-\displaystyle \Delta p=p_{i,x}-p_{f,x}=p_{i,x}-(-p_{i,x})=2p_{i,x}=2mv_{x}
-\displaystyle {\frac {\sum _{i=1}^{n}p_{i}f(x_{i})}{\sum _{i=1}^{n}p_{i}}}-f\left({\frac {\sum _{i=1}^{n}p_{i}x_{i}}{\sum _{i=1}^{n}p_{i}}}\right)\leq {\frac {\sum _{i=1}^{n}p_{i}f(2a-x_{i})}{\sum _{i=1}^{n}p_{i}}}-f\left({\frac {\sum _{i=1}^{n}p_{i}(2a-x_{i})}{\sum _{i=1}^{n}p_{i}}}\right)
+('\\displaystyle \\ p_{x}(i)=p(x=i)={\\frac {n_{i}}{n}},\\quad 0\\leq i&lt;L', 1)
+('\\displaystyle E[y_{i}|x_{i1},\\ldots ,x_{ip}]=\\beta _{0}+\\sum _{j=1}^{p}f_{j}(x_{ij})', 2)
+('\\displaystyle {Single-\\ loss\\ expectancy\\ (SLE)}={Asset\\ value\\ (AV)\\ }\\times {\\ Exposure\\ factor\\ (EF)}', 3)
+('\\displaystyle p(x,y)=\\sum \\limits _{i=0}^{3}\\sum _{j=0}^{3}a_{ij}x^{i}y^{j}', 4)
+('\\displaystyle p_{k}(x_{1},\\ldots ,x_{n})=\\sum \\nolimits _{i=1}^{n}x_{i}^{k}=x_{1}^{k}+\\cdots +x_{n}^{k}', 5)
+('\\displaystyle T(X,Y)=\\sum _{i=1}^{n}\\sum _{j=1}^{m}p(x_{i},y_{j})T(x_{i},y_{j})', 6)
+("\\displaystyle u'+x'i+y'j+z'k=(a+bi+cj+dk)(u+xi+yj+zk)(p+qi+rj+sk),", 7)
+('\\displaystyle E(X^{r})=\\sum _{i=1}^{n}x_{i}^{r}p(x_{i})', 8)
+('\\displaystyle \\#\\{n\\leq x\\colon f_{1}(n),\\dotsc ,f_{m}(n)\\in \\mathbb {P} \\}\\sim \\left(\\prod _{p\\in \\mathbb {P} }{\\frac {1-p^{-1}\\#\\{y\\in \\mathbb {F} _{p}\\colon \\prod _{i=1}^{m}f_{i}(y)=0\\}}{(1-1/p)^{m}}}\\right)\\left(\\prod _{i=1}^{m}{\\frac {1}{\\deg f_{i}}}\\right)\\int _{2}^{x}{\\frac {\\mathrm {d} t}{(\\log t)^{m}}}', 9)
+('\\displaystyle \\mathbf {s} (x)=\\sum _{i=0}^{p-1}\\mathbf {d} _{i}N_{i}^{n}(x)', 10)
 arXiv formula
 ('(\\sigma_{1},\\sigma_{2})\\in(\\frac{1}{2}\\mathbb{Z})^{2}', 64.70588235294117)
 ('\\sigma_{\\sigma}^{2}=\\frac{1}{36}', 64.19753086419753)
@@ -4838,16 +4828,16 @@ Wikidata formula
 ('{\\displaystyle W_{\\mu }={\\frac {1}{2}}\\epsilon _{\\mu \\nu \\rho \\sigma }J^{\\nu \\rho }P^{\\sigma }}', 43.386243386243386)
 ('{\\displaystyle N_{\\mathrm {i} l}={\\frac {1}{e}}{\\frac {\\mathrm {d} q}{\\mathrm {d} l}}}', 43.333333333333336)
 Wikidata identifiers
-\displaystyle {\frac {dx}{dp}}+{\frac {xf'(p)+g'(p)}{f(p)-p}}=0
-\displaystyle u'+x'i+y'j+z'k=(a+bi+cj+dk)(u+xi+yj+zk)(p+qi+rj+sk),
-\displaystyle M_{pq}=\int \limits _{-\infty }^{\infty }\int \limits _{-\infty }^{\infty }x^{p}y^{q}f(x,y)\,dx\,dy
-\displaystyle (1-x^{2}){\frac {d^{2}y}{dx^{2}}}-x{\frac {dy}{dx}}+p^{2}y=0
-\displaystyle W_{p}(\mu ,\nu ):=\left(\inf _{\gamma \in \Gamma (\mu ,\nu )}\int _{M\times M}d(x,y)^{p}\,\mathrm {d} \gamma (x,y)\right)^{1/p}
-\displaystyle {\begin{aligned}H&amp;=\{f(-,-)\colon M_{0}\to {\mathcal {C}}^{\infty }\}\\M_{p}&amp;=\left\{\eta \in D\colon \int \eta (x)\,dx=1,\;\int \eta (x)x^{q}\,dx=0\;\forall q\in \{1,\dotsc ,p\}\right\}\\E&amp;=\{f\in H\colon \exists p\forall \eta \in M_{0}\colon f(\eta _{\epsilon },x)=O(\epsilon ^{-p})\}\\N&amp;=\{f\in H\colon \forall p\exists q\forall \eta \in M_{q}\colon f(\eta _{\epsilon },x)=O(\epsilon ^{p})\}\\G&amp;=E/N\end{aligned}}
-\displaystyle I[f]=\mathbb {E} [V(f(x),y)]=\int V(f(x),y)\,dp(x,y)
-\displaystyle P(x,p)={\frac {1}{\pi \hbar }}\int _{-\infty }^{\infty }\varphi ^{*}(p+q)\varphi (p-q)e^{-2ixq/\hbar }dy
-\displaystyle {\frac {dy}{dx}}+p(x)y=q(x)
-\displaystyle df(x_{0},\ldots ,x_{p})=\sum _{i}(-1)^{i}f(x_{0},\ldots ,x_{i-1},x_{i+1},\ldots ,x_{p})
+("\\displaystyle {\\frac {dx}{dp}}+{\\frac {xf'(p)+g'(p)}{f(p)-p}}=0", 1)
+("\\displaystyle u'+x'i+y'j+z'k=(a+bi+cj+dk)(u+xi+yj+zk)(p+qi+rj+sk),", 2)
+('\\displaystyle W_{p}(\\mu ,\\nu ):=\\left(\\inf _{\\gamma \\in \\Gamma (\\mu ,\\nu )}\\int _{M\\times M}d(x,y)^{p}\\,\\mathrm {d} \\gamma (x,y)\\right)^{1/p}', 3)
+('\\displaystyle (1-x^{2}){\\frac {d^{2}y}{dx^{2}}}-x{\\frac {dy}{dx}}+p^{2}y=0', 4)
+('\\displaystyle M_{pq}=\\int \\limits _{-\\infty }^{\\infty }\\int \\limits _{-\\infty }^{\\infty }x^{p}y^{q}f(x,y)\\,dx\\,dy', 5)
+('\\displaystyle {\\begin{aligned}H&amp;=\\{f(-,-)\\colon M_{0}\\to {\\mathcal {C}}^{\\infty }\\}\\\\M_{p}&amp;=\\left\\{\\eta \\in D\\colon \\int \\eta (x)\\,dx=1,\\;\\int \\eta (x)x^{q}\\,dx=0\\;\\forall q\\in \\{1,\\dotsc ,p\\}\\right\\}\\\\E&amp;=\\{f\\in H\\colon \\exists p\\forall \\eta \\in M_{0}\\colon f(\\eta _{\\epsilon },x)=O(\\epsilon ^{-p})\\}\\\\N&amp;=\\{f\\in H\\colon \\forall p\\exists q\\forall \\eta \\in M_{q}\\colon f(\\eta _{\\epsilon },x)=O(\\epsilon ^{p})\\}\\\\G&amp;=E/N\\end{aligned}}', 6)
+('\\displaystyle {\\frac {dy}{dx}}+p(x)y=q(x)', 7)
+('\\displaystyle I[f]=\\mathbb {E} [V(f(x),y)]=\\int V(f(x),y)\\,dp(x,y)', 8)
+('\\displaystyle q_{n}(x)=\\int _{\\mathbb {R} }\\!{\\frac {p_{n}(t)-p_{n}(x)}{t-x}}\\rho (t)\\,dt', 9)
+('\\displaystyle P(x,p)={\\frac {1}{\\pi \\hbar }}\\int _{-\\infty }^{\\infty }\\varphi ^{*}(p+q)\\varphi (p-q)e^{-2ixq/\\hbar }dy', 10)
 arXiv formula
 ('(\\sigma_{1},\\sigma_{2})\\in(\\frac{1}{2}\\mathbb{Z})^{2}', 50.34013605442177)
 ('\\sigma^{\\pm}\\equiv\\frac{1}{2}\\left(\\sigma^{a}\\pm i\\sigma^{b}\\right)\\ ,', 50.0)
@@ -4905,16 +4895,16 @@ Wikidata formula
 ('{\\displaystyle {\\frac {dH}{dt}}=0}', 53.333333333333336)
 ('{\\displaystyle k={\\frac {M}{\\theta }}}', 53.125)
 Wikidata identifiers
-\displaystyle {\mathit {Ste}}={\frac {c_{p}\Delta T}{Q}}
-\displaystyle S=\int {\frac {\delta Q}{T}}
-\displaystyle TM={\frac {Q_{1}+2Q_{2}+Q_{3}}{4}}
-\displaystyle Q(\mathbf {x} )=\mathbf {x} ^{T}A\mathbf {x} 
-\displaystyle {\frac {\partial T}{\partial t}}=\nabla \cdot (\alpha _{1}\nabla T)+Q
-\displaystyle Q_{10}=\left({\frac {k_{2}}{k_{1}}}\right)^{\frac {10\,\mathrm {K} }{T_{2}-T_{1}}}\approx 2.5
-\displaystyle Q_{10}=\left({\frac {R_{2}}{R_{1}}}\right)^{10/(T_{2}-T_{1})}
-\displaystyle Q=\{x\in k^{n}\mid x^{T}Ax+2b^{T}x+c=0\}
-\displaystyle {\begin{aligned}J&amp;=x^{T}(t_{1})F(t_{1})x(t_{1})+\int \limits _{t_{0}}^{t_{1}}\left(x^{T}Qx+u^{T}Ru+2x^{T}Nu\right)\\{\dot {x}}&amp;=Ax+Bu\end{aligned}}
-\displaystyle C={\frac {\mathrm {d} Q}{\mathrm {d} T}}
+('\\displaystyle TM={\\frac {Q_{1}+2Q_{2}+Q_{3}}{4}}', 1)
+('\\displaystyle {\\mathit {Ste}}={\\frac {c_{p}\\Delta T}{Q}}', 2)
+('\\displaystyle S=\\int {\\frac {\\delta Q}{T}}', 3)
+('\\displaystyle {\\frac {\\partial T}{\\partial t}}=\\nabla \\cdot (\\alpha _{1}\\nabla T)+Q', 4)
+('\\displaystyle Q_{10}=\\left({\\frac {k_{2}}{k_{1}}}\\right)^{\\frac {10\\,\\mathrm {K} }{T_{2}-T_{1}}}\\approx 2.5', 5)
+('\\displaystyle Q(\\mathbf {x} )=\\mathbf {x} ^{T}A\\mathbf {x} ', 6)
+('\\displaystyle C={\\frac {\\mathrm {d} Q}{\\mathrm {d} T}}', 7)
+('\\displaystyle i_{Q}^{\\ast }(TE)=\\{(q,v)\\in Q\\times TE\\mid i(q)=\\tau _{E}(v)\\}\\subset Q\\times TE,', 8)
+('\\displaystyle Q=C_{\\mathrm {th} }\\Delta T', 9)
+('\\displaystyle A^{T}P+PA=-QQ^{T}', 10)
 arXiv formula
 ('\\oint\\frac{dl}{l}=0', 80.0)
 ('\\frac{\\Delta T}{T}', 72.72727272727273)
@@ -4972,10 +4962,10 @@ Wikidata formula
 ('{\\displaystyle y=\\int {\\frac {dy}{dx}}dx}', 50.0)
 ('{\\displaystyle \\Delta _{\\mathrm {r} }={\\frac {\\Delta }{m_{\\mathrm {u} }}}}', 49.572649572649574)
 Wikidata identifiers
-\displaystyle S=\int {\frac {\delta Q}{T}}
-\displaystyle S_{r}={\frac {dQ/dT}{Q}}
-\displaystyle S_{r}={\frac {dQ/dT}{Q}}
-\displaystyle {\text{E}}_{1}\sum _{t=1}^{S}[y_{t}^{T}Qy_{t}+u_{t}^{T}Ru_{t}]
+('\\displaystyle S=\\int {\\frac {\\delta Q}{T}}', 1)
+('\\displaystyle {\\text{E}}_{1}\\sum _{t=1}^{S}[y_{t}^{T}Qy_{t}+u_{t}^{T}Ru_{t}]', 2)
+('\\displaystyle S_{r}={\\frac {dQ/dT}{Q}}', 3)
+('\\displaystyle S_{r}={\\frac {dQ/dT}{Q}}', 4)
 arXiv formula
 ('\\Delta x\\sim\\sqrt{\\frac{\\Delta t}{m}}', 65.0)
 ('\\Delta v_{i}\\equiv\\frac{\\Delta_{II}}{r_{i}}', 62.7906976744186)
@@ -5033,11 +5023,11 @@ Wikidata formula
 ('{\\displaystyle M_{\\mathrm {b} }=\\sigma T^{4}}', 43.0379746835443)
 ('{\\displaystyle A_{\\mathrm {n} }=-\\ln {\\tau }}', 43.0379746835443)
 Wikidata identifiers
-\displaystyle T_{g}={\frac {H_{d}}{S_{d}+R\ln({\frac {1-f_{c}}{f_{c}}})}}
-\displaystyle R_{Sh}^{-1}={\frac {3\pi }{16}}{\frac {n{{e}^{2}}{{d}^{2}}}{{p}_{F}}},
-\displaystyle S={\frac {1}{c}}\int {d^{4}x{\sqrt {-g}}{\frac {1}{2\mu }}}\times \left[\Phi R-{\frac {\omega (\Phi )}{\Phi }}(\partial _{\sigma }\Phi )^{2}-V(\Phi )+2\mu ~{\mathcal {L}}_{m}(g_{\mu \nu },\Psi )\right]
-\displaystyle SR={\frac {CompoundROR}{ABS(Avg.AnnualDD-10\%)}}
-\displaystyle S={\frac {1}{2\pi }}\int d^{2}x\,{\sqrt {-g}}\left\{e^{-2\phi }\left[R+4\left(\nabla \phi \right)^{2}+4\lambda ^{2}\right]-\sum _{i=1}^{N}{\frac {1}{2}}\left(\nabla f_{i}\right)^{2}\right\}
+('\\displaystyle T_{g}={\\frac {H_{d}}{S_{d}+R\\ln({\\frac {1-f_{c}}{f_{c}}})}}', 1)
+('\\displaystyle R_{Sh}^{-1}={\\frac {3\\pi }{16}}{\\frac {n{{e}^{2}}{{d}^{2}}}{{p}_{F}}},', 2)
+('\\displaystyle S={\\frac {1}{c}}\\int {d^{4}x{\\sqrt {-g}}{\\frac {1}{2\\mu }}}\\times \\left[\\Phi R-{\\frac {\\omega (\\Phi )}{\\Phi }}(\\partial _{\\sigma }\\Phi )^{2}-V(\\Phi )+2\\mu ~{\\mathcal {L}}_{m}(g_{\\mu \\nu },\\Psi )\\right]', 3)
+('\\displaystyle SR={\\frac {CompoundROR}{ABS(Avg.AnnualDD-10\\%)}}', 4)
+('\\displaystyle S={\\frac {1}{2\\pi }}\\int d^{2}x\\,{\\sqrt {-g}}\\left\\{e^{-2\\phi }\\left[R+4\\left(\\nabla \\phi \\right)^{2}+4\\lambda ^{2}\\right]-\\sum _{i=1}^{N}{\\frac {1}{2}}\\left(\\nabla f_{i}\\right)^{2}\\right\\}', 5)
 arXiv formula
 ('S_{\\mathrm{tot}}', 64.0)
 ('S_{\\mathrm{total}}=S_{Q}+S_{\\Phi,Q,Z}', 61.9718309859155)
@@ -5095,16 +5085,16 @@ Wikidata formula
 ('{\\displaystyle \\Delta u=0}', 35.0)
 ('{\\displaystyle \\Delta f=0}', 35.0)
 Wikidata identifiers
-\displaystyle S^{1}\wedge \dots \wedge S^{1}\wedge X_{n}\to S^{1}\wedge \dots \wedge S^{1}\wedge X_{n+1}\to \dots \to S^{1}\wedge X_{n+p-1}\to X_{n+p}
-\displaystyle S=pi*r*s
-\displaystyle \varepsilon is[[Strain(materialsscience)|strain]]
-\displaystyle c=S_{0}e^{-r_{f}T}{\mathcal {N}}(d_{1})-Ke^{-r_{d}T}{\mathcal {N}}(d_{2})
-\displaystyle S=\int _{t_{1}}^{t_{2}}\int _{0}^{L}\left[{\frac {1}{2}}\mu \left({\frac {\partial w}{\partial t}}\right)^{2}-{\frac {1}{2}}EI\left({\frac {\partial ^{2}w}{\partial x^{2}}}\right)^{2}+q(x)w(x,t)\right]\,\mathrm {d} x\,\mathrm {d} t
-\displaystyle MAP\simeq {\frac {2}{3}}\cdot DP+{\frac {1}{3}}\cdot SP
-\displaystyle \lambda =\left\vert P\right\vert /\left\vert S\right\vert 
-\displaystyle G(s)={\frac {S_{x,s}(s)}{S_{x}(s)}}e^{\alpha s}
-\displaystyle {\frac {dS(t)}{S(t)}}=\mu \,dt+\sigma (t)\,dz_{1}(t)(1)
-\displaystyle S^{1}\times I
+('\\displaystyle S^{1}\\wedge \\dots \\wedge S^{1}\\wedge X_{n}\\to S^{1}\\wedge \\dots \\wedge S^{1}\\wedge X_{n+1}\\to \\dots \\to S^{1}\\wedge X_{n+p-1}\\to X_{n+p}', 1)
+('\\displaystyle S=pi*r*s', 2)
+('\\displaystyle \\varepsilon is[[Strain(materialsscience)|strain]]', 3)
+('\\displaystyle c=S_{0}e^{-r_{f}T}{\\mathcal {N}}(d_{1})-Ke^{-r_{d}T}{\\mathcal {N}}(d_{2})', 4)
+('\\displaystyle S=\\int _{t_{1}}^{t_{2}}\\int _{0}^{L}\\left[{\\frac {1}{2}}\\mu \\left({\\frac {\\partial w}{\\partial t}}\\right)^{2}-{\\frac {1}{2}}EI\\left({\\frac {\\partial ^{2}w}{\\partial x^{2}}}\\right)^{2}+q(x)w(x,t)\\right]\\,\\mathrm {d} x\\,\\mathrm {d} t', 5)
+('\\displaystyle MAP\\simeq {\\frac {2}{3}}\\cdot DP+{\\frac {1}{3}}\\cdot SP', 6)
+('\\displaystyle \\lambda =\\left\\vert P\\right\\vert /\\left\\vert S\\right\\vert ', 7)
+('\\displaystyle G(s)={\\frac {S_{x,s}(s)}{S_{x}(s)}}e^{\\alpha s}', 8)
+('\\displaystyle {\\frac {dS(t)}{S(t)}}=\\mu \\,dt+\\sigma (t)\\,dz_{1}(t)(1)', 9)
+('\\displaystyle S^{1}\\times I', 10)
 arXiv formula
 ('d_{t}\\geq 0', 80.0)
 ('S_{i,t}\\geq 0', 74.07407407407408)
@@ -5220,7 +5210,7 @@ Wikidata formula
 ('{\\displaystyle k={\\frac {M}{\\theta }}}', 51.515151515151516)
 ('{\\displaystyle c={\\frac {\\omega }{k}}}', 51.515151515151516)
 Wikidata identifiers
-\displaystyle {\begin{aligned}J&amp;=x^{T}(t_{1})F(t_{1})x(t_{1})+\int \limits _{t_{0}}^{t_{1}}\left(x^{T}Qx+u^{T}Ru+2x^{T}Nu\right)\\{\dot {x}}&amp;=Ax+Bu\end{aligned}}
+('\\displaystyle {\\begin{aligned}J&amp;=x^{T}(t_{1})F(t_{1})x(t_{1})+\\int \\limits _{t_{0}}^{t_{1}}\\left(x^{T}Qx+u^{T}Ru+2x^{T}Nu\\right)\\\\{\\dot {x}}&amp;=Ax+Bu\\end{aligned}}', 1)
 arXiv formula
 ('\\frac{\\Delta T}{T}', 69.56521739130434)
 ('\\frac{\\delta c}{c}', 69.56521739130434)
@@ -5278,11 +5268,11 @@ Wikidata formula
 ('{\\displaystyle {\\frac {d{\\vec {u}}}{dt}}=-\\nabla \\phi }', 40.54054054054054)
 ('{\\displaystyle f(v)\\geq 0}', 40.0)
 Wikidata identifiers
-\displaystyle {\frac {dS(t)}{S(t)}}=\mu \,dt+\sigma (t)\,dz_{1}(t)(1)
-\displaystyle -\int _{S}\Phi J\cdot dS=\int _{\Omega }J_{q}\cdot Fd^{3}r-\int _{S}\varepsilon {\frac {\partial A_{0}}{\partial t}}F\cdot dS
-\displaystyle S({\vec {k}},\omega )\equiv {\frac {1}{2\pi }}\int _{-\infty }^{\infty }F({\vec {k}},t){\mbox{exp}}(i\omega t)dt
-\displaystyle J={\frac {d^{2}W}{dtdS}}
-\displaystyle dS_{t}=(r_{t}-d_{t})S_{t}\,dt+\sigma _{t}S_{t}\,dW_{t}
+('\\displaystyle {\\frac {dS(t)}{S(t)}}=\\mu \\,dt+\\sigma (t)\\,dz_{1}(t)(1)', 1)
+('\\displaystyle S({\\vec {k}},\\omega )\\equiv {\\frac {1}{2\\pi }}\\int _{-\\infty }^{\\infty }F({\\vec {k}},t){\\mbox{exp}}(i\\omega t)dt', 2)
+('\\displaystyle -\\int _{S}\\Phi J\\cdot dS=\\int _{\\Omega }J_{q}\\cdot Fd^{3}r-\\int _{S}\\varepsilon {\\frac {\\partial A_{0}}{\\partial t}}F\\cdot dS', 3)
+('\\displaystyle J={\\frac {d^{2}W}{dtdS}}', 4)
+('\\displaystyle dS_{t}=(r_{t}-d_{t})S_{t}\\,dt+\\sigma _{t}S_{t}\\,dW_{t}', 5)
 arXiv formula
 ('\\frac{dc}{dt}\\leq 0', 84.21052631578947)
 ('\\frac{df}{dt}\\leq 0.', 82.05128205128204)
@@ -5340,7 +5330,7 @@ Wikidata formula
 ('{\\displaystyle M\\cdot V=P\\cdot Q}', 44.067796610169495)
 ('{\\displaystyle E_{1}=k\\cdot E_{0}}', 43.333333333333336)
 Wikidata identifiers
-\displaystyle S({\vec {k}},\omega )\equiv {\frac {1}{2\pi }}\int _{-\infty }^{\infty }F({\vec {k}},t){\mbox{exp}}(i\omega t)dt
+('\\displaystyle S({\\vec {k}},\\omega )\\equiv {\\frac {1}{2\\pi }}\\int _{-\\infty }^{\\infty }F({\\vec {k}},t){\\mbox{exp}}(i\\omega t)dt', 1)
 arXiv formula
 ('\\frac{d}{dt}\\hat{x}_{i}', 73.46938775510203)
 ('\\frac{d}{dt}N_{t}', 69.76744186046511)
@@ -5456,8 +5446,8 @@ Wikidata formula
 ('{\\displaystyle {\\frac {D\\eta }{Dt}}=0}', 53.333333333333336)
 ('{\\displaystyle R={\\frac {\\Delta T}{\\dot {Q}}}}', 52.94117647058824)
 Wikidata identifiers
-\displaystyle S_{r}={\frac {dQ/dT}{Q}}
-\displaystyle S_{r}={\frac {dQ/dT}{Q}}
+('\\displaystyle S_{r}={\\frac {dQ/dT}{Q}}', 1)
+('\\displaystyle S_{r}={\\frac {dQ/dT}{Q}}', 2)
 arXiv formula
 ('\\frac{\\Delta T}{T}', 80.0)
 ('\\frac{\\delta c}{c}', 80.0)
@@ -5515,10 +5505,10 @@ Wikidata formula
 ('{\\displaystyle \\varepsilon _{0}={\\frac {1}{\\mu _{0}c_{0}^{2}}}}', 37.383177570093466)
 ('{\\displaystyle \\kappa ={\\frac {8\\pi G}{c^{2}}}}', 37.362637362637365)
 Wikidata identifiers
-\displaystyle -\int _{S}\Phi J\cdot dS=\int _{\Omega }J_{q}\cdot Fd^{3}r-\int _{S}\varepsilon {\frac {\partial A_{0}}{\partial t}}F\cdot dS
-\displaystyle F={\frac {1}{4\pi \varepsilon _{0}}}{\frac {q_{1}q_{2}}{r^{2}}}
-\displaystyle F={\frac {1}{4\pi \varepsilon _{0}}}{\frac {q_{1}q_{2}}{r^{2}}}
-\displaystyle F_{drag}=qA_{s}C_{D}
+('\\displaystyle -\\int _{S}\\Phi J\\cdot dS=\\int _{\\Omega }J_{q}\\cdot Fd^{3}r-\\int _{S}\\varepsilon {\\frac {\\partial A_{0}}{\\partial t}}F\\cdot dS', 1)
+('\\displaystyle F={\\frac {1}{4\\pi \\varepsilon _{0}}}{\\frac {q_{1}q_{2}}{r^{2}}}', 2)
+('\\displaystyle F={\\frac {1}{4\\pi \\varepsilon _{0}}}{\\frac {q_{1}q_{2}}{r^{2}}}', 3)
+('\\displaystyle F_{drag}=qA_{s}C_{D}', 4)
 arXiv formula
 ('\\sin\\frac{k_{1}\\times k_{2}}{2}', 56.00000000000001)
 ('|f|=k\\frac{qq^{\\prime}}{r^{2}}', 54.054054054054056)
@@ -5692,10 +5682,10 @@ Wikidata formula
 ('{\\displaystyle \\mathbf {e} ={\\frac {1}{\\mu }}\\left[\\left(v^{2}-{\\frac {\\mu }{\\mathbf {\\left|r\\right|} }}\\right)\\mathbf {r} -(\\mathbf {r} \\cdot \\mathbf {v} )\\mathbf {v} \\right]}', 50.51903114186851)
 ('{\\displaystyle \\mathbf {y} =\\mathbf {H} \\mathbf {x} +\\mathbf {n} }', 50.27932960893855)
 Wikidata identifiers
-\displaystyle F={\frac {1}{4\pi \varepsilon _{0}}}{\frac {q_{1}q_{2}}{r^{2}}}
-\displaystyle F={\frac {1}{4\pi \varepsilon _{0}}}{\frac {q_{1}q_{2}}{r^{2}}}
-\displaystyle -\int _{S}\Phi J\cdot dS=\int _{\Omega }J_{q}\cdot Fd^{3}r-\int _{S}\varepsilon {\frac {\partial A_{0}}{\partial t}}F\cdot dS
-\displaystyle F_{drag}=qA_{s}C_{D}
+('\\displaystyle -\\int _{S}\\Phi J\\cdot dS=\\int _{\\Omega }J_{q}\\cdot Fd^{3}r-\\int _{S}\\varepsilon {\\frac {\\partial A_{0}}{\\partial t}}F\\cdot dS', 1)
+('\\displaystyle F={\\frac {1}{4\\pi \\varepsilon _{0}}}{\\frac {q_{1}q_{2}}{r^{2}}}', 2)
+('\\displaystyle F={\\frac {1}{4\\pi \\varepsilon _{0}}}{\\frac {q_{1}q_{2}}{r^{2}}}', 3)
+('\\displaystyle F_{drag}=qA_{s}C_{D}', 4)
 arXiv formula
 ('\\mathbf{P=p}_{\\mathbf{1}}\\mathbf{+p}_{\\mathbf{2}}\\mathbf{+p}_{\\mathbf{3}}.', 59.893048128342244)
 ('\\mathbf{a}_{\\mu}=\\mathbf{x}_{\\mathbf{i}}-\\mathbf{x}_{\\mathbf{j}}', 59.887005649717516)
@@ -5753,10 +5743,10 @@ Wikidata formula
 ('{\\displaystyle E_{\\mathrm {H} }={\\frac {e^{2}}{4\\pi \\varepsilon _{0}a_{0}}}}', 49.71098265895954)
 ('{\\displaystyle N_{\\mathrm {i} l}={\\frac {1}{e}}{\\frac {\\mathrm {d} q}{\\mathrm {d} l}}}', 49.18032786885246)
 Wikidata identifiers
-\displaystyle F={\frac {1}{4\pi \varepsilon _{0}}}{\frac {q_{1}q_{2}}{r^{2}}}
-\displaystyle F={\frac {1}{4\pi \varepsilon _{0}}}{\frac {q_{1}q_{2}}{r^{2}}}
-\displaystyle -\int _{S}\Phi J\cdot dS=\int _{\Omega }J_{q}\cdot Fd^{3}r-\int _{S}\varepsilon {\frac {\partial A_{0}}{\partial t}}F\cdot dS
-\displaystyle F_{drag}=qA_{s}C_{D}
+('\\displaystyle -\\int _{S}\\Phi J\\cdot dS=\\int _{\\Omega }J_{q}\\cdot Fd^{3}r-\\int _{S}\\varepsilon {\\frac {\\partial A_{0}}{\\partial t}}F\\cdot dS', 1)
+('\\displaystyle F={\\frac {1}{4\\pi \\varepsilon _{0}}}{\\frac {q_{1}q_{2}}{r^{2}}}', 2)
+('\\displaystyle F={\\frac {1}{4\\pi \\varepsilon _{0}}}{\\frac {q_{1}q_{2}}{r^{2}}}', 3)
+('\\displaystyle F_{drag}=qA_{s}C_{D}', 4)
 arXiv formula
 ('{\\mathbf{A}}=-g\\frac{1}{{\\mathbf{D}}_{-}^{2}}{\\mathbf{J}}^{+}.', 60.37735849056604)
 ('{\\mathbf{Q}}_{D}=\\frac{1}{2}(2{\\mathbf{I}}-{\\mathbf{1}}{\\mathbf{1}}^{T})', 59.171597633136095)
@@ -5930,8 +5920,8 @@ Wikidata formula
 ('{\\displaystyle (t,\\mathbf {x} )\\mapsto (t+s,{\\mathsf {R}}\\mathbf {x} +\\mathbf {v} t+\\mathbf {y} )}', 52.727272727272734)
 ('{\\displaystyle p(\\mathbf {x} )\\propto \\exp \\left(-{\\frac {1}{2}}(\\mathbf {x} -\\mathbf {\\mu } )^{\\mathrm {T} }Q^{-1}(\\mathbf {x} -\\mathbf {\\mu } )\\right)}', 52.36363636363637)
 Wikidata identifiers
-\displaystyle -\int _{S}\Phi J\cdot dS=\int _{\Omega }J_{q}\cdot Fd^{3}r-\int _{S}\varepsilon {\frac {\partial A_{0}}{\partial t}}F\cdot dS
-\displaystyle F_{drag}=qA_{s}C_{D}
+('\\displaystyle -\\int _{S}\\Phi J\\cdot dS=\\int _{\\Omega }J_{q}\\cdot Fd^{3}r-\\int _{S}\\varepsilon {\\frac {\\partial A_{0}}{\\partial t}}F\\cdot dS', 1)
+('\\displaystyle F_{drag}=qA_{s}C_{D}', 2)
 arXiv formula
 ('\\mathbf{P=p}_{\\mathbf{1}}\\mathbf{+p}_{\\mathbf{2}}\\mathbf{+p}_{\\mathbf{3}}.', 58.16326530612245)
 ('\\mathbf{A},\\mathbf{B},\\mathbf{C},\\mathbf{AB},\\mathbf{AC},\\mathbf{BC}', 56.84210526315789)

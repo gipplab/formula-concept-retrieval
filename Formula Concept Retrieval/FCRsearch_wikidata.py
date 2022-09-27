@@ -153,13 +153,15 @@ def search_formulae_by_identifiers_Wikidata(identifiers,result_limit):
 	except:
 		results = []
 
+	rank = 1
 	for result in results:
 		try:
 			mathml = result['formula']['value']
 			formula = (mathml.split('alttext="{'))[1].split('}">')[0]
-			query_results.append(formula)
+			query_results.append((formula,rank))
 		except:
 			pass
+		rank += 1
 
 	return query_results[:result_limit]
 
