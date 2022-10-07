@@ -3,7 +3,7 @@ import math
 
 # Load result table
 
-result_table = pd.read_csv('fcd_evaluation/FCR_search_rankings_10examples.csv')
+result_table = pd.read_csv('Formula Concept Discovery/FCR_search_rankings_10examples.csv')
 
 def get_MRR_score(source):
 	# from https://en.wikipedia.org/wiki/Mean_reciprocal_rank

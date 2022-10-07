@@ -1,8 +1,0 @@
-Combination Nr. 1
-Chosen: {'EFE', 'KGE', 'ME'}
-Classification accuracy: 0.9666666666666667
-Cluster purity: 1.0
-
-Mean classification accuracy: 0.9666666666666667
-Mean cluster purity: 1.0
-

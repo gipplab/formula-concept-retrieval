@@ -1,8 +1,0 @@
-Combination Nr. 1
-Chosen: {'SE', 'KGE'}
-Classification accuracy: 0.6499999999999999
-Cluster purity: 0.6
-
-Mean classification accuracy: 0.6499999999999999
-Mean cluster purity: 0.6
-

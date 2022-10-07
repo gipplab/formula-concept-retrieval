@@ -194,7 +194,7 @@ def get_wikidata_formula_index():
 
 	try:
 		# load formula index
-		with open('formula_index_wikidata.json','r',encoding='utf-8') as f:
+		with open('Formula Concept Recognition/FCR search/formula_index_wikidata.json', 'r', encoding='utf-8') as f:
 			formula_index = json.load(f)
 
 	except:
@@ -235,7 +235,7 @@ def get_wikidata_formula_index():
 			result_nr += 1
 
 		# save formula index
-		with open('formula_index_wikidata.json', 'w', encoding='utf-8') as f:
+		with open('Formula Concept Recognition/FCR search/formula_index_wikidata.json', 'w', encoding='utf-8') as f:
 			json.dump(formula_index,f)
 
 	return formula_index
