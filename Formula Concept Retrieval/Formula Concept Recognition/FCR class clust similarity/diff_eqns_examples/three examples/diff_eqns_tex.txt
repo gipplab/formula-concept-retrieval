@@ -1,0 +1,30 @@
+\frac{1}{c^2} \frac{\partial^2 \psi}{\partial t^2} - \nabla^2 \psi + \left( \frac{m_0 c}{\hbar} \right)^2 \psi = 0
+u_{tt} + A u + f(u) = 0
+\partial^2_{ct} h_n (z,t) - \partial^2_z h_n (z, t) + \nu_n^2 h_n (z,t) = 0
+\nabla^a \nabla_a \psi = \mu^2 \psi
+-\hbar^2 \frac{\partial^2 \Psi}{\partial t^2} + c^2 \hbar^2 \nabla^2 \Psi = m_0^2 c^4 \Psi
+\nabla^2 \phi - \frac{1}{c^2} \frac{\partial^2 \phi}{\partial t^2} - \frac{2\alpha + \alpha}{c^2} \frac{\partial \phi}{\partial t} - \frac{\alpha^2 + a \alpha}{c^2} \phi = 0
+u_{tt} - \Delta u + m^2 u + G'(u) = 0
+\left( \eta^{\mu \nu} \frac{\partial}{x^\mu} \frac{\partial}{x^\nu} - \left(\frac{mc}{\hbar} \right)^2 \right) \varphi = 0
+\left(-\frac{1}{c^2} \frac{\partial^2}{\partial t^2} \sum_{i=1}^p \frac{\partial}{x^i} \frac{\partial}{x^i} - \left(\frac{mc}{\hbar} \right)^2 \right) \varphi = 0
+u_{tt} - \Delta u + m u + P'(u) = 0
+G_{\mu \nu} + \Lambda g_{\mu \nu} = \kappa T_{\mu \nu}
+R_{\mu \nu} - \frac{1}{2} g_{\mu \nu} R - \Lambda g_{\mu \nu} = (8 \pi G_{N}) T_{\mu \nu}
+G_{\mu \nu} = -\Lambda g_{\mu \nu} + \kappa^{2} T^{\rm tot}_{\mu \nu}
+G_{\mu \nu} = R_{\mu \nu} - g_{\mu \nu} R/2 = \kappa T^{\mu \nu} - \Lambda g_{\mu \nu}
+R_{\mu \nu} - \frac{1}{2} R g_{\mu \nu} = \kappa_{r}(T) T_{\mu \nu} + \Lambda(T) g_{\mu \nu}
+K_{\mu \nu} - K g_{\mu \nu} = -\frac{\kappa^{2}}{2} T_{\mu \nu} + r_{c} G_{\mu \nu}
+R_{\mu \nu} - \frac{1}{2} g_{\mu \nu} R + \Lambda g_{\mu \nu} = -8 \pi G T_{\mu \nu} f_{R} G_{\mu \nu}
+R_{\mu \nu} - \frac{1}{2} g_{\mu \nu} R + \Lambda_{c} g_{\mu \nu} = 8 \pi G T_{\mu \nu}
+R_{\mu \nu} - {1\over 2} R g_{\mu \nu} + \Lambda_{eff} g_{\mu \nu} = 8 \pi G T_{\mu \nu}
+R_{\mu \nu} - \frac{1}{2} g_{\mu \nu} R = 8 \pi G_{5} T_{\mu \nu} - \Lambda_{5} g_{\mu \nu}
+\text{div} \vec{E} = 4 \pi \rho
+\oiint_{\partial \Omega} \mathbf{E} \cdot \mathrm{d} \mathbf{S} = \frac{1}{\varepsilon_0} \iiint_\Omega \rho \mathrm{d} V
+\text{div} \vec{B} = 0
+\oiint_{\partial \Omega} \mathbf{B} \cdot \mathrm{d} \mathbf{S} = 0
+\text{rot} \vec{E} = - \frac{1}{c} \frac{\partial\vec{B}}{\partial t}
+\oint_{\partial \Sigma} \mathbf{E} \cdot \mathrm{d}\boldsymbol{l} = -\operatorname{\frac{d}{dt}} \iint_{\Sigma} \mathbf{B} \cdot \mathrm{d}\mathbf{S}
+\text{rot} \vec{B} = \frac{4 \pi}{c} \vec{j} + \frac{1}{c} \frac{\partial \vec{E}}{\partial t}
+\oint_{\partial \Sigma} & \mathbf{B} \cdot \mathrm{d} \boldsymbol{l} = \mu_0 \left(\iint_{\Sigma} \mathbf{j} \cdot \mathrm{d}\mathbf{S} + \varepsilon_0 \frac{\mathrm{d}}{\mathrm{d}t} \iint_{\Sigma} \mathbf{E} \cdot \mathrm{d} \mathbf{S} \right)
+\partial_\alpha F^{\alpha \beta} = \frac{4 \pi}{c} j^\beta
+\varepsilon^{\alpha \beta \gamma \delta} \partial_\beta F_{\gamma \delta} = 0

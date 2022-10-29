@@ -1,0 +1,13 @@
+﻿Nr.;QID;Label;Name;Ex. Equation
+1;Q868967;KGE;Klein-Gordon equation;u_{tt} + A u + f(u) = 0
+2;Q273711;EFE;Einstein’s field equations;G_{\mu \nu} = \kappa T_{\mu \nu}
+3;Q51501;ME;Maxwell’s equations;\text{div} \vec{E} = 4 \pi \rho
+4;Q165498;SE;Schroedinger equation ;\hat H}|\Psi\rangle = E |\Psi\rangle
+5;Q860615;HE;Helmholtz equation ;(\nabla^2 − k^2) A = -f
+6;Q859808;BE;Biharmonic equation ;\nabla^4\varphi=0
+7;Q104212301;NSL;Newton’s second law of motion;\vec{F} = \frac{d\vec{p}}{dt}
+8;Q44746;HUP;Heisenberg uncertainty principle ;\sigma_{x}\sigma_{p} \geq \frac{\hbar}{2}
+9;Q177045;SLT;Second law of thermodynamics ;\oint \frac{\delta Q}{T}=0
+10;Q83152;CL;Coulomb’s law;|F| = \\frac{|q_1 \\times q_2|}{r^2}
+;;;;
+;Q193846;WE;Wave equation;
